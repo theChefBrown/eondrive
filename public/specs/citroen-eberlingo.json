@@ -1,0 +1,47 @@
+{
+    "id": 70,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "11.5 seconds",
+            "Top Speed": "135 km/h",
+            "Maximum Power": "100 kW (136 hp)",
+            "Maximum Torque": "260 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium-Ion",
+            "Battery Capacity": "50 kWh",
+            "Usable Battery Capacity": "45 kWh",
+            "Maximum DC Charging Power": "100 kW",
+            "Charging Time (AC 7.4kW, 0-100%)": "7.5 hours",
+            "Charging Time (AC 11kW, 0-100%)": "5 hours",
+            "Charging Time (DC 100kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4,403 mm (M) / 4,753 mm (XL)",
+            "Width": "1,848 mm",
+            "Height": "1,844 mm",
+            "Wheelbase": "2,785 mm (M) / 2,975 mm (XL)",
+            "Ground Clearance": "150 mm",
+            "Trunk Capacity": "597 L (M) / 850 L (XL)",
+            "Maximum Cargo Space": "2,126 L (M) / 2,693 L (XL)",
+            "Curb Weight": "1,735 kg (M) / 1,775 kg (XL)"
+        },
+        "Efficiency": {
+            "WLTP Range": "280 km",
+            "EPA Range": "Approximately 174 miles",
+            "Energy Consumption": "18 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Power",
+            "Heat Pump": "Optional",
+            "Display Size": "10-inch Digital Cluster + 8-inch Touchscreen",
+            "Sound System": "6 speakers",
+            "Highway Driver Assist": "Available",
+            "Over-the-air Updates": "No",
+            "Sliding Side Doors": "Yes",
+            "Advanced Comfort Seats": "Standard"
+        }
+    }
+}

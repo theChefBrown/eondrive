@@ -1,0 +1,46 @@
+{
+    "id": 59,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.9 seconds",
+            "Top Speed": "210 km/h",
+            "Maximum Power": "375 kW (502 hp)",
+            "Maximum Torque": "610 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion Ultium",
+            "Battery Capacity": "102 kWh",
+            "Usable Battery Capacity": "95 kWh",
+            "Maximum DC Charging Power": "190 kW",
+            "Charging Time (AC 19.2kW)": "6 hours",
+            "Charging Time (DC 190kW, 10-80%)": "34 minutes"
+        },
+        "Dimensions": {
+            "Length": "4996 mm",
+            "Width": "1977 mm",
+            "Height": "1623 mm",
+            "Wheelbase": "3094 mm",
+            "Ground Clearance": "167 mm",
+            "Trunk Capacity": "793 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2545 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "530 km",
+            "EPA Range": "329 miles",
+            "Energy Consumption": "20.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Tour, Sport, Snow/Ice",
+            "Heat Pump": "Standard",
+            "Display Size": "33-inch LED Display",
+            "Sound System": "AKG Studio 19 speakers",
+            "Super Cruise": "Available",
+            "Over-the-air Updates": "Yes",
+            "Pixel LED Grille": "Standard",
+            "Active Noise Cancellation": "Standard"
+        }
+    }
+}

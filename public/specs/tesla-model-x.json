@@ -1,0 +1,46 @@
+{
+    "id": 7,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.9 seconds",
+            "Top Speed": "250 km/h",
+            "Maximum Power": "495 kW (670 hp)",
+            "Maximum Torque": "950 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "100 kWh",
+            "Usable Battery Capacity": "95 kWh",
+            "Maximum DC Charging Power": "250 kW",
+            "Charging Time (AC 22kW)": "4.5 hours",
+            "Charging Time (DC 250kW, 10-80%)": "27 minutes"
+        },
+        "Dimensions": {
+            "Length": "5037 mm",
+            "Width": "2070 mm",
+            "Height": "1684 mm",
+            "Wheelbase": "2965 mm",
+            "Ground Clearance": "170 mm",
+            "Trunk Capacity": "1050 L",
+            "Frunk Capacity": "187 L",
+            "Curb Weight": "2352 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "576 km",
+            "EPA Range": "358 miles",
+            "Energy Consumption": "20.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Chill, Sport, Track",
+            "Heat Pump": "Standard",
+            "Display Size": "17-inch Central Display",
+            "Sound System": "22-speaker Audio",
+            "Autopilot": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Falcon Wing Doors": "Standard",
+            "Seating Capacity": "5-7 passengers"
+        }
+    }
+}

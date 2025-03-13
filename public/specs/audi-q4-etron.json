@@ -1,0 +1,46 @@
+{
+    "id": 19,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.2 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "220 kW (299 hp)",
+            "Maximum Torque": "460 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "77 kWh",
+            "Maximum DC Charging Power": "135 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 135kW, 10-80%)": "36 minutes"
+        },
+        "Dimensions": {
+            "Length": "4588 mm",
+            "Width": "1865 mm",
+            "Height": "1632 mm",
+            "Wheelbase": "2764 mm",
+            "Ground Clearance": "165 mm",
+            "Trunk Capacity": "520 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2135 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "534 km",
+            "EPA Range": "332 miles",
+            "Energy Consumption": "17.2 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor quattro",
+            "Drive Modes": "efficiency, comfort, auto, dynamic, individual",
+            "Heat Pump": "Optional",
+            "Display Size": "10.1-inch MMI Touch",
+            "Sound System": "Sonos Premium Sound",
+            "Adaptive Cruise Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Augmented Reality HUD": "Available",
+            "Matrix LED Headlights": "Optional"
+        }
+    }
+}

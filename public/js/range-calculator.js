@@ -36,7 +36,8 @@ class RangeCalculator {
 
     async loadCars() {
         try {
-            const response = await fetch('/api/cars');
+            // Load from static JSON file instead of API endpoint
+            const response = await fetch('/cars.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -46,6 +47,7 @@ class RangeCalculator {
             }
             this.cars = data.cars;
             this.populateCarSelector();
+            console.log('Successfully loaded cars from static JSON file for range calculator');
         } catch (error) {
             console.error('Error loading cars:', error);
             this.carSelector.innerHTML = '<option value="">Error loading cars</option>';

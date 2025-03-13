@@ -1,0 +1,47 @@
+{
+    "id": 66,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "9.0 seconds",
+            "Top Speed": "150 km/h",
+            "Maximum Power": "100 kW (136 hp)",
+            "Maximum Torque": "260 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium-Ion",
+            "Battery Capacity": "50 kWh",
+            "Usable Battery Capacity": "46 kWh",
+            "Maximum DC Charging Power": "100 kW",
+            "Charging Time (AC 7.4kW, 0-100%)": "7 hours 30 minutes",
+            "Charging Time (AC 11kW, 0-100%)": "5 hours",
+            "Charging Time (DC 100kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4,151 mm",
+            "Width": "1,791 mm",
+            "Height": "1,531 mm",
+            "Wheelbase": "2,557 mm",
+            "Ground Clearance": "160 mm",
+            "Trunk Capacity": "310 L",
+            "Maximum Cargo Space": "1,060 L",
+            "Curb Weight": "1,598 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "338 km",
+            "EPA Range": "Approximately 210 miles",
+            "Energy Consumption": "15.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "12-inch Digital Cluster + 10-inch Touchscreen",
+            "Sound System": "6 speakers",
+            "Highway Driver Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Adaptive Cruise Control": "Available",
+            "Lane Keep Assist": "Standard"
+        }
+    }
+}

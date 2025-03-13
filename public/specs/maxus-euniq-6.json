@@ -1,0 +1,45 @@
+{
+    "id": 47,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "8.9 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "130 kW (174 hp)",
+            "Maximum Torque": "310 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "90 kWh",
+            "Usable Battery Capacity": "84 kWh",
+            "Maximum DC Charging Power": "120 kW",
+            "Charging Time (AC 11kW)": "8.5 hours",
+            "Charging Time (DC 120kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4925 mm",
+            "Width": "1925 mm",
+            "Height": "1810 mm",
+            "Wheelbase": "2800 mm",
+            "Ground Clearance": "145 mm",
+            "Trunk Capacity": "1140 L",
+            "Curb Weight": "2325 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "465 km",
+            "EPA Range": "289 miles",
+            "Energy Consumption": "20.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "12.3-inch Touchscreen",
+            "Sound System": "8 speakers",
+            "Advanced Driver Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Power Sliding Doors": "Standard",
+            "Seven Seat Configuration": "Standard"
+        }
+    }
+}

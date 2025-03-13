@@ -1,0 +1,45 @@
+{
+    "id": 57,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.6 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "230 kW (313 hp)",
+            "Maximum Torque": "494 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "64.7 kWh",
+            "Usable Battery Capacity": "61.4 kWh",
+            "Maximum DC Charging Power": "130 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 130kW, 10-80%)": "29 minutes"
+        },
+        "Dimensions": {
+            "Length": "4500 mm",
+            "Width": "1845 mm",
+            "Height": "1616 mm",
+            "Wheelbase": "2692 mm",
+            "Ground Clearance": "165 mm",
+            "Trunk Capacity": "490 L",
+            "Curb Weight": "2085 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "440 km",
+            "EPA Range": "273 miles",
+            "Energy Consumption": "16.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor xDrive",
+            "Drive Modes": "Personal, Sport, Efficient",
+            "Heat Pump": "Standard",
+            "Display Size": "10.7-inch curved display",
+            "Sound System": "Harman Kardon 12 speakers",
+            "Driving Assistant Plus": "Available",
+            "Over-the-air Updates": "Yes",
+            "Adaptive M Suspension": "Optional",
+            "BMW IconicSounds Electric": "Standard"
+        }
+    }
+}

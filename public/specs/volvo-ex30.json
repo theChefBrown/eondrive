@@ -1,0 +1,46 @@
+{
+    "id": 55,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.6 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "315 kW (422 hp)",
+            "Maximum Torque": "543 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NMC",
+            "Battery Capacity": "69 kWh",
+            "Usable Battery Capacity": "64 kWh",
+            "Maximum DC Charging Power": "153 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 153kW, 10-80%)": "27 minutes"
+        },
+        "Dimensions": {
+            "Length": "4233 mm",
+            "Width": "1837 mm",
+            "Height": "1549 mm",
+            "Wheelbase": "2650 mm",
+            "Ground Clearance": "155 mm",
+            "Trunk Capacity": "318 L",
+            "Frunk Capacity": "7 L",
+            "Curb Weight": "1830 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "460 km",
+            "EPA Range": "286 miles",
+            "Energy Consumption": "16.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Range, Comfort, Performance",
+            "Heat Pump": "Standard",
+            "Display Size": "12.3-inch Central Display",
+            "Sound System": "Harman Kardon 10 speakers",
+            "Pilot Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Google Built-in": "Standard",
+            "Safety Systems": "Full Volvo Safety Suite"
+        }
+    }
+}

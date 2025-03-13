@@ -1,0 +1,46 @@
+{
+    "id": 57,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.6 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "300 kW (408 hp)",
+            "Maximum Torque": "670 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium-Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "79 kWh",
+            "Maximum DC Charging Power": "Up to 175 kW",
+            "Charging Time (AC 11kW, 0-100%)": "Approximately 8 hours",
+            "Charging Time (DC 175kW, 10-80%)": "Approximately 28 minutes"
+        },
+        "Dimensions": {
+            "Length": "4,440 mm",
+            "Width": "1,873 mm (without mirrors)",
+            "Height": "1,591 mm",
+            "Wheelbase": "2,702 mm",
+            "Ground Clearance": "Not specified",
+            "Trunk Capacity": "413 L",
+            "Maximum Cargo Space": "1,205 L",
+            "Curb Weight": "2,191 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "Up to 549 km",
+            "EPA Range": "Approximately 341 miles",
+            "Energy Consumption": "17.3–18.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "All-Wheel Drive",
+            "Drive Modes": "Eco, Comfort, Dynamic",
+            "Heat Pump": "Optional",
+            "Display Size": "12.3-inch Digital Driver Display + 9-inch Center Touchscreen",
+            "Sound System": "Harman Kardon Premium Sound",
+            "Highway Driver Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Adaptive Cruise Control": "Standard",
+            "Lane Keep Assist": "Standard"
+        }
+    }
+}

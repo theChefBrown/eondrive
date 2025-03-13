@@ -1,0 +1,46 @@
+{
+    "id": 50,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.5 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "300 kW (402 hp)",
+            "Maximum Torque": "620 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NMC",
+            "Battery Capacity": "87.7 kWh",
+            "Usable Battery Capacity": "82 kWh",
+            "Maximum DC Charging Power": "190 kW",
+            "Charging Time (AC 11kW)": "8 hours",
+            "Charging Time (DC 190kW, 10-80%)": "31 minutes"
+        },
+        "Dimensions": {
+            "Length": "4750 mm",
+            "Width": "1934 mm",
+            "Height": "1667 mm",
+            "Wheelbase": "2950 mm",
+            "Ground Clearance": "180 mm",
+            "Trunk Capacity": "566 L",
+            "Frunk Capacity": "70 L",
+            "Curb Weight": "2269 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "471 km",
+            "EPA Range": "293 miles",
+            "Energy Consumption": "19.4 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Standard",
+            "Display Size": "15.6-inch Central Display",
+            "Sound System": "Premium Audio 8 speakers",
+            "ADAS": "Level 2+",
+            "Over-the-air Updates": "Yes",
+            "Virtual Assistant": "Standard",
+            "Battery Warranty": "10 years/unlimited km"
+        }
+    }
+}

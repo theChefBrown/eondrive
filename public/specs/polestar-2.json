@@ -1,0 +1,46 @@
+{
+    "id": 46,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.5 seconds",
+            "Top Speed": "205 km/h",
+            "Maximum Power": "300 kW (408 hp)",
+            "Maximum Torque": "660 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "78 kWh",
+            "Usable Battery Capacity": "75 kWh",
+            "Maximum DC Charging Power": "205 kW",
+            "Charging Time (AC 11kW)": "7 hours",
+            "Charging Time (DC 205kW, 10-80%)": "27 minutes"
+        },
+        "Dimensions": {
+            "Length": "4606 mm",
+            "Width": "1859 mm",
+            "Height": "1479 mm",
+            "Wheelbase": "2735 mm",
+            "Ground Clearance": "151 mm",
+            "Trunk Capacity": "405 L",
+            "Maximum Cargo Space": "1095 L",
+            "Curb Weight": "2113 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "482 km",
+            "EPA Range": "300 miles",
+            "Energy Consumption": "19.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "All-Wheel Drive",
+            "Drive Modes": "Range, Standard, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "11.15-inch Android Automotive",
+            "Sound System": "Harman Kardon Premium",
+            "Pilot Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Performance Software": "Available",
+            "Pixel LED Headlights": "Available"
+        }
+    }
+}

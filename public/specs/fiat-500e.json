@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "9.0 seconds",
+            "Top Speed": "150 km/h",
+            "Maximum Power": "87 kW (118 hp)",
+            "Maximum Torque": "220 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "42 kWh",
+            "Usable Battery Capacity": "37.3 kWh",
+            "Maximum DC Charging Power": "85 kW",
+            "Charging Time (AC 11kW)": "4.5 hours",
+            "Charging Time (DC 85kW, 10-80%)": "35 minutes"
+        },
+        "Dimensions": {
+            "Length": "3632 mm",
+            "Width": "1683 mm",
+            "Height": "1527 mm",
+            "Wheelbase": "2322 mm",
+            "Ground Clearance": "140 mm",
+            "Trunk Capacity": "185 L",
+            "Curb Weight": "1365 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "320 km",
+            "EPA Range": "199 miles",
+            "Energy Consumption": "14.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Normal, Range, Sherpa",
+            "Heat Pump": "Optional",
+            "Display Size": "10.25-inch UConnect",
+            "Sound System": "7 speakers",
+            "Traffic Jam Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Wireless CarPlay/Android Auto": "Standard",
+            "Level 2 Autonomous Driving": "Available"
+        }
+    }
+}

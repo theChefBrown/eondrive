@@ -1,0 +1,46 @@
+{
+    "id": 62,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "2.95 seconds",
+            "Top Speed": "265 km/h",
+            "Maximum Power": "675 kW (905 hp)",
+            "Maximum Torque": "985 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "112 kWh",
+            "Usable Battery Capacity": "107 kWh",
+            "Maximum DC Charging Power": "350 kW",
+            "Charging Time (AC 22kW)": "5 hours",
+            "Charging Time (DC 350kW, 10-80%)": "20 minutes"
+        },
+        "Dimensions": {
+            "Length": "5103 mm",
+            "Width": "2231 mm",
+            "Height": "1630 mm",
+            "Wheelbase": "3019 mm",
+            "Ground Clearance": "187 mm",
+            "Trunk Capacity": "688 L",
+            "Frunk Capacity": "46 L",
+            "Curb Weight": "2490 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "600 km",
+            "EPA Range": "373 miles",
+            "Energy Consumption": "22.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Range, Tour, Sport, Track, Individual",
+            "Heat Pump": "Standard",
+            "Display Size": "15.1-inch OLED Central Display",
+            "Sound System": "KEF Reference 23 speakers",
+            "Highway Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Active Aerodynamics": "Standard"
+        }
+    }
+}

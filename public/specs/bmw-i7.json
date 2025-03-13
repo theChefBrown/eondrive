@@ -1,0 +1,45 @@
+{
+    "id": 16,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.7 seconds",
+            "Top Speed": "240 km/h",
+            "Maximum Power": "400 kW (536 hp)",
+            "Maximum Torque": "745 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "101.7 kWh",
+            "Usable Battery Capacity": "95.0 kWh",
+            "Maximum DC Charging Power": "195 kW",
+            "Charging Time (AC 11kW)": "9.5 hours",
+            "Charging Time (DC 195kW, 10-80%)": "34 minutes"
+        },
+        "Dimensions": {
+            "Length": "5391 mm",
+            "Width": "1950 mm",
+            "Height": "1544 mm",
+            "Wheelbase": "3215 mm",
+            "Ground Clearance": "140 mm",
+            "Trunk Capacity": "500 L",
+            "Curb Weight": "2715 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "625 km",
+            "EPA Range": "388 miles",
+            "Energy Consumption": "19.6 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor xDrive AWD",
+            "Drive Modes": "Personal, Sport, Efficient",
+            "Heat Pump": "Standard",
+            "Display Size": "14.9-inch Curved Display",
+            "Sound System": "Bowers & Wilkins Diamond",
+            "Highway Assistant": "Available",
+            "Over-the-air Updates": "Yes",
+            "Theater Screen": "31.3-inch 8K display",
+            "Automatic Doors": "Standard"
+        }
+    }
+}

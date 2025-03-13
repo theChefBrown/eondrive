@@ -1,0 +1,45 @@
+{
+    "id": 44,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.6 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "230 kW (308 hp)",
+            "Maximum Torque": "435 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "71.4 kWh",
+            "Usable Battery Capacity": "67.5 kWh",
+            "Maximum DC Charging Power": "150 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 150kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4805 mm",
+            "Width": "1895 mm",
+            "Height": "1635 mm",
+            "Wheelbase": "2850 mm",
+            "Ground Clearance": "165 mm",
+            "Trunk Capacity": "522 L",
+            "Curb Weight": "2070 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "440 km",
+            "EPA Range": "273 miles",
+            "Energy Consumption": "18.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor DIRECT4 AWD",
+            "Drive Modes": "Eco, Normal, Sport, Custom",
+            "Heat Pump": "Standard",
+            "Display Size": "14-inch Touchscreen",
+            "Sound System": "Mark Levinson 13 speakers",
+            "Lexus Safety System+": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Steer-by-Wire": "Available",
+            "Radiant Heaters": "Standard"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": 4,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.2 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "220 kW (295 hp)",
+            "Maximum Torque": "460 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "77 kWh",
+            "Maximum DC Charging Power": "135 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 135kW, 10-80%)": "36 minutes"
+        },
+        "Dimensions": {
+            "Length": "4584 mm",
+            "Width": "1852 mm",
+            "Height": "1631 mm",
+            "Wheelbase": "2766 mm",
+            "Ground Clearance": "163 mm",
+            "Trunk Capacity": "543 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2124 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "443 km",
+            "EPA Range": "275 miles",
+            "Energy Consumption": "18.3 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Comfort, Sport, Individual",
+            "Heat Pump": "Optional",
+            "Display Size": "12 inch",
+            "Sound System": "6 speakers",
+            "Travel Assist": "2.0",
+            "Over-the-air Updates": "Yes"
+        }
+    }
+}

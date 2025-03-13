@@ -1,0 +1,46 @@
+{
+    "id": 64,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.0 seconds",
+            "Top Speed": "217 km/h",
+            "Maximum Power": "415 kW (557 hp)",
+            "Maximum Torque": "878 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "102 kWh",
+            "Usable Battery Capacity": "95 kWh",
+            "Maximum DC Charging Power": "190 kW",
+            "Charging Time (AC 11kW)": "10 hours",
+            "Charging Time (DC 190kW, 10-80%)": "34 minutes"
+        },
+        "Dimensions": {
+            "Length": "4862 mm",
+            "Width": "1938 mm",
+            "Height": "1674 mm",
+            "Wheelbase": "2954 mm",
+            "Ground Clearance": "175 mm",
+            "Trunk Capacity": "614 L",
+            "Maximum Cargo Space": "1671 L",
+            "Curb Weight": "2390 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "515 km",
+            "EPA Range": "320 miles",
+            "Energy Consumption": "21.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor e-AWD",
+            "Drive Modes": "Tour, Sport, Off-Road",
+            "Heat Pump": "Standard",
+            "Display Size": "17.7-inch infotainment",
+            "Sound System": "Bose 8 speakers",
+            "Super Cruise": "Available",
+            "Over-the-air Updates": "Yes",
+            "Hands-free Start": "Standard",
+            "LED Light Bar": "Standard"
+        }
+    }
+}

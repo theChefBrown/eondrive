@@ -146,12 +146,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     async function showSpecifications(car) {
         try {
             console.log('Fetching specs for:', car.specFile);
-            const response = await fetch(`/api/specs/${car.specFile}`);
+            // Load from static JSON file instead of API endpoint
+            const response = await fetch(`/specs/${car.specFile}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const specs = await response.json();
-            console.log('Received specs:', specs);
+            console.log('Received specs from static JSON file:', specs);
             
             const modalTitle = document.getElementById('modalTitle');
             const modalContent = document.getElementById('modalContent');
@@ -358,14 +359,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function fetchCars() {
         try {
-            const response = await fetch('/api/cars');
+            // Load from static JSON file instead of API endpoint
+            const response = await fetch('/cars.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
             originalCars = data.cars;
             allCars = [...originalCars]; 
-            console.log(`Loaded ${allCars.length} cars`);
+            console.log(`Loaded ${allCars.length} cars from static JSON file`);
             
             if (allCars && allCars.length > 0) {
                 initializeFilters();

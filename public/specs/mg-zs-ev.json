@@ -1,0 +1,46 @@
+{
+    "id": 38,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "8.4 seconds",
+            "Top Speed": "175 km/h",
+            "Maximum Power": "115 kW (156 hp)",
+            "Maximum Torque": "280 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NCM",
+            "Battery Capacity": "72.6 kWh",
+            "Usable Battery Capacity": "68.3 kWh",
+            "Maximum DC Charging Power": "92 kW",
+            "Charging Time (AC 11kW)": "7 hours",
+            "Charging Time (DC 92kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4323 mm",
+            "Width": "1809 mm",
+            "Height": "1649 mm",
+            "Wheelbase": "2581 mm",
+            "Ground Clearance": "161 mm",
+            "Trunk Capacity": "448 L",
+            "Maximum Cargo Space": "1166 L",
+            "Curb Weight": "1620 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "440 km",
+            "EPA Range": "273 miles",
+            "Energy Consumption": "17.3 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "10.1-inch touchscreen",
+            "Sound System": "6 speakers",
+            "MG Pilot": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Vehicle-to-Load": "Available",
+            "Panoramic Sunroof": "Optional"
+        }
+    }
+}
