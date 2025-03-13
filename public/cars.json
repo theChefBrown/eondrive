@@ -11,7 +11,7 @@
       "year": 2024,
       "priceEur": 44990,
       "priceUsd": 47990,
-      "image": "/images/cars/tesla-model-3.jpg",
+      "image": "./images/cars/tesla-model-3.jpg",
       "specFile": "tesla-model-3-lr.json"
     },
     {
@@ -25,7 +25,7 @@
       "year": 2024,
       "priceEur": 38450,
       "priceUsd": 41450,
-      "image": "/images/cars/hyundai-ioniq5.jpg",
+      "image": "./images/cars/hyundai-ioniq5.jpg",
       "specFile": "hyundai-ioniq5.json"
     },
     {
@@ -39,7 +39,7 @@
       "year": 2024,
       "priceEur": 42995,
       "priceUsd": 45995,
-      "image": "/images/cars/ford-mach-e.jpg",
+      "image": "./images/cars/ford-mach-e.jpg",
       "specFile": "ford-mach-e.json"
     },
     {
@@ -53,7 +53,7 @@
       "year": 2024,
       "priceEur": 35995,
       "priceUsd": 38995,
-      "image": "/images/cars/vw-id4.jpg",
+      "image": "./images/cars/vw-id4.jpg",
       "specFile": "vw-id4.json"
     },
     {
@@ -67,7 +67,7 @@
       "year": 2024,
       "priceEur": 39600,
       "priceUsd": 42600,
-      "image": "/images/cars/kia-ev6.jpg",
+      "image": "./images/cars/kia-ev6.jpg",
       "specFile": "kia-ev6.json"
     },
     {
@@ -81,7 +81,7 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "/images/cars/tesla-model-s.jpg",
+      "image": "./images/cars/tesla-model-s.jpg",
       "specFile": "tesla-model-s.json"
     },
     {
@@ -95,7 +95,7 @@
       "year": 2024,
       "priceEur": 99990,
       "priceUsd": 104990,
-      "image": "/images/cars/tesla-model-x.jpg",
+      "image": "./images/cars/tesla-model-x.jpg",
       "specFile": "tesla-model-x.json"
     },
     {
@@ -109,7 +109,7 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 50990,
-      "image": "/images/cars/tesla-model-y.jpg",
+      "image": "./images/cars/tesla-model-y.jpg",
       "specFile": "tesla-model-y.json"
     },
     {
@@ -123,7 +123,7 @@
       "year": 2024,
       "priceEur": 56700,
       "priceUsd": 59900,
-      "image": "/images/cars/bmw-i4.jpg",
+      "image": "./images/cars/bmw-i4.jpg",
       "specFile": "bmw-i4.json"
     },
     {
@@ -137,7 +137,7 @@
       "year": 2024,
       "priceEur": 92800,
       "priceUsd": 96900,
-      "image": "/images/cars/bmw-ix.jpg",
+      "image": "./images/cars/bmw-ix.jpg",
       "specFile": "bmw-ix.json"
     },
     {
@@ -151,7 +151,7 @@
       "year": 2024,
       "priceEur": 144800,
       "priceUsd": 149900,
-      "image": "/images/cars/porsche-taycan.jpg",
+      "image": "./images/cars/porsche-taycan.jpg",
       "specFile": "porsche-taycan.json"
     },
     {
@@ -165,7 +165,7 @@
       "year": 2024,
       "priceEur": 142800,
       "priceUsd": 147900,
-      "image": "/images/cars/audi-etron-gt.jpg",
+      "image": "./images/cars/audi-etron-gt.jpg",
       "specFile": "audi-etron-gt.json"
     },
     {
@@ -179,7 +179,7 @@
       "year": 2024,
       "priceEur": 109800,
       "priceUsd": 114900,
-      "image": "/images/cars/mercedes-eqs.jpg",
+      "image": "./images/cars/mercedes-eqs.jpg",
       "specFile": "mercedes-eqs.json"
     },
     {
@@ -193,7 +193,7 @@
       "year": 2024,
       "priceEur": 43995,
       "priceUsd": 46995,
-      "image": "/images/cars/vw-id3.jpg",
+      "image": "./images/cars/vw-id3.jpg",
       "specFile": "vw-id3.json"
     },
     {
@@ -207,7 +207,7 @@
       "year": 2024,
       "priceEur": 43900,
       "priceUsd": 46900,
-      "image": "/images/cars/hyundai-ioniq6.jpg",
+      "image": "./images/cars/hyundai-ioniq6.jpg",
       "specFile": "hyundai-ioniq6.json"
     },
     {
@@ -221,7 +221,7 @@
       "year": 2024,
       "priceEur": 139900,
       "priceUsd": 144900,
-      "image": "/images/cars/bmw-i7.jpg",
+      "image": "./images/cars/bmw-i7.jpg",
       "specFile": "bmw-i7.json"
     },
     {
@@ -235,7 +235,7 @@
       "year": 2024,
       "priceEur": 69900,
       "priceUsd": 74900,
-      "image": "/images/cars/bmw-i5.jpg",
+      "image": "./images/cars/bmw-i5.jpg",
       "specFile": "bmw-i5.json"
     },
     {
@@ -249,7 +249,7 @@
       "year": 2024,
       "priceEur": 47900,
       "priceUsd": 52900,
-      "image": "/images/cars/bmw-ix1.jpg",
+      "image": "./images/cars/bmw-ix1.jpg",
       "specFile": "bmw-ix1.json"
     },
     {
@@ -263,7 +263,7 @@
       "year": 2024,
       "priceEur": 49900,
       "priceUsd": 54900,
-      "image": "/images/cars/bmw-ix2.jpg",
+      "image": "./images/cars/bmw-ix2.jpg",
       "specFile": "bmw-ix2.json"
     },
     {
@@ -277,7 +277,7 @@
       "year": 2024,
       "priceEur": 67900,
       "priceUsd": 72900,
-      "image": "/images/cars/bmw-ix3.jpg",
+      "image": "./images/cars/bmw-ix3.jpg",
       "specFile": "bmw-ix3.json"
     },
     {
@@ -291,7 +291,7 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "/images/cars/mercedes-eqa.jpg",
+      "image": "./images/cars/mercedes-eqa.jpg",
       "specFile": "mercedes-eqa.json"
     },
     {
@@ -305,7 +305,7 @@
       "year": 2024,
       "priceEur": 55990,
       "priceUsd": 60990,
-      "image": "/images/cars/mercedes-eqb.jpg",
+      "image": "./images/cars/mercedes-eqb.jpg",
       "specFile": "mercedes-eqb.json"
     },
     {
@@ -319,7 +319,7 @@
       "year": 2024,
       "priceEur": 66990,
       "priceUsd": 71990,
-      "image": "/images/cars/mercedes-eqc.jpg",
+      "image": "./images/cars/mercedes-eqc.jpg",
       "specFile": "mercedes-eqc.json"
     },
     {
@@ -333,7 +333,7 @@
       "year": 2024,
       "priceEur": 69990,
       "priceUsd": 74990,
-      "image": "/images/cars/mercedes-eqe.jpg",
+      "image": "./images/cars/mercedes-eqe.jpg",
       "specFile": "mercedes-eqe.json"
     },
     {
@@ -347,7 +347,7 @@
       "year": 2024,
       "priceEur": 86990,
       "priceUsd": 91990,
-      "image": "/images/cars/mercedes-eqe-suv.jpg",
+      "image": "./images/cars/mercedes-eqe-suv.jpg",
       "specFile": "mercedes-eqe-suv.json"
     },
     {
@@ -361,7 +361,7 @@
       "year": 2024,
       "priceEur": 53990,
       "priceUsd": 58990,
-      "image": "/images/cars/vw-id5.jpg",
+      "image": "./images/cars/vw-id5.jpg",
       "specFile": "vw-id5.json"
     },
     {
@@ -375,7 +375,7 @@
       "year": 2024,
       "priceEur": 64990,
       "priceUsd": 69990,
-      "image": "/images/cars/vw-id-buzz.jpg",
+      "image": "./images/cars/vw-id-buzz.jpg",
       "specFile": "vw-id-buzz.json"
     },
     {
@@ -389,7 +389,7 @@
       "year": 2024,
       "priceEur": 56990,
       "priceUsd": 61990,
-      "image": "/images/cars/vw-id7.jpg",
+      "image": "./images/cars/vw-id7.jpg",
       "specFile": "vw-id7.json"
     },
     {
@@ -403,7 +403,7 @@
       "year": 2024,
       "priceEur": 52990,
       "priceUsd": 57990,
-      "image": "/images/cars/audi-q4-etron.jpg",
+      "image": "./images/cars/audi-q4-etron.jpg",
       "specFile": "audi-q4-etron.json"
     },
     {
@@ -417,7 +417,7 @@
       "year": 2024,
       "priceEur": 85990,
       "priceUsd": 90990,
-      "image": "/images/cars/audi-q8-etron.jpg",
+      "image": "./images/cars/audi-q8-etron.jpg",
       "specFile": "audi-q8-e-tron.json"
     },
     {
@@ -431,7 +431,7 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "/images/cars/skoda-enyaq.jpg",
+      "image": "./images/cars/skoda-enyaq.jpg",
       "specFile": "skoda-enyaq.json"
     },
     {
@@ -445,7 +445,7 @@
       "year": 2024,
       "priceEur": 44990,
       "priceUsd": 49990,
-      "image": "/images/cars/cupra-born.jpg",
+      "image": "./images/cars/cupra-born.jpg",
       "specFile": "cupra-born.json"
     },
     {
@@ -459,7 +459,7 @@
       "year": 2024,
       "priceEur": 84990,
       "priceUsd": 89990,
-      "image": "/images/cars/porsche-macan-ev.jpg",
+      "image": "./images/cars/porsche-macan-ev.jpg",
       "specFile": "porsche-macan-ev.json"
     },
     {
@@ -473,7 +473,7 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "/images/cars/byd-atto-3.jpg",
+      "image": "./images/cars/byd-atto-3.jpg",
       "specFile": "byd-atto-3.json"
     },
     {
@@ -487,7 +487,7 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "/images/cars/byd-seal.jpg",
+      "image": "./images/cars/byd-seal.jpg",
       "specFile": "byd-seal.json"
     },
     {
@@ -501,7 +501,7 @@
       "year": 2024,
       "priceEur": 29990,
       "priceUsd": 34990,
-      "image": "/images/cars/byd-dolphin.jpg",
+      "image": "./images/cars/byd-dolphin.jpg",
       "specFile": "byd-dolphin.json"
     },
     {
@@ -515,7 +515,7 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "/images/cars/mg-4.jpg",
+      "image": "./images/cars/mg-4.jpg",
       "specFile": "mg-4.json"
     },
     {
@@ -529,7 +529,7 @@
       "year": 2024,
       "priceEur": 33990,
       "priceUsd": 38990,
-      "image": "/images/cars/mg-zs-ev.jpg",
+      "image": "./images/cars/mg-zs-ev.jpg",
       "specFile": "mg-zs-ev.json"
     },
     {
@@ -543,7 +543,7 @@
       "year": 2024,
       "priceEur": 40990,
       "priceUsd": 45990,
-      "image": "/images/cars/mg-marvel-r.jpg",
+      "image": "./images/cars/mg-marvel-r.jpg",
       "specFile": "mg-marvel-r.json"
     },
     {
@@ -557,7 +557,7 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "/images/cars/renault-megane-e-tech.jpg",
+      "image": "./images/cars/renault-megane-e-tech.jpg",
       "specFile": "renault-megane-e-tech.json"
     },
     {
@@ -571,7 +571,7 @@
       "year": 2024,
       "priceEur": 33990,
       "priceUsd": 38990,
-      "image": "/images/cars/renault-zoe.jpg",
+      "image": "./images/cars/renault-zoe.jpg",
       "specFile": "renault-zoe.json"
     },
     {
@@ -585,7 +585,7 @@
       "year": 2024,
       "priceEur": 32990,
       "priceUsd": 37990,
-      "image": "/images/cars/peugeot-e208.jpg",
+      "image": "./images/cars/peugeot-e208.jpg",
       "specFile": "peugeot-e208.json"
     },
     {
@@ -599,7 +599,7 @@
       "year": 2024,
       "priceEur": 36990,
       "priceUsd": 41990,
-      "image": "/images/cars/peugeot-e2008.jpg",
+      "image": "./images/cars/peugeot-e2008.jpg",
       "specFile": "peugeot-e2008.json"
     },
     {
@@ -613,7 +613,7 @@
       "year": 2024,
       "priceEur": 42990,
       "priceUsd": 47990,
-      "image": "/images/cars/smart-1.jpg",
+      "image": "./images/cars/smart-1.jpg",
       "specFile": "smart-1.json"
     },
     {
@@ -627,7 +627,7 @@
       "year": 2024,
       "priceEur": 48990,
       "priceUsd": 53990,
-      "image": "/images/cars/smart-3.jpg",
+      "image": "./images/cars/smart-3.jpg",
       "specFile": "smart-3.json"
     },
     {
@@ -641,7 +641,7 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "/images/cars/citroen-ec4.jpg",
+      "image": "./images/cars/citroen-ec4.jpg",
       "specFile": "citroen-e-c4.json"
     },
     {
@@ -655,7 +655,7 @@
       "year": 2024,
       "priceEur": 36990,
       "priceUsd": 41990,
-      "image": "/images/cars/citroen-ec4x.jpg",
+      "image": "./images/cars/citroen-ec4x.jpg",
       "specFile": "citroen-ec4x.json"
     },
     {
@@ -669,7 +669,7 @@
       "year": 2024,
       "priceEur": 20990,
       "priceUsd": 25990,
-      "image": "/images/cars/dacia-spring.jpg",
+      "image": "./images/cars/dacia-spring.jpg",
       "specFile": "dacia-spring.json"
     },
     {
@@ -683,7 +683,7 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "/images/cars/toyota-bz4x.jpg",
+      "image": "./images/cars/toyota-bz4x.jpg",
       "specFile": "toyota-bz4x.json"
     },
     {
@@ -697,7 +697,7 @@
       "year": 2024,
       "priceEur": 68990,
       "priceUsd": 73990,
-      "image": "/images/cars/lexus-rz.jpg",
+      "image": "./images/cars/lexus-rz.jpg",
       "specFile": "lexus-rz.json"
     },
     {
@@ -711,7 +711,7 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "/images/cars/honda-eny1.jpg",
+      "image": "./images/cars/honda-eny1.jpg",
       "specFile": "honda-e-ny1.json"
     },
     {
@@ -725,7 +725,7 @@
       "year": 2024,
       "priceEur": 71990,
       "priceUsd": 76990,
-      "image": "/images/cars/genesis-gv60.jpg",
+      "image": "./images/cars/genesis-gv60.jpg",
       "specFile": "genesis-gv60.json"
     },
     {
@@ -739,7 +739,7 @@
       "year": 2024,
       "priceEur": 79990,
       "priceUsd": 84990,
-      "image": "/images/cars/genesis-g80.jpg",
+      "image": "./images/cars/genesis-g80.jpg",
       "specFile": "genesis-electrified-g80.json"
     },
     {
@@ -753,7 +753,7 @@
       "year": 2024,
       "priceEur": 49990,
       "priceUsd": 54990,
-      "image": "/images/cars/subaru-solterra.jpg",
+      "image": "./images/cars/subaru-solterra.jpg",
       "specFile": "subaru-solterra.json"
     },
     {
@@ -767,7 +767,7 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "/images/cars/volvo-ex30.jpg",
+      "image": "./images/cars/volvo-ex30.jpg",
       "specFile": "volvo-ex30.json"
     },
     {
@@ -781,7 +781,7 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "/images/cars/volvo-ex90.jpg",
+      "image": "./images/cars/volvo-ex90.jpg",
       "specFile": "volvo-ex90.json"
     },
     {
@@ -795,7 +795,7 @@
       "year": 2024,
       "priceEur": 54990,
       "priceUsd": 59990,
-      "image": "/images/cars/volvo-c40.jpg",
+      "image": "./images/cars/volvo-c40.jpg",
       "specFile": "volvo-c40.json"
     },
     {
@@ -809,7 +809,7 @@
       "year": 2024,
       "priceEur": 52990,
       "priceUsd": 57990,
-      "image": "/images/cars/volvo-xc40.jpg",
+      "image": "./images/cars/volvo-xc40.jpg",
       "specFile": "volvo-xc40.json"
     },
     {
@@ -823,7 +823,7 @@
       "year": 2024,
       "priceEur": 55990,
       "priceUsd": 60990,
-      "image": "/images/cars/polestar-2.jpg",
+      "image": "./images/cars/polestar-2.jpg",
       "specFile": "polestar-2.json"
     },
     {
@@ -837,7 +837,7 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "/images/cars/polestar-3.jpg",
+      "image": "./images/cars/polestar-3.jpg",
       "specFile": "polestar-3.json"
     },
     {
@@ -851,7 +851,7 @@
       "year": 2024,
       "priceEur": 63990,
       "priceUsd": 68990,
-      "image": "/images/cars/polestar-4.jpg",
+      "image": "./images/cars/polestar-4.jpg",
       "specFile": "polestar-4.json"
     },
     {
@@ -865,7 +865,7 @@
       "year": 2024,
       "priceEur": 79990,
       "priceUsd": 84990,
-      "image": "/images/cars/jaguar-ipace.jpg",
+      "image": "./images/cars/jaguar-ipace.jpg",
       "specFile": "jaguar-ipace.json"
     },
     {
@@ -879,7 +879,7 @@
       "year": 2024,
       "priceEur": 69990,
       "priceUsd": 74990,
-      "image": "/images/cars/fisker-ocean.jpg",
+      "image": "./images/cars/fisker-ocean.jpg",
       "specFile": "fisker-ocean.json"
     },
     {
@@ -893,7 +893,7 @@
       "year": 2024,
       "priceEur": 84990,
       "priceUsd": 89990,
-      "image": "/images/cars/lucid-air.jpg",
+      "image": "./images/cars/lucid-air.jpg",
       "specFile": "lucid-air.json"
     },
     {
@@ -907,7 +907,7 @@
       "year": 2024,
       "priceEur": 34990,
       "priceUsd": 39990,
-      "image": "/images/cars/opel-corsa-e.jpg",
+      "image": "./images/cars/opel-corsa-e.jpg",
       "specFile": "opel-corsa-e.json"
     },
     {
@@ -921,7 +921,7 @@
       "year": 2024,
       "priceEur": 37990,
       "priceUsd": 42990,
-      "image": "/images/cars/opel-mokka-e.jpg",
+      "image": "./images/cars/opel-mokka-e.jpg",
       "specFile": "opel-mokka-e.json"
     },
     {
@@ -935,7 +935,7 @@
       "year": 2024,
       "priceEur": 39990,
       "priceUsd": 44990,
-      "image": "/images/cars/opel-astra-e.jpg",
+      "image": "./images/cars/opel-astra-e.jpg",
       "specFile": "opel-astra-e.json"
     },
     {
@@ -949,7 +949,7 @@
       "year": 2024,
       "priceEur": 40990,
       "priceUsd": 45990,
-      "image": "/images/cars/peugeot-e308.jpg",
+      "image": "./images/cars/peugeot-e308.jpg",
       "specFile": "peugeot-e308.json"
     },
     {
@@ -963,7 +963,7 @@
       "year": 2024,
       "priceEur": 46990,
       "priceUsd": 51990,
-      "image": "/images/cars/peugeot-e3008.jpg",
+      "image": "./images/cars/peugeot-e3008.jpg",
       "specFile": "peugeot-e3008.json"
     },
     {
@@ -977,7 +977,7 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "/images/cars/citroen-eberlingo.jpg",
+      "image": "./images/cars/citroen-eberlingo.jpg",
       "specFile": "citroen-eberlingo.json"
     },
     {
@@ -991,7 +991,7 @@
       "year": 2024,
       "priceEur": 29990,
       "priceUsd": 34990,
-      "image": "/images/cars/fiat-500e.jpg",
+      "image": "./images/cars/fiat-500e.jpg",
       "specFile": "fiat-500e.json"
     },
     {
@@ -1005,7 +1005,7 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "/images/cars/mazda-mx30.jpg",
+      "image": "./images/cars/mazda-mx30.jpg",
       "specFile": "mazda-mx30.json"
     },
     {
@@ -1019,7 +1019,7 @@
       "year": 2024,
       "priceEur": 399990,
       "priceUsd": 419990,
-      "image": "/images/cars/rolls-royce-spectre.jpg",
+      "image": "./images/cars/rolls-royce-spectre.jpg",
       "specFile": "rolls-royce-spectre.json"
     },
     {
@@ -1033,7 +1033,7 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "/images/cars/mini-cooper-se.jpg",
+      "image": "./images/cars/mini-cooper-se.jpg",
       "specFile": "mini-cooper-se.json"
     },
     {
@@ -1047,7 +1047,7 @@
       "year": 2024,
       "priceEur": 39990,
       "priceUsd": 44990,
-      "image": "/images/cars/mini-aceman.jpg",
+      "image": "./images/cars/mini-aceman.jpg",
       "specFile": "mini-aceman.json"
     }
   ]
