@@ -1,0 +1,45 @@
+{
+    "id": 63,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "7.0 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "150 kW (204 hp)",
+            "Maximum Torque": "310 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Blade Battery LFP",
+            "Battery Capacity": "60.4 kWh",
+            "Usable Battery Capacity": "58 kWh",
+            "Maximum DC Charging Power": "88 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 88kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4290 mm",
+            "Width": "1770 mm",
+            "Height": "1570 mm",
+            "Wheelbase": "2700 mm",
+            "Ground Clearance": "140 mm",
+            "Trunk Capacity": "345 L",
+            "Curb Weight": "1530 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "427 km",
+            "EPA Range": "265 miles",
+            "Energy Consumption": "15.9 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Standard",
+            "Display Size": "12.8-inch rotating display",
+            "Sound System": "8 speakers",
+            "DiPilot": "Available",
+            "Over-the-air Updates": "Yes",
+            "Vehicle-to-Load": "Standard",
+            "NFC Key Card": "Standard"
+        }
+    }
+}

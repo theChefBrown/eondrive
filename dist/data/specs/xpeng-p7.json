@@ -1,0 +1,46 @@
+{
+    "id": 49,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.5 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "348 kW (466 hp)",
+            "Maximum Torque": "655 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NCM",
+            "Battery Capacity": "82.7 kWh",
+            "Usable Battery Capacity": "78.8 kWh",
+            "Maximum DC Charging Power": "175 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 175kW, 10-80%)": "29 minutes"
+        },
+        "Dimensions": {
+            "Length": "4880 mm",
+            "Width": "1896 mm",
+            "Height": "1450 mm",
+            "Wheelbase": "2998 mm",
+            "Ground Clearance": "145 mm",
+            "Trunk Capacity": "440 L",
+            "Frunk Capacity": "70 L",
+            "Curb Weight": "2050 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "576 km",
+            "EPA Range": "358 miles",
+            "Energy Consumption": "16.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Standard",
+            "Display Size": "14.96-inch Central Display",
+            "Sound System": "Dynaudio 18 speakers",
+            "XPILOT 3.0": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Optional",
+            "Panoramic Roof": "Standard"
+        }
+    }
+}

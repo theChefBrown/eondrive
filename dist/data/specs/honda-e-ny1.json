@@ -1,0 +1,45 @@
+{
+    "id": 46,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "7.6 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "150 kW (201 hp)",
+            "Maximum Torque": "310 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "68.8 kWh",
+            "Usable Battery Capacity": "64 kWh",
+            "Maximum DC Charging Power": "150 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 150kW, 10-80%)": "35 minutes"
+        },
+        "Dimensions": {
+            "Length": "4387 mm",
+            "Width": "1870 mm",
+            "Height": "1585 mm",
+            "Wheelbase": "2610 mm",
+            "Ground Clearance": "145 mm",
+            "Trunk Capacity": "415 L",
+            "Curb Weight": "1752 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "412 km",
+            "EPA Range": "256 miles",
+            "Energy Consumption": "18.2 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Normal, Sport, Individual",
+            "Heat Pump": "Standard",
+            "Display Size": "10.2-inch Driver + 15.1-inch Center",
+            "Sound System": "Premium Audio 12 speakers",
+            "Honda SENSING": "Standard",
+            "Over-the-air Updates": "Yes",
+            "One-Pedal Control": "Available",
+            "Multi-View Camera": "Standard"
+        }
+    }
+}

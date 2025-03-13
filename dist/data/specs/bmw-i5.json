@@ -1,0 +1,45 @@
+{
+    "id": 17,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.4 seconds",
+            "Top Speed": "230 km/h",
+            "Maximum Power": "442 kW (593 hp)",
+            "Maximum Torque": "820 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "81.2 kWh",
+            "Usable Battery Capacity": "77.4 kWh",
+            "Maximum DC Charging Power": "205 kW",
+            "Charging Time (AC 11kW)": "8.25 hours",
+            "Charging Time (DC 205kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "5060 mm",
+            "Width": "1900 mm",
+            "Height": "1515 mm",
+            "Wheelbase": "2995 mm",
+            "Ground Clearance": "140 mm",
+            "Trunk Capacity": "490 L",
+            "Curb Weight": "2305 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "516 km",
+            "EPA Range": "321 miles",
+            "Energy Consumption": "19.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor xDrive",
+            "Drive Modes": "Eco Pro, Comfort, Sport, Individual",
+            "Heat Pump": "Standard",
+            "Display Size": "Curved Display 12.3-inch + 14.9-inch",
+            "Sound System": "Bowers & Wilkins Diamond",
+            "Highway Assistant": "Available",
+            "Over-the-air Updates": "Yes",
+            "Iconic Sounds Electric": "Hans Zimmer",
+            "Parking Assistant Professional": "Standard"
+        }
+    }
+}

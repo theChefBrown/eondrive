@@ -1,0 +1,73 @@
+{
+    "id": 58,
+    "specifications": {
+        "Performance": {
+            "Single Motor (FWD)": {
+                "Acceleration 0-100 km/h": "7.4 seconds",
+                "Top Speed": "160 km/h",
+                "Maximum Power": "170 kW (231 hp)",
+                "Maximum Torque": "330 Nm"
+            },
+            "Twin Motor (AWD)": {
+                "Acceleration 0-100 km/h": "4.9 seconds",
+                "Top Speed": "180 km/h",
+                "Maximum Power": "300 kW (408 hp)",
+                "Maximum Torque": "660 Nm"
+            }
+        },
+        "Battery & Charging": {
+            "Single Motor (FWD)": {
+                "Battery Type": "Lithium-Ion",
+                "Battery Capacity": "69 kWh (gross), 67 kWh (net)",
+                "Maximum DC Charging Power": "150 kW",
+                "Charging Time (AC 11kW, 0-100%)": "Approximately 7 hours",
+                "Charging Time (DC 150kW, 10-80%)": "Approximately 32 minutes"
+            },
+            "Twin Motor (AWD)": {
+                "Battery Type": "Lithium-Ion",
+                "Battery Capacity": "78 kWh (gross), 75 kWh (net)",
+                "Maximum DC Charging Power": "150 kW",
+                "Charging Time (AC 11kW, 0-100%)": "Approximately 8 hours",
+                "Charging Time (DC 150kW, 10-80%)": "Approximately 40 minutes"
+            }
+        },
+        "Dimensions": {
+            "Length": "4,425 mm",
+            "Width": "2,034 mm (including mirrors)",
+            "Height": "1,652 mm",
+            "Wheelbase": "2,702 mm",
+            "Ground Clearance": "176 mm",
+            "Trunk Capacity": "452 L",
+            "Maximum Cargo Space": "1,328 L",
+            "Curb Weight": {
+                "Single Motor (FWD)": "2,030 kg",
+                "Twin Motor (AWD)": "2,188 kg"
+            }
+        },
+        "Efficiency": {
+            "Single Motor (FWD)": {
+                "WLTP Range": "423 km",
+                "Energy Consumption": "18.7 kWh/100 km",
+                "CO2 Emissions": "0 g/km"
+            },
+            "Twin Motor (AWD)": {
+                "WLTP Range": "418 km",
+                "Energy Consumption": "23.8 kWh/100 km",
+                "CO2 Emissions": "0 g/km"
+            }
+        },
+        "Features": {
+            "Drive Type": {
+                "Single Motor (FWD)": "Front-Wheel Drive",
+                "Twin Motor (AWD)": "All-Wheel Drive"
+            },
+            "Drive Modes": "Eco, Comfort, Dynamic, Off-Road",
+            "Heat Pump": "Optional",
+            "Display Size": "9-inch Touchscreen with Google Built-In",
+            "Sound System": "Harman Kardon Premium Sound",
+            "Advanced Driver Assistance Systems": "Pilot Assist, Adaptive Cruise Control, Lane Keeping Aid",
+            "Over-the-air Updates": "Yes",
+            "Regenerative Braking": "Standard with One-Pedal Drive"
+        }
+    }
+}

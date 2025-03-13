@@ -1,0 +1,44 @@
+{
+    "id": 5,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.2 seconds",
+            "Top Speed": "188 km/h",
+            "Maximum Power": "239 kW (320 hp)",
+            "Maximum Torque": "605 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion Polymer",
+            "Battery Capacity": "77.4 kWh",
+            "Usable Battery Capacity": "74.1 kWh",
+            "Maximum DC Charging Power": "350 kW",
+            "Charging Time (AC 11kW)": "7.3 hours",
+            "Charging Time (DC 350kW, 10-80%)": "18 minutes"
+        },
+        "Dimensions": {
+            "Length": "4680 mm",
+            "Width": "1880 mm",
+            "Height": "1550 mm",
+            "Wheelbase": "2900 mm",
+            "Ground Clearance": "160 mm",
+            "Trunk Capacity": "490 L",
+            "Frunk Capacity": "20 L",
+            "Curb Weight": "1997 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "499 km",
+            "EPA Range": "310 miles",
+            "Energy Consumption": "17.2 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Vehicle-to-Load": "Yes (3.6 kW)",
+            "Heat Pump": "Yes",
+            "Display Size": "12.3 inch dual curved displays",
+            "Sound System": "Meridian 14 speakers",
+            "Highway Driving Assist": "2.0",
+            "Over-the-air Updates": "Yes"
+        }
+    }
+}

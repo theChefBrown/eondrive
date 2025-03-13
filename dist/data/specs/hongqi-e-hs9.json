@@ -1,0 +1,45 @@
+{
+    "id": 53,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.9 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "405 kW (543 hp)",
+            "Maximum Torque": "750 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NCM",
+            "Battery Capacity": "108.7 kWh",
+            "Usable Battery Capacity": "99 kWh",
+            "Maximum DC Charging Power": "180 kW",
+            "Charging Time (AC 11kW)": "10 hours",
+            "Charging Time (DC 180kW, 10-80%)": "35 minutes"
+        },
+        "Dimensions": {
+            "Length": "5209 mm",
+            "Width": "2010 mm",
+            "Height": "1713 mm",
+            "Wheelbase": "3110 mm",
+            "Ground Clearance": "185 mm",
+            "Trunk Capacity": "880 L",
+            "Curb Weight": "2660 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "515 km",
+            "EPA Range": "320 miles",
+            "Energy Consumption": "23.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Comfort, Sport, Off-road",
+            "Heat Pump": "Standard",
+            "Display Size": "Dual 12.3-inch screens",
+            "Sound System": "Premium 19 speakers",
+            "Level 2+ Autonomy": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Executive Seating": "Available"
+        }
+    }
+}

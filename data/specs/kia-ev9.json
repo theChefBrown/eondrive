@@ -1,0 +1,46 @@
+{
+    "id": 45,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.3 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "283 kW (380 hp)",
+            "Maximum Torque": "600 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "99.8 kWh",
+            "Usable Battery Capacity": "94.9 kWh",
+            "Maximum DC Charging Power": "350 kW",
+            "Charging Time (AC 11kW)": "9 hours",
+            "Charging Time (DC 350kW, 10-80%)": "24 minutes"
+        },
+        "Dimensions": {
+            "Length": "5010 mm",
+            "Width": "1980 mm",
+            "Height": "1755 mm",
+            "Wheelbase": "3100 mm",
+            "Ground Clearance": "180 mm",
+            "Trunk Capacity": "828 L",
+            "Frunk Capacity": "52 L",
+            "Curb Weight": "2624 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "541 km",
+            "EPA Range": "336 miles",
+            "Energy Consumption": "21.9 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport, My Mode",
+            "Heat Pump": "Standard",
+            "Display Size": "Dual 12.3-inch + 5-inch screens",
+            "Sound System": "Meridian 14 speakers",
+            "Highway Driving Pilot": "Available",
+            "Over-the-air Updates": "Yes",
+            "Vehicle-to-Load": "Standard",
+            "Seating Configuration": "6 or 7 seats"
+        }
+    }
+}

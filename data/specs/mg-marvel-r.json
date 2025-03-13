@@ -1,0 +1,46 @@
+{
+    "id": 39,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.9 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "212 kW (288 hp)",
+            "Maximum Torque": "665 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NCM",
+            "Battery Capacity": "70 kWh",
+            "Usable Battery Capacity": "67.8 kWh",
+            "Maximum DC Charging Power": "94 kW",
+            "Charging Time (AC 11kW)": "7 hours",
+            "Charging Time (DC 94kW, 10-80%)": "43 minutes"
+        },
+        "Dimensions": {
+            "Length": "4674 mm",
+            "Width": "1919 mm",
+            "Height": "1618 mm",
+            "Wheelbase": "2800 mm",
+            "Ground Clearance": "145 mm",
+            "Trunk Capacity": "357 L",
+            "Maximum Cargo Space": "1396 L",
+            "Curb Weight": "1810 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "402 km",
+            "EPA Range": "250 miles",
+            "Energy Consumption": "19.4 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "All-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Standard",
+            "Display Size": "19.4-inch touchscreen",
+            "Sound System": "8 speakers",
+            "MG Pilot": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Vehicle-to-Load": "Available",
+            "Panoramic Sunroof": "Standard"
+        }
+    }
+}

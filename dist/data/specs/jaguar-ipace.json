@@ -1,0 +1,46 @@
+{
+    "id": 45,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.8 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "294 kW (400 hp)",
+            "Maximum Torque": "696 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "90 kWh",
+            "Usable Battery Capacity": "84.7 kWh",
+            "Maximum DC Charging Power": "100 kW",
+            "Charging Time (AC 11kW)": "8.5 hours",
+            "Charging Time (DC 100kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4682 mm",
+            "Width": "2011 mm",
+            "Height": "1565 mm",
+            "Wheelbase": "2990 mm",
+            "Ground Clearance": "174 mm",
+            "Trunk Capacity": "505 L",
+            "Maximum Cargo Space": "1163 L",
+            "Curb Weight": "2208 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "470 km",
+            "EPA Range": "292 miles",
+            "Energy Consumption": "22.0 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "All-Wheel Drive",
+            "Drive Modes": "Eco, Comfort, Dynamic",
+            "Heat Pump": "Standard",
+            "Display Size": "11.4-inch Pivi Pro",
+            "Sound System": "Meridian 3D Surround",
+            "Adaptive Cruise Control": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Active Air Suspension": "Standard",
+            "Matrix LED Headlights": "Available"
+        }
+    }
+}

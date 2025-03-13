@@ -1,0 +1,46 @@
+{
+    "id": 58,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.1 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "623 kW (835 hp)",
+            "Maximum Torque": "1120 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "135 kWh",
+            "Usable Battery Capacity": "128.9 kWh",
+            "Maximum DC Charging Power": "220 kW",
+            "Charging Time (AC 11.5kW)": "12 hours",
+            "Charging Time (DC 220kW, 10-80%)": "42 minutes"
+        },
+        "Dimensions": {
+            "Length": "5100 mm",
+            "Width": "2015 mm",
+            "Height": "1820 mm",
+            "Wheelbase": "3075 mm",
+            "Ground Clearance": "148-368 mm",
+            "Trunk Capacity": "804 L",
+            "Frunk Capacity": "311 L",
+            "Curb Weight": "3005 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "640 km",
+            "EPA Range": "398 miles",
+            "Energy Consumption": "24.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Quad Motor AWD",
+            "Drive Modes": "All-Purpose, Sport, Off-Road, Conserve",
+            "Heat Pump": "Standard",
+            "Display Size": "15.6-inch Main + 12.3-inch Driver",
+            "Sound System": "Meridian 18 speakers",
+            "Driver+": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Wading Depth": "1 meter"
+        }
+    }
+}

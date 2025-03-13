@@ -1,0 +1,46 @@
+{
+    "id": 51,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.8 seconds",
+            "Top Speed": "217 km/h",
+            "Maximum Power": "400 kW (536 hp)",
+            "Maximum Torque": "768 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion NMC",
+            "Battery Capacity": "100 kWh",
+            "Usable Battery Capacity": "95 kWh",
+            "Maximum DC Charging Power": "200 kW",
+            "Charging Time (AC 11kW)": "9 hours",
+            "Charging Time (DC 200kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4970 mm",
+            "Width": "1999 mm",
+            "Height": "1560 mm",
+            "Wheelbase": "3005 mm",
+            "Ground Clearance": "155 mm",
+            "Trunk Capacity": "539 L",
+            "Frunk Capacity": "50 L",
+            "Curb Weight": "2350 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "620 km",
+            "EPA Range": "385 miles",
+            "Energy Consumption": "18.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Comfort, Sport, Custom",
+            "Heat Pump": "Standard",
+            "Display Size": "8.8-inch Instrument + 15.4-inch Central",
+            "Sound System": "Yamaha Surround 11 speakers",
+            "ZAS (Zeekr Assist System)": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Face Recognition Entry": "Standard"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.2 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "358 kW (480 hp)",
+            "Maximum Torque": "600 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "92 kWh",
+            "Usable Battery Capacity": "88 kWh",
+            "Maximum DC Charging Power": "250 kW",
+            "Charging Time (AC 19.2kW)": "5.5 hours",
+            "Charging Time (DC 250kW, 10-80%)": "22 minutes"
+        },
+        "Dimensions": {
+            "Length": "4975 mm",
+            "Width": "1939 mm",
+            "Height": "1410 mm",
+            "Wheelbase": "2960 mm",
+            "Ground Clearance": "135 mm",
+            "Trunk Capacity": "456 L",
+            "Frunk Capacity": "202 L",
+            "Curb Weight": "2162 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "660 km",
+            "EPA Range": "410 miles",
+            "Energy Consumption": "14.9 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Rear-Wheel Drive",
+            "Drive Modes": "Smooth, Swift, Sprint",
+            "Heat Pump": "Standard",
+            "Display Size": "34-inch 5K Glass Cockpit",
+            "Sound System": "Surreal Sound Pro 21 speakers",
+            "DreamDrive Pro": "Available",
+            "Over-the-air Updates": "Yes",
+            "Glass Canopy Roof": "Standard"
+        }
+    }
+}

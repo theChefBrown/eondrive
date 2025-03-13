@@ -1,0 +1,46 @@
+{
+    "id": 56,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.9 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "405 kW (543 hp)",
+            "Maximum Torque": "717 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Silicon Carbide Battery",
+            "Battery Capacity": "98 kWh",
+            "Usable Battery Capacity": "93 kWh",
+            "Maximum DC Charging Power": "300 kW",
+            "Charging Time (AC 11kW)": "9 hours",
+            "Charging Time (DC 300kW, 10-80%)": "20 minutes"
+        },
+        "Dimensions": {
+            "Length": "4891 mm",
+            "Width": "1937 mm",
+            "Height": "1680 mm",
+            "Wheelbase": "2998 mm",
+            "Ground Clearance": "170 mm",
+            "Trunk Capacity": "660 L",
+            "Frunk Capacity": "71 L",
+            "Curb Weight": "2345 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "570 km",
+            "EPA Range": "354 miles",
+            "Energy Consumption": "19.2 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Standard",
+            "Display Size": "14.96-inch 2K+ Display",
+            "Sound System": "Dynaudio 28 speakers",
+            "XNGP Advanced Driver Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "5D Music Cockpit": "Standard"
+        }
+    }
+}

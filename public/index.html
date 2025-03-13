@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Range Comparison</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    backgroundColor: {
+                        'dark-card': '#1e3a8a'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .modal-content {
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/range-calculator.js" defer></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col sm:flex-row justify-between items-center mb-8">
+            <div class=""><img src="./images/cars/logo_ev.png" alt="eondrive" loading="lazy" class="h-16 w-full shadow-xl rounded-2xl hover:motion-safe:animate-bounce duration-1000" /></div>
+            <h1 class="sm:text-2xl font-bold text-blue-600 dark:text-blue-400 sm:mb-0 mb-6 text-xl">EV Range Comparison</h1>
+            <div class="flex flex-col gap-4 sm:items-end items-center">
+                <button id="contactUsBtn" class="px-4 py-2 mb-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition-colors shadow-xl">
+                    <i class="fa-solid fa-phone mr-2"></i>Contact Us
+                </button>
+                <div class="flex gap-4 items-center">
+                <!-- Unit Switch -->
+                <div class="flex items-center gap-2">
+                    <span class="text-gray-700 dark:text-gray-300">KM/EUR</span>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="unitSwitch" class="sr-only peer">
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                        <span class="ml-2 text-gray-700 dark:text-gray-300">MI/USD</span>
+                    </label>
+                </div>
+                <!-- Theme Switch -->
+                <div class="flex items-center gap-2">
+                    <span class="text-gray-700 dark:text-gray-300">Light</span>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="themeSwitch" class="sr-only peer">
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                        <span class="ml-2 text-gray-700 dark:text-gray-300">Dark</span>
+                    </label>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="mb-8 bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <!-- Make Filter -->
+                <div class="relative">
+                    <button id="makeFilterBtn" class="w-full px-4 py-2 text-left bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 relative">
+                        <span class="text-gray-700 dark:text-gray-300">Select Makes</span>
+                        <span class="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+                            <svg class="h-5 w-5 text-gray-400 dark:text-gray-300" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div id="makeFilterDropdown" class="hidden absolute z-10 mt-1 w-full bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg max-h-60 overflow-y-auto">
+                        <div class="p-2 space-y-1" id="makeFilterOptions">
+                            <!-- Make options will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Price Range Filter -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" id="priceRangeLabel">Price Range (€)</label>
+                    <div class="relative pt-1">
+                        <input type="range" id="priceRange" min="10000" max="100000" step="1000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+                        <div class="flex justify-between text-xs text-gray-600 dark:text-gray-400 mt-1">
+                            <span id="priceMin">€10,000</span>
+                            <span id="priceMax">€100,000+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Range Filter -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" id="distanceRangeLabel">Distance Range (km)</label>
+                    <div class="relative pt-1">
+                        <input type="range" id="distanceRange" min="200" max="800" step="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+                        <div class="flex justify-between text-xs text-gray-600 dark:text-gray-400 mt-1">
+                            <span id="distanceMin">200 km</span>
+                            <span id="distanceMax">800+ km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sort By Filter -->
+                <div class="relative">
+                    <select id="sortBy" class="w-full px-4 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-700 dark:text-gray-300">
+                        <option value="">Sort By</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="range-desc">Range: High to Low</option>
+                        <option value="battery-desc">Battery: High to Low</option>
+                        <option value="name-asc">Name: A to Z</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="carGrid">
+            <!-- Cars will be dynamically inserted here -->
+        </div>
+
+        <!-- Pagination Container -->
+        <div id="paginationContainer" class="flex justify-center mt-8 mb-8">
+            <!-- Pagination controls will be dynamically inserted here -->
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-semibold mb-4 dark:text-white">Compare Vehicles</h2>
+            <div id="comparisonSection" class="space-y-6">
+                <!-- Initial message -->
+                <p class="text-gray-500 dark:text-gray-400">Select cars to compare their ranges</p>
+            </div>
+            <!-- Technical Specs Button -->
+            <div id="techSpecsButtonContainer" class="hidden mt-6">
+                <button id="viewTechSpecsBtn" class="w-auto bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98]">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M2.25 4.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875V17.25a4.5 4.5 0 11-9 0V4.125zm4.5 14.25a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25zm1.5-6a.75.75 0 01-.75.75h-3a.75.75 0 010-1.5h3a.75.75 0 01.75.75zM8.25 2.875a.75.75 0 01-.75.75h-3a.75.75 0 010-1.5h3a.75.75 0 01.75.75zM12 9.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="text-lg font-medium">View Technical Specifications</span>
+                </button>
+            </div>
+            <!-- Technical Specs Table Container -->
+            <div id="techSpecsTableContainer" class="mt-6 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 overflow-x-auto debug-visible">
+                <table class="w-full table-auto">
+                    <thead>
+                        <tr class="border-b border-gray-200 dark:border-gray-700">
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300">Specification</th>
+                            <!-- Dynamic headers will be inserted here -->
+                        </tr>
+                    </thead>
+                    <tbody id="techSpecsTableBody">
+                        <!-- Technical specs rows will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+            <style>
+                .debug-visible {
+                    border: 2px solid transparent;
+                }
+                .debug-visible.hidden {
+                    display: none;
+                    border-color: red;
+                }
+                .debug-visible:not(.hidden) {
+                    border-color: green;
+                }
+            </style>
+        </div>
+    </div>
+
+    <!-- Car card template -->
+    <template id="carCardTemplate">
+        <div class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div class="aspect-w-16 aspect-h-9 mb-4">
+                <img class="car-image rounded-lg object-cover w-full h-64" src="" alt="">
+            </div>
+            <h3 class="text-xl font-semibold car-name dark:text-white"></h3>
+            <div class="mt-4 space-y-2">
+                <p class="text-gray-600 dark:text-gray-300 flex items-center">
+                    <svg class="h-5 w-5 mr-2 text-blue-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                    </svg>
+                    Range: <span class="car-range ml-1"></span> <span class="unit-distance">km</span>
+                </p>
+
+                <p class="text-gray-600 dark:text-gray-300 flex items-center">
+                    <svg class="h-5 w-5 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 00-3 3v6a3 3 0 003 3h15a3 3 0 003-3v-.037c.856-.174 1.5-.93 1.5-1.838v-2.25c0-.907-.644-1.664-1.5-1.837V9.75a3 3 0 00-3-3h-15zm15 1.5a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-15a1.5 1.5 0 01-1.5-1.5v-6a1.5 1.5 0 011.5-1.5h15zM4.5 9.75a.75.75 0 00-.75.75V15c0 .414.336.75.75.75H18a.75.75 0 00.75-.75v-4.5a.75.75 0 00-.75-.75H4.5z" clip-rule="evenodd" />
+                    </svg>
+                    Battery: <span class="car-battery ml-1"></span> kWh
+                </p>
+                <p class="text-gray-600 dark:text-gray-300 flex items-center">
+                    <svg class="h-5 w-5 mr-2 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                        <path fill-rule="evenodd" d="M1.5 4.875C1.5 3.839 2.34 3 3.375 3h17.25c1.035 0 1.875.84 1.875 1.875v9.75c0 1.036-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 14.625v-9.75zM8.25 9.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM18.75 9a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V9.75a.75.75 0 00-.75-.75h-.008zM4.5 9.75A.75.75 0 015.25 9h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H5.25a.75.75 0 01-.75-.75V9.75z" clip-rule="evenodd" />
+                        <path d="M2.25 18a.75.75 0 000 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 00-.75-.75H2.25z" />
+                    </svg>
+                    Price: <span class="price-unit">€</span> <span class="car-price"> </span>
+                </p>
+            </div>
+            <div class="mt-4 flex gap-2">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors compare-btn">
+                    Compare
+                </button>
+                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors specs-btn">
+                    Technical Specs
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Modal template -->
+    <div id="specModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center">
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-3xl w-full mx-4 modal-content">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-semibold dark:text-white" id="modalTitle"></h3>
+                <button class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200" onclick="closeModal()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="modalContent" class="space-y-4">
+                <!-- Specification content will be inserted here -->
+            </div>
+        </div>
+    </div>
+        <!-- Range Calculator Section -->
+        <section class="bg-gray-100 dark:bg-gray-900 transition-colors duration-200 mb-24">
+            <div class="container mx-auto px-4 py-8">
+            <h2 class="sm:text-3xl text-xl font-bold text-blue-600 dark:text-blue-400 mb-8">EV Range Calculator</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Car Image and Selection -->
+                <div class="space-y-6">
+                    <div class="relative aspect-video bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg">
+                        <img id="selectedCarImage" src="/images/cars/placeholder.jpg" alt="Selected car" 
+                             class="w-full h-full object-cover transition-opacity duration-300" style="display: none;">
+                    </div>
+                    
+                    <div class="space-y-2">
+                        <label for="carModelSelector" class="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            Select Your Car
+                        </label>
+                        <select id="carModelSelector" 
+                                class="w-full px-4 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 
+                                       rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 
+                                       text-gray-700 dark:text-gray-300 transition-colors duration-200">
+                            <option value="">Loading cars...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="space-y-8">
+                    <!-- Temperature Slider -->
+                    <div class="space-y-4">
+                        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            Temperature: <span id="temperatureValue" class="ml-2">20°C</span>
+                        </label>
+                        <div class="relative flex items-center gap-4">
+                            <i class="fas fa-snowflake text-xl text-blue-500"></i>
+                            <div class="flex-grow relative h-6 flex items-center">
+                                <div id="temperatureSliderTrack" 
+                                     class="absolute w-full h-2 rounded-full overflow-hidden"
+                                     style="background: linear-gradient(90deg, #89CFF0, #FFB6B6);"></div>
+                                <input type="range" id="temperatureSlider" 
+                                       min="-30" max="40" step="10" value="20"
+                                       class="relative w-full h-2 appearance-none cursor-pointer z-10
+                                              focus:outline-none bg-transparent
+                                              [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-4
+                                              [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:rounded-full
+                                              [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:border-2
+                                              [&::-webkit-slider-thumb]:border-blue-500 [&::-webkit-slider-thumb]:cursor-pointer
+                                              [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:relative
+                                              [&::-webkit-slider-thumb]:top-0 [&::-webkit-slider-thumb]:mt-0
+                                              [&::-webkit-slider-thumb]:z-20
+                                              [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4
+                                              [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-white
+                                              [&::-moz-range-thumb]:border-2 [&::-moz-range-thumb]:border-blue-500
+                                              [&::-moz-range-thumb]:cursor-pointer [&::-moz-range-thumb]:shadow-md
+                                              [&::-moz-range-thumb]:z-20
+                                              [&::-moz-range-track]:bg-transparent [&::-webkit-slider-runnable-track]:bg-transparent">
+                                <style>
+                                    input[type='range']::-webkit-slider-runnable-track {
+                                        background: transparent;
+                                    }
+                                    input[type='range']::-moz-range-track {
+                                        background: transparent;
+                                    }
+                                </style>
+                            </div>
+                            <i class="fas fa-sun text-xl text-yellow-500"></i>
+                        </div>
+                    </div>
+
+                    <!-- Driving Style -->
+                    <div class="space-y-4">
+                        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            Driving Style
+                        </label>
+                        <div class="grid grid-cols-3 gap-4">
+                            <label class="relative">
+                                <input type="radio" name="drivingStyle" value="eco" id="ecoStyle"
+                                       class="sr-only peer">
+                                <div class="p-4 text-center text-gray-400 border rounded-lg cursor-pointer transition-all duration-200
+                                            peer-checked:bg-green-500 peer-checked:text-white
+                                            border-gray-300 dark:border-gray-600 hover:bg-green-100 dark:hover:bg-green-900">
+                                    <i class="fas fa-leaf mb-2"></i>
+                                    <span class="block">Eco</span>
+                                </div>
+                            </label>
+                            <label class="relative">
+                                <input type="radio" name="drivingStyle" value="normal" id="normalStyle"
+                                       class="sr-only peer" checked>
+                                <div class="p-4 text-center text-gray-400 border rounded-lg cursor-pointer transition-all duration-200
+                                            peer-checked:bg-blue-500 peer-checked:text-white
+                                            border-gray-300 dark:border-gray-600 hover:bg-blue-100 dark:hover:bg-blue-900">
+                                    <i class="fas fa-car mb-2"></i>
+                                    <span class="block">Normal</span>
+                                </div>
+                            </label>
+                            <label class="relative">
+                                <input type="radio" name="drivingStyle" value="sport" id="sportStyle"
+                                       class="sr-only peer">
+                                <div class="p-4 text-center text-gray-400 border rounded-lg cursor-pointer transition-all duration-200
+                                            peer-checked:bg-red-500 peer-checked:text-white
+                                            border-gray-300 dark:border-gray-600 hover:bg-red-100 dark:hover:bg-red-900">
+                                    <i class="fas fa-flag-checkered mb-2"></i>
+                                    <span class="block">Sport</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- AC Toggle -->
+                    <div class="flex items-center space-x-3">
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" id="acCheckbox" class="sr-only peer">
+                            <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 
+                                        peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer 
+                                        dark:bg-gray-700 peer-checked:after:translate-x-full after:content-[''] 
+                                        after:absolute after:top-[2px] after:left-[2px] after:bg-white 
+                                        after:border-gray-300 after:border after:rounded-full after:h-5 
+                                        after:w-5 after:transition-all dark:border-gray-600 
+                                        peer-checked:bg-blue-600"></div>
+                            <span class="ml-3 text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                Air Conditioning
+                                <i class="fas fa-snowflake text-blue-500"></i>
+                            </span>
+                        </label>
+                    </div>
+
+                    <!-- Range Result -->
+                    <div class="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg shadow-lg">
+                        <div class="text-center">
+                            <h3 class="text-lg font-medium text-gray-700 dark:text-gray-300 mb-2">Estimated Range</h3>
+                            <div class="text-4xl font-bold text-blue-600 dark:text-blue-400">
+                                <span id="rangeResult">0</span>
+                                <span id="rangeUnit" class="text-2xl ml-1">km</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="bg-white dark:bg-gray-800 shadow-lg py-6 mt-12">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex items-center mb-4 md:mb-0 gap-4">
+                        <img src="./images/cars/logo_ev.png" alt="eondrive" class="h-10 mr-3" />
+                        <p class="text-gray-600 dark:text-gray-300 text-sm">&copy; 2025 EV Range Comparison. All rights reserved.</p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button id="contactUsBtn" class="px-4 py-2 mb-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition-colors shadow-xl">
+                            <i class="fa-solid fa-phone mr-2"></i>Contact Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Contact Us Modal -->
+        <div id="contactModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-md w-full mx-4 max-h-[90vh] overflow-y-auto">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex justify-center gap-4">
+                            <img src="./images/cars/logo_ev.png" alt="eondrive" class="h-10 mr-3 rounded-xl shadow-xl" />
+                            <h2 class="text-lg font-bold text-blue-500 py-1 border-b-2 border-blue-500">Contact Us</h2>
+                        </div>
+                        <button id="closeContactModal" class="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                        Have suggestions for new EV models or updates to our technical specifications? We're constantly improving our database and would love to hear from you!
+                    </p>
+                    
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

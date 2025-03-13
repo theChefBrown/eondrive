@@ -1,0 +1,46 @@
+{
+    "id": 49,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "7.8 seconds",
+            "Top Speed": "167 km/h",
+            "Maximum Power": "150 kW (204 hp)",
+            "Maximum Torque": "255 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "65.4 kWh",
+            "Usable Battery Capacity": "64.8 kWh",
+            "Maximum DC Charging Power": "100 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 100kW, 10-80%)": "41 minutes"
+        },
+        "Dimensions": {
+            "Length": "4355 mm",
+            "Width": "1825 mm",
+            "Height": "1575 mm",
+            "Wheelbase": "2660 mm",
+            "Ground Clearance": "158 mm",
+            "Trunk Capacity": "466 L",
+            "Maximum Cargo Space": "1300 L",
+            "Curb Weight": "1760 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "514 km",
+            "EPA Range": "320 miles",
+            "Energy Consumption": "16.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "12.3-inch infotainment",
+            "Sound System": "KRELL Premium Audio",
+            "Highway Driving Assist": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Vehicle-to-Load": "Available",
+            "BlueLink Connected Car": "Standard"
+        }
+    }
+}

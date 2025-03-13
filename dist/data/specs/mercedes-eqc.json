@@ -1,0 +1,46 @@
+{
+    "id": 23,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.1 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "300 kW (408 hp)",
+            "Maximum Torque": "760 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "80 kWh",
+            "Usable Battery Capacity": "76 kWh",
+            "Maximum DC Charging Power": "110 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 110kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4762 mm",
+            "Width": "1884 mm",
+            "Height": "1624 mm",
+            "Wheelbase": "2873 mm",
+            "Ground Clearance": "142 mm",
+            "Trunk Capacity": "500 L",
+            "Maximum Cargo Space": "1460 L",
+            "Curb Weight": "2495 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "437 km",
+            "EPA Range": "271 miles",
+            "Energy Consumption": "21.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor 4MATIC",
+            "Drive Modes": "Comfort, Eco, Sport, Individual, Max Range",
+            "Heat Pump": "Standard",
+            "Display Size": "10.25-inch MBUX",
+            "Sound System": "Burmester Surround Sound",
+            "Active Distance Assist": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Dynamic Select": "Standard"
+        }
+    }
+}

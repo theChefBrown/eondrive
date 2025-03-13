@@ -1,0 +1,45 @@
+{
+    "id": 71,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "1.85 seconds",
+            "Top Speed": "412 km/h",
+            "Maximum Power": "1427 kW (1914 hp)",
+            "Maximum Torque": "2360 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Manganese Nickel",
+            "Battery Capacity": "120 kWh",
+            "Usable Battery Capacity": "117 kWh",
+            "Maximum DC Charging Power": "500 kW",
+            "Charging Time (AC 22kW)": "6 hours",
+            "Charging Time (DC 500kW, 10-80%)": "19 minutes"
+        },
+        "Dimensions": {
+            "Length": "4750 mm",
+            "Width": "1986 mm",
+            "Height": "1208 mm",
+            "Wheelbase": "2745 mm",
+            "Ground Clearance": "125-175 mm",
+            "Trunk Capacity": "100 L",
+            "Curb Weight": "2150 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "550 km",
+            "EPA Range": "342 miles",
+            "Energy Consumption": "28.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Quad Motor AWD",
+            "Drive Modes": "Range, Cruise, Track, Drift, Custom",
+            "Heat Pump": "Standard",
+            "Display Size": "Tri-screen digital cockpit",
+            "Sound System": "Custom High-End Audio",
+            "Torque Vectoring": "R-AWTV 2",
+            "Over-the-air Updates": "Yes",
+            "Active Aerodynamics": "Advanced",
+            "Carbon Monocoque": "Standard"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 72,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "1.86 seconds",
+            "Top Speed": "350 km/h",
+            "Maximum Power": "1397 kW (1874 hp)",
+            "Maximum Torque": "2300 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "120 kWh",
+            "Usable Battery Capacity": "115 kWh",
+            "Maximum DC Charging Power": "250 kW",
+            "Charging Time (AC 22kW)": "6 hours",
+            "Charging Time (DC 250kW, 10-80%)": "25 minutes"
+        },
+        "Dimensions": {
+            "Length": "4954 mm",
+            "Width": "2169 mm",
+            "Height": "1160 mm",
+            "Wheelbase": "2850 mm",
+            "Ground Clearance": "120-160 mm",
+            "Trunk Capacity": "90 L",
+            "Curb Weight": "2180 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "500 km",
+            "EPA Range": "311 miles",
+            "Energy Consumption": "29.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Quad Motor AWD",
+            "Drive Modes": "Calma, Pura, Energica, Furiosa, Carattere",
+            "Heat Pump": "Standard",
+            "Display Size": "Three high-res TFT displays",
+            "Sound System": "Custom Naim Audio",
+            "Dynamic Torque Vectoring": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Carbon Fiber Body": "Standard",
+            "Adjustable Sound Character": "Yes"
+        }
+    }
+}

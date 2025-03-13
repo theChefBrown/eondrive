@@ -1,0 +1,46 @@
+{
+    "id": 65,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.5 seconds",
+            "Top Speed": "230 km/h",
+            "Maximum Power": "620 kW (831 hp)",
+            "Maximum Torque": "1350 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "118 kWh",
+            "Usable Battery Capacity": "112 kWh",
+            "Maximum DC Charging Power": "300 kW",
+            "Charging Time (AC 19.2kW)": "6.5 hours",
+            "Charging Time (DC 300kW, 10-80%)": "20 minutes"
+        },
+        "Dimensions": {
+            "Length": "5021 mm",
+            "Width": "2008 mm",
+            "Height": "1655 mm",
+            "Wheelbase": "3000 mm",
+            "Ground Clearance": "190 mm",
+            "Trunk Capacity": "1225 L",
+            "Frunk Capacity": "175 L",
+            "Curb Weight": "2685 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "700 km",
+            "EPA Range": "435 miles",
+            "Energy Consumption": "19.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Smooth, Swift, Sprint",
+            "Heat Pump": "Standard",
+            "Display Size": "34-inch 5K Glass Cockpit",
+            "Sound System": "Surreal Sound Pro 21 speakers",
+            "DreamDrive Pro": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Glass Canopy": "Standard",
+            "Seating Configuration": "6 or 7 seats"
+        }
+    }
+}

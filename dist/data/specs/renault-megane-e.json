@@ -1,0 +1,45 @@
+{
+    "id": 31,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "7.4 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "160 kW (218 hp)",
+            "Maximum Torque": "300 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "60 kWh",
+            "Usable Battery Capacity": "57 kWh",
+            "Maximum DC Charging Power": "130 kW",
+            "Charging Time (AC 11kW)": "6 hours",
+            "Charging Time (DC 130kW, 10-80%)": "37 minutes"
+        },
+        "Dimensions": {
+            "Length": "4200 mm",
+            "Width": "1768 mm",
+            "Height": "1505 mm",
+            "Wheelbase": "2685 mm",
+            "Ground Clearance": "135 mm",
+            "Trunk Capacity": "440 L",
+            "Curb Weight": "1636 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "450 km",
+            "EPA Range": "280 miles",
+            "Energy Consumption": "15.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front-Wheel Drive",
+            "Drive Modes": "Eco, Comfort, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "12.3-inch Digital Cluster",
+            "Sound System": "Harman Kardon Optional",
+            "Highway Driver Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "OpenR Link": "Standard",
+            "Multi-Sense": "4 driving modes"
+        }
+    }
+}

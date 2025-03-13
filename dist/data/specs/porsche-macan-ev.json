@@ -1,0 +1,46 @@
+{
+    "id": 33,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.3 seconds",
+            "Top Speed": "260 km/h",
+            "Maximum Power": "470 kW (639 hp)",
+            "Maximum Torque": "1130 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "100 kWh",
+            "Usable Battery Capacity": "95 kWh",
+            "Maximum DC Charging Power": "270 kW",
+            "Charging Time (AC 11kW)": "9 hours",
+            "Charging Time (DC 270kW, 10-80%)": "21 minutes"
+        },
+        "Dimensions": {
+            "Length": "4784 mm",
+            "Width": "1938 mm",
+            "Height": "1622 mm",
+            "Wheelbase": "2893 mm",
+            "Ground Clearance": "145-210 mm",
+            "Trunk Capacity": "540 L",
+            "Frunk Capacity": "84 L",
+            "Curb Weight": "2380 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "501 km",
+            "EPA Range": "311 miles",
+            "Energy Consumption": "22.4 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Range, Normal, Sport, Sport Plus",
+            "Heat Pump": "Standard",
+            "Display Size": "12.6-inch curved display",
+            "Sound System": "Burmester 3D 21 speakers",
+            "Porsche Active Suspension": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Rear-Axle Steering": "Available",
+            "Porsche Torque Vectoring Plus": "Standard"
+        }
+    }
+}

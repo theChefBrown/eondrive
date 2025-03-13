@@ -1,0 +1,45 @@
+{
+    "id": 41,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.9 seconds",
+            "Top Speed": "160 km/h",
+            "Maximum Power": "160 kW (214 hp)",
+            "Maximum Torque": "337 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "71.4 kWh",
+            "Usable Battery Capacity": "66.5 kWh",
+            "Maximum DC Charging Power": "150 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 150kW, 10-80%)": "32 minutes"
+        },
+        "Dimensions": {
+            "Length": "4690 mm",
+            "Width": "1860 mm",
+            "Height": "1650 mm",
+            "Wheelbase": "2850 mm",
+            "Ground Clearance": "175 mm",
+            "Trunk Capacity": "452 L",
+            "Curb Weight": "2010 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "436 km",
+            "EPA Range": "271 miles",
+            "Energy Consumption": "18.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Power, Custom",
+            "Heat Pump": "Optional",
+            "Display Size": "12.3-inch Touchscreen",
+            "Sound System": "9 speakers",
+            "Toyota Safety Sense": "Standard",
+            "Over-the-air Updates": "Yes",
+            "X-MODE": "Advanced AWD Control",
+            "Solar Roof": "Optional"
+        }
+    }
+}

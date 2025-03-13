@@ -1,0 +1,46 @@
+{
+    "id": 11,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "2.7 seconds",
+            "Top Speed": "210 km/h",
+            "Maximum Power": "750 kW (1006 hp)",
+            "Maximum Torque": "1200 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "4680 Cells",
+            "Battery Capacity": "123 kWh",
+            "Usable Battery Capacity": "118 kWh",
+            "Maximum DC Charging Power": "350 kW",
+            "Charging Time (AC 22kW)": "6 hours",
+            "Charging Time (DC 350kW, 10-80%)": "25 minutes"
+        },
+        "Dimensions": {
+            "Length": "5683 mm",
+            "Width": "2201 mm",
+            "Height": "1791 mm",
+            "Wheelbase": "3655 mm",
+            "Ground Clearance": "406 mm",
+            "Trunk Capacity": "2832 L",
+            "Frunk Capacity": "201 L",
+            "Curb Weight": "2995 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "547 km",
+            "EPA Range": "340 miles",
+            "Energy Consumption": "25.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Tri Motor AWD",
+            "Drive Modes": "Normal, Off-Road, Tow",
+            "Heat Pump": "Standard",
+            "Display Size": "18.5-inch Center Display",
+            "Sound System": "Premium 15 speakers",
+            "Autopilot": "Standard",
+            "Over-the-air Updates": "Yes",
+            "Armor Glass": "Standard",
+            "Payload Capacity": "1588 kg"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 10,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.6 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "385 kW (523 hp)",
+            "Maximum Torque": "765 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "111.5 kWh",
+            "Usable Battery Capacity": "105.2 kWh",
+            "Maximum DC Charging Power": "195 kW",
+            "Charging Time (AC 11kW)": "11 hours",
+            "Charging Time (DC 195kW, 10-80%)": "35 minutes"
+        },
+        "Dimensions": {
+            "Length": "4953 mm",
+            "Width": "1967 mm",
+            "Height": "1695 mm",
+            "Wheelbase": "3000 mm",
+            "Ground Clearance": "203 mm",
+            "Trunk Capacity": "500 L",
+            "Maximum Cargo Space": "1750 L",
+            "Curb Weight": "2585 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "630 km",
+            "EPA Range": "391 miles",
+            "Energy Consumption": "19.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor xDrive",
+            "Drive Modes": "Personal, Sport, Efficient",
+            "Heat Pump": "Standard",
+            "Display Size": "14.9-inch Curved Display",
+            "Sound System": "Harman Kardon 18 speakers",
+            "Driving Assistant Professional": "Available",
+            "Over-the-air Updates": "Yes",
+            "Air Suspension": "Standard",
+            "Panoramic Sky Lounge": "Optional"
+        }
+    }
+}

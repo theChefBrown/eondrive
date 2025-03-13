@@ -1,0 +1,46 @@
+{
+    "id": 9,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.7 seconds",
+            "Top Speed": "190 km/h",
+            "Maximum Power": "250 kW (340 hp)",
+            "Maximum Torque": "430 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "83.9 kWh",
+            "Usable Battery Capacity": "80.7 kWh",
+            "Maximum DC Charging Power": "200 kW",
+            "Charging Time (AC 11kW)": "8.25 hours",
+            "Charging Time (DC 200kW, 10-80%)": "31 minutes"
+        },
+        "Dimensions": {
+            "Length": "4783 mm",
+            "Width": "1852 mm",
+            "Height": "1448 mm",
+            "Wheelbase": "2856 mm",
+            "Ground Clearance": "125 mm",
+            "Trunk Capacity": "470 L",
+            "Frunk Capacity": "None",
+            "Curb Weight": "2050 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "590 km",
+            "EPA Range": "367 miles",
+            "Energy Consumption": "16.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Rear-Wheel Drive",
+            "Drive Modes": "ECO PRO, Comfort, Sport",
+            "Heat Pump": "Optional",
+            "Display Size": "14.9-inch Curved Display",
+            "Sound System": "Harman Kardon 16 speakers",
+            "Driving Assistant Professional": "Available",
+            "Over-the-air Updates": "Yes",
+            "BMW IconicSounds Electric": "Standard",
+            "Adaptive M Suspension": "Optional"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.7 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "195 kW (261 hp)",
+            "Maximum Torque": "425 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "77 kWh",
+            "Maximum DC Charging Power": "135 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 135kW, 10-80%)": "36 minutes"
+        },
+        "Dimensions": {
+            "Length": "4649 mm",
+            "Width": "1879 mm",
+            "Height": "1616 mm",
+            "Wheelbase": "2765 mm",
+            "Ground Clearance": "186 mm",
+            "Trunk Capacity": "585 L",
+            "Curb Weight": "2090 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "534 km",
+            "EPA Range": "332 miles",
+            "Energy Consumption": "16.9 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Rear-Wheel Drive",
+            "Drive Modes": "Eco, Comfort, Normal, Sport, Individual",
+            "Heat Pump": "Optional",
+            "Display Size": "13-inch Central Display",
+            "Sound System": "Canton 12 speakers",
+            "Travel Assist": "Available",
+            "Over-the-air Updates": "Yes",
+            "Crystal Face": "Optional",
+            "Smart Storage Solutions": "Simply Clever"
+        }
+    }
+}
