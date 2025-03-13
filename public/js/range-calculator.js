@@ -36,8 +36,8 @@ class RangeCalculator {
 
     async loadCars() {
         try {
-            // Load from static JSON file instead of API endpoint
-            const response = await fetch('/cars.json');
+            // Load from static JSON file instead of API endpoint with relative path
+            const response = await fetch('./cars.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

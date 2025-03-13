@@ -146,8 +146,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     async function showSpecifications(car) {
         try {
             console.log('Fetching specs for:', car.specFile);
-            // Load from static JSON file instead of API endpoint
-            const response = await fetch(`/specs/${car.specFile}`);
+            // Load from static JSON file instead of API endpoint with relative path
+            const response = await fetch(`./specs/${car.specFile}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -359,8 +359,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function fetchCars() {
         try {
-            // Load from static JSON file instead of API endpoint
-            const response = await fetch('/cars.json');
+            // Load from static JSON file instead of API endpoint with relative path
+            const response = await fetch('./cars.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
