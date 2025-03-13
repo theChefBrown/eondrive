@@ -815,8 +815,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             try {
-                console.log('Fetching specs from:', `/api/specs/${car.specFile}`);
-                const response = await fetch(`/api/specs/${car.specFile}`);
+                console.log('Fetching specs from:', `./specs/${car.specFile}`);
+                const response = await fetch(`./specs/${car.specFile}`);
                 console.log('Response status:', response.status);
                 
                 if (!response.ok) {
