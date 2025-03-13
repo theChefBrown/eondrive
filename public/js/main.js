@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Previous button
         const prevButton = document.createElement('button');
         prevButton.innerHTML = '← Previous';
-        prevButton.className = `px-4 py-2 rounded ${currentPage === 1 ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-600'} text-white transition-colors`;
+        prevButton.className = `sm:px-4 px-1 py-2 rounded ${currentPage === 1 ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-600'} text-white transition-colors`;
         prevButton.disabled = currentPage === 1;
         prevButton.onclick = () => {
             if (currentPage > 1) {
@@ -468,7 +468,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Next button
         const nextButton = document.createElement('button');
         nextButton.innerHTML = 'Next →';
-        nextButton.className = `px-4 py-2 rounded ${currentPage === totalPages ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-600'} text-white transition-colors`;
+        nextButton.className = `sm:px-4 px-1 py-2 rounded ${currentPage === totalPages ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-600'} text-white transition-colors`;
         nextButton.disabled = currentPage === totalPages;
         nextButton.onclick = () => {
             if (currentPage < totalPages) {
@@ -492,7 +492,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function createPageButton(pageNum) {
         const button = document.createElement('button');
         button.textContent = pageNum;
-        button.className = `w-10 h-10 rounded ${pageNum === currentPage ? 'bg-blue-500 text-white' : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900'} transition-colors`;
+        button.className = `sm:w-10 w-8 h-10 rounded ${pageNum === currentPage ? 'bg-blue-500 text-white' : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900'} transition-colors`;
         button.onclick = () => {
             currentPage = pageNum;
             renderCars();
