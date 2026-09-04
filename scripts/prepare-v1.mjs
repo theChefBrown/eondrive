@@ -15,5 +15,8 @@ const legacyHtml = legacyIndex
   .replaceAll('src="./images/', 'src="../images/')
 
 await writeFile(path.join(legacyDir, 'index.html'), legacyHtml)
-await cp(path.join(publicDir, 'cars.json'), path.join(legacyDir, 'cars.json'))
+
+const carCatalog = await readFile(path.join(publicDir, 'cars.json'), 'utf8')
+const legacyCatalog = carCatalog.replaceAll('"/images/', '"../images/')
+await writeFile(path.join(legacyDir, 'cars.json'), legacyCatalog)
 await cp(path.join(publicDir, 'specs'), path.join(legacyDir, 'specs'), { recursive: true })

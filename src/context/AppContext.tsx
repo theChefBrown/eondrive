@@ -64,7 +64,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }
 
   useEffect(() => {
-    fetch('/cars.json')
+    fetch(`${import.meta.env.BASE_URL}cars.json`)
       .then(r => r.json())
       .then((data: { cars: Car[] }) => {
         setCars(data.cars)
@@ -88,7 +88,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setModalCar(car)
     setModalSpecs(null)
     try {
-      const res = await fetch(`/specs/${car.specFile}`)
+      const res = await fetch(`${import.meta.env.BASE_URL}specs/${car.specFile}`)
       if (res.ok) {
         const specs: CarSpecs = await res.json()
         setModalSpecs(specs)

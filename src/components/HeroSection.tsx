@@ -58,7 +58,7 @@ export default function HeroSection() {
     >
       {/* Background layers */}
       <div className="hero-bg absolute inset-0" />
-      <video ref={videoRef} className={`hero-cinematic ${isLoopTransition ? 'is-transitioning' : ''}`} src="/videos/hero/ev-cinematic.mp4" autoPlay muted playsInline onEnded={restartCinematic} aria-label="Electric vehicle cinematic" />
+      <video ref={videoRef} className={`hero-cinematic ${isLoopTransition ? 'is-transitioning' : ''}`} src={`${import.meta.env.BASE_URL}videos/hero/ev-cinematic.mp4`} autoPlay muted playsInline onEnded={restartCinematic} aria-label="Electric vehicle cinematic" />
       <div className="hero-cinematic-tint" />
       <div className="grid-overlay" />
 

@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? '/eondrive/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
