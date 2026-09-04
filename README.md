@@ -1,101 +1,48 @@
-<<<<<<< HEAD
 # eondrive
-Ev Range Comparison &amp; Range calculator
-=======
-# EV Range Calculator
+An EV database, comparison tool, range calculator, and Engineering Lab built with React, TypeScript, Vite, and Tailwind CSS.
 
-A simple web application to compare the ranges of different electric vehicles. This project is built using TypeScript, Express.js, and basic frontend technologies (HTML, JavaScript, and Tailwind CSS).
+## Run locally
 
-## Project Structure
-
-```
-ev-range-calculator/
-├── src/
-│   └── server.ts           # TypeScript backend server
-├── public/
-│   ├── index.html         # Main HTML file
-│   └── js/
-│       └── main.js        # Frontend JavaScript
-├── data/
-│   └── cars.json         # Sample car data
-├── package.json          # Node.js dependencies
-├── tsconfig.json        # TypeScript configuration
-├── Dockerfile          # Docker configuration
-└── README.md          # Project documentation
+```bash
+npm install
+npm run dev
 ```
 
-## Getting Started
+Build the application with `npm run build` and execute the engineering model tests with `npm test`.
 
-### Prerequisites
+## Engineering Lab
 
-- Node.js (v20 or later)
-- npm (comes with Node.js)
-- Docker (optional)
+The Engineering Lab estimates trip energy demand and a basic charging plan from the selected vehicle's battery capacity and WLTP range. It accepts journey distance, ambient temperature, average speed, passenger count, cargo mass, starting state of charge, desired arrival reserve, and charging power.
 
-### Running Locally
+The calculation model is deliberately isolated from the React interface:
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+```text
+src/domain/vehicle.ts            Vehicle validation and baseline consumption
+src/domain/trip.ts               Trip-input validation
+src/domain/charging.ts           Charger-input validation
+src/services/energy-model.ts     Pure energy-demand model
+src/services/route-planner.ts    Pure charging-plan model
+src/components/EngineeringLab.tsx Input and results interface
+```
 
-2. Build the TypeScript code:
-   ```bash
-   npm run build
-   ```
+### Model and assumptions
 
-3. Start the server:
-   ```bash
-   npm start
-   ```
+- Baseline consumption: `battery capacity / WLTP range x 100` in kWh/100 km.
+- Usable battery capacity: 90% of nominal capacity.
+- Consumption is multiplied by temperature, speed, passenger, and cargo factors.
+- The reference condition is 20 C, 90 km/h, one passenger, and no cargo.
+- A charging stop can add up to 60% of usable capacity. Charging time is energy added divided by charger power; it excludes tapering.
 
-4. Visit `http://localhost:3000` in your browser
+These results are planning estimates, not manufacturer values, route predictions, vehicle-control advice, or safety-critical guidance. They do not model elevation, wind, precipitation, tyre choice, traffic, battery temperature, regenerative braking, or real charger availability.
 
-### Running with Docker
+## Testing
 
-1. Build the Docker image:
-   ```bash
-   docker build -t ev-range-calculator .
-   ```
+The focused Vitest suite covers baseline trips, cold/high-speed/heavy-load penalties, insufficient initial charge, multiple charging stops, missing vehicle data, and invalid inputs.
 
-2. Run the container:
-   ```bash
-   docker run -p 3000:3000 ev-range-calculator
-   ```
+```bash
+npm test
+```
 
-3. Visit `http://localhost:3000` in your browser
+## Data
 
-## Features
-
-- View a list of electric vehicles with their specifications
-- Compare up to 3 vehicles side by side
-- Responsive design that works on mobile and desktop
-- Simple miles/$ ratio calculation for basic efficiency comparison
-
-## Data Structure
-
-The car data is stored in `data/cars.json` and includes the following information for each vehicle:
-- Brand
-- Model
-- Range (in miles)
-- Battery size (in kWh)
-- Year
-- Price (in USD)
-
-## Learning Resources
-
-If you're new to the technologies used in this project, here are some helpful resources:
-
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Express.js Guide](https://expressjs.com/en/guide/routing.html)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Docker Getting Started Guide](https://docs.docker.com/get-started/)
-
-## Next Steps
-
-- Convert the data storage to MongoDB
-- Add filtering and sorting capabilities
-- Implement user authentication
-- Add more detailed vehicle specifications
-- Create an admin interface for data management
->>>>>>> a23f75c (Initial commit)
+Vehicle data is stored locally in `data/cars.json` and served to the React app from `public/cars.json`. Detailed per-model specifications are in `data/specs/` and `public/specs/`.

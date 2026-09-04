@@ -1,0 +1,45 @@
+﻿{
+    "id":  118,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "440 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "273 miles",
+                                              "Energy Consumption":  "16.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2748 mm",
+                                              "Width":  "1836 mm",
+                                              "Length":  "4432 mm",
+                                              "Ground Clearance":  "170 mm",
+                                              "Height":  "1572 mm",
+                                              "Curb Weight":  "1900 kg",
+                                              "Frunk Capacity":  "15 L",
+                                              "Trunk Capacity":  "362 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "3.8 seconds",
+                                               "Top Speed":  "200 km/h",
+                                               "Maximum Torque":  "543 Nm",
+                                               "Maximum Power":  "315 kW (428 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "6.5 hours",
+                                                           "Battery Capacity":  "66 kWh",
+                                                           "Maximum DC Charging Power":  "150 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "63.5 kWh",
+                                                           "Charging Time (DC 150kW, 10-80%)":  "28 minutes"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Eco, Normal, Sport",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Sound System":  "Yamaha 13 speakers",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "10.2-inch + 8.8-inch",
+                                            "Geely SEA Platform":  "Yes",
+                                            "ADAS Level 2+":  "Standard"
+                                        }
+                       }
+}

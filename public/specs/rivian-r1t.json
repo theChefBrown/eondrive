@@ -1,0 +1,46 @@
+﻿{
+    "id":  114,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "505 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "314 miles",
+                                              "Energy Consumption":  "27.4 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "3454 mm",
+                                              "Width":  "2030 mm",
+                                              "Length":  "5476 mm",
+                                              "Ground Clearance":  "370 mm",
+                                              "Height":  "1800 mm",
+                                              "Curb Weight":  "3005 kg",
+                                              "Frunk Capacity":  "330 L",
+                                              "Trunk Capacity":  "1778 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "3.0 seconds",
+                                               "Top Speed":  "201 km/h",
+                                               "Maximum Torque":  "1124 Nm",
+                                               "Maximum Power":  "522 kW (700 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Battery Capacity":  "135 kWh",
+                                                           "Charging Time (DC 200kW, 10-80%)":  "40 minutes",
+                                                           "Maximum DC Charging Power":  "200 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (AC 11.5kW)":  "14 hours",
+                                                           "Usable Battery Capacity":  "127 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Type":  "Quad Motor AWD",
+                                            "Gear Tunnel":  "Yes",
+                                            "Sound System":  "Meridian 14 speakers",
+                                            "Rivian Driver+":  "Available",
+                                            "Display Size":  "15.6-inch touchscreen",
+                                            "Camp Mode":  "Yes",
+                                            "Drive Modes":  "Sport, All-Purpose, Off-Road, Snow",
+                                            "Adaptive Air Suspension":  "Yes",
+                                            "Over-the-air Updates":  "Yes"
+                                        }
+                       }
+}

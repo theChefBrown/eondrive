@@ -1,0 +1,46 @@
+{
+    "id": 147,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.8 seconds",
+            "Top Speed": "230 km/h",
+            "Maximum Power": "320 kW (435 hp)",
+            "Maximum Torque": "650 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "105 kWh",
+            "Usable Battery Capacity": "97 kWh",
+            "Maximum DC Charging Power": "270 kW",
+            "Charging Time (AC 11kW)": "11 hours",
+            "Charging Time (DC 270kW, 10-80%)": "18 minutes"
+        },
+        "Dimensions": {
+            "Length": "4963 mm",
+            "Width": "1966 mm",
+            "Height": "1422 mm",
+            "Wheelbase": "2900 mm",
+            "Ground Clearance": "127 mm",
+            "Trunk Capacity": "446 L",
+            "Frunk Capacity": "84 L",
+            "Curb Weight": "2270 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "616 km",
+            "EPA Range": "383 miles",
+            "Energy Consumption": "17.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Range, Normal, Sport, Individual",
+            "Adaptive Air Suspension": "Standard",
+            "Display Size": "10.9-inch + 16.8-inch co-driver",
+            "Sound System": "Burmester 21 speakers",
+            "Porsche InnoDrive": "Available",
+            "Over-the-air Updates": "Yes",
+            "800V Architecture": "Yes",
+            "Body Style": "Sport Turismo Estate"
+        }
+    }
+}

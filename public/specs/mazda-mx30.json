@@ -1,0 +1,45 @@
+{
+  "id": 72,
+  "specifications": {
+    "Performance": {
+      "Acceleration 0-100 km/h": "9.7 seconds",
+      "Top Speed": "140 km/h",
+      "Maximum Power": "107 kW (145 hp)",
+      "Maximum Torque": "271 Nm"
+    },
+    "Battery & Charging": {
+      "Battery Type": "Lithium Ion",
+      "Battery Capacity": "35.5 kWh",
+      "Usable Battery Capacity": "30 kWh",
+      "Maximum DC Charging Power": "50 kW",
+      "Charging Time (AC 6.6 kW)": "5 hours",
+      "Charging Time (DC 50 kW, 20-80%)": "36 minutes"
+    },
+    "Dimensions": {
+      "Length": "4395 mm",
+      "Width": "1848 mm",
+      "Height": "1555 mm",
+      "Wheelbase": "2655 mm",
+      "Ground Clearance": "130 mm",
+      "Trunk Capacity": "366 L",
+      "Frunk Capacity": "0 L",
+      "Curb Weight": "1720 kg"
+    },
+    "Efficiency": {
+      "WLTP Range": "200 km",
+      "EPA Range": "100 miles",
+      "Energy Consumption": "17.9 kWh/100 km",
+      "CO2 Emissions": "0 g/km"
+    },
+    "Features": {
+      "Drive Type": "Front Wheel Drive",
+      "Drive Modes": "Normal, Sport",
+      "Heat Pump": "No",
+      "Display Size": "8.8-inch Mazda Connect",
+      "Sound System": "8-speaker audio system",
+      "Freestyle Doors": "Standard",
+      "Regenerative Braking": "Adjustable",
+      "Status": "Discontinued in Europe"
+    }
+  }
+}

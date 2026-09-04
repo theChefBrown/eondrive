@@ -1,0 +1,45 @@
+﻿{
+    "id":  111,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "580 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "360 miles",
+                                              "Energy Consumption":  "15.3 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2765 mm",
+                                              "Width":  "1884 mm",
+                                              "Length":  "4488 mm",
+                                              "Ground Clearance":  "178 mm",
+                                              "Height":  "1625 mm",
+                                              "Curb Weight":  "2190 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "470 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "6.6 seconds",
+                                               "Top Speed":  "180 km/h",
+                                               "Maximum Torque":  "545 Nm",
+                                               "Maximum Power":  "210 kW (286 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "7.5 hours",
+                                                           "Battery Capacity":  "82 kWh",
+                                                           "Charging Time (DC 175kW, 10-80%)":  "28 minutes",
+                                                           "Maximum DC Charging Power":  "175 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "77 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Eco, Comfort, Normal, Sport",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Travel Assist":  "Available",
+                                            "Sound System":  "Canton Sound System",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "13-inch infotainment",
+                                            "Matrix LED":  "Standard"
+                                        }
+                       }
+}

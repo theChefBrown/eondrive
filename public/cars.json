@@ -11,8 +11,42 @@
       "year": 2024,
       "priceEur": 44990,
       "priceUsd": 47990,
-      "image": "./images/cars/tesla-model-3.jpg",
-      "specFile": "tesla-model-3-lr.json"
+      "image": "/images/cars/tesla-model-3-lr.webp",
+      "specFile": "tesla-model-3-lr.json",
+      "trims": [
+        {
+          "name": "RWD",
+          "batterySize": 57.5,
+          "rangeKm": 513,
+          "rangeMiles": 319,
+          "priceEur": 39990,
+          "priceUsd": 42990
+        },
+        {
+          "name": "Long Range RWD",
+          "batterySize": 82,
+          "rangeKm": 702,
+          "rangeMiles": 436,
+          "priceEur": 49990,
+          "priceUsd": 52990
+        },
+        {
+          "name": "Long Range AWD",
+          "batterySize": 82,
+          "rangeKm": 629,
+          "rangeMiles": 391,
+          "priceEur": 52990,
+          "priceUsd": 55990
+        },
+        {
+          "name": "Performance",
+          "batterySize": 82,
+          "rangeKm": 528,
+          "rangeMiles": 328,
+          "priceEur": 57990,
+          "priceUsd": 61990
+        }
+      ]
     },
     {
       "id": 2,
@@ -25,8 +59,34 @@
       "year": 2024,
       "priceEur": 38450,
       "priceUsd": 41450,
-      "image": "./images/cars/hyundai-ioniq5.jpg",
-      "specFile": "hyundai-ioniq5.json"
+      "image": "/images/cars/hyundai-ioniq5.webp",
+      "specFile": "hyundai-ioniq5.json",
+      "trims": [
+        {
+          "name": "SR RWD (58 kWh)",
+          "batterySize": 58,
+          "rangeKm": 384,
+          "rangeMiles": 239,
+          "priceEur": 37900,
+          "priceUsd": 40900
+        },
+        {
+          "name": "LR RWD (77 kWh)",
+          "batterySize": 77.4,
+          "rangeKm": 507,
+          "rangeMiles": 315,
+          "priceEur": 44900,
+          "priceUsd": 47900
+        },
+        {
+          "name": "LR AWD (77 kWh)",
+          "batterySize": 77.4,
+          "rangeKm": 488,
+          "rangeMiles": 303,
+          "priceEur": 48900,
+          "priceUsd": 52900
+        }
+      ]
     },
     {
       "id": 3,
@@ -39,8 +99,42 @@
       "year": 2024,
       "priceEur": 42995,
       "priceUsd": 45995,
-      "image": "./images/cars/ford-mach-e.jpg",
-      "specFile": "ford-mach-e.json"
+      "image": "/images/cars/ford-mach-e.webp",
+      "specFile": "ford-mach-e.json",
+      "trims": [
+        {
+          "name": "Select 70 kWh",
+          "batterySize": 70,
+          "rangeKm": 440,
+          "rangeMiles": 274,
+          "priceEur": 42990,
+          "priceUsd": 39995
+        },
+        {
+          "name": "Ext. Range RWD",
+          "batterySize": 91,
+          "rangeKm": 600,
+          "rangeMiles": 373,
+          "priceEur": 49990,
+          "priceUsd": 42995
+        },
+        {
+          "name": "Ext. Range AWD",
+          "batterySize": 91,
+          "rangeKm": 490,
+          "rangeMiles": 305,
+          "priceEur": 54990,
+          "priceUsd": 49995
+        },
+        {
+          "name": "GT Performance",
+          "batterySize": 91,
+          "rangeKm": 490,
+          "rangeMiles": 304,
+          "priceEur": 64990,
+          "priceUsd": 59995
+        }
+      ]
     },
     {
       "id": 4,
@@ -53,8 +147,42 @@
       "year": 2024,
       "priceEur": 35995,
       "priceUsd": 38995,
-      "image": "./images/cars/vw-id4.jpg",
-      "specFile": "vw-id4.json"
+      "image": "/images/cars/vw-id4.webp",
+      "specFile": "vw-id4.json",
+      "trims": [
+        {
+          "name": "Pure (52 kWh)",
+          "batterySize": 52,
+          "rangeKm": 347,
+          "rangeMiles": 216,
+          "priceEur": 36990,
+          "priceUsd": 38995
+        },
+        {
+          "name": "Pro RWD",
+          "batterySize": 77,
+          "rangeKm": 529,
+          "rangeMiles": 329,
+          "priceEur": 44990,
+          "priceUsd": 45995
+        },
+        {
+          "name": "Pro AWD",
+          "batterySize": 77,
+          "rangeKm": 497,
+          "rangeMiles": 309,
+          "priceEur": 49990,
+          "priceUsd": 48995
+        },
+        {
+          "name": "GTX AWD",
+          "batterySize": 77,
+          "rangeKm": 497,
+          "rangeMiles": 309,
+          "priceEur": 54990,
+          "priceUsd": 49995
+        }
+      ]
     },
     {
       "id": 5,
@@ -67,8 +195,34 @@
       "year": 2024,
       "priceEur": 39600,
       "priceUsd": 42600,
-      "image": "./images/cars/kia-ev6.jpg",
-      "specFile": "kia-ev6.json"
+      "image": "/images/cars/kia-ev6.webp",
+      "specFile": "kia-ev6.json",
+      "trims": [
+        {
+          "name": "SR (58 kWh)",
+          "batterySize": 58,
+          "rangeKm": 394,
+          "rangeMiles": 245,
+          "priceEur": 37990,
+          "priceUsd": 38995
+        },
+        {
+          "name": "LR RWD",
+          "batterySize": 77.4,
+          "rangeKm": 528,
+          "rangeMiles": 328,
+          "priceEur": 41590,
+          "priceUsd": 45995
+        },
+        {
+          "name": "LR AWD",
+          "batterySize": 77.4,
+          "rangeKm": 506,
+          "rangeMiles": 314,
+          "priceEur": 47990,
+          "priceUsd": 52995
+        }
+      ]
     },
     {
       "id": 6,
@@ -81,8 +235,26 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "./images/cars/tesla-model-s.jpg",
-      "specFile": "tesla-model-s.json"
+      "image": "/images/cars/tesla-model-s.webp",
+      "specFile": "tesla-model-s.json",
+      "trims": [
+        {
+          "name": "Long Range",
+          "batterySize": 100,
+          "rangeKm": 652,
+          "rangeMiles": 405,
+          "priceEur": 89990,
+          "priceUsd": 74990
+        },
+        {
+          "name": "Plaid",
+          "batterySize": 100,
+          "rangeKm": 600,
+          "rangeMiles": 373,
+          "priceEur": 107990,
+          "priceUsd": 99990
+        }
+      ]
     },
     {
       "id": 7,
@@ -95,8 +267,26 @@
       "year": 2024,
       "priceEur": 99990,
       "priceUsd": 104990,
-      "image": "./images/cars/tesla-model-x.jpg",
-      "specFile": "tesla-model-x.json"
+      "image": "/images/cars/tesla-model-x.webp",
+      "specFile": "tesla-model-x.json",
+      "trims": [
+        {
+          "name": "Long Range",
+          "batterySize": 100,
+          "rangeKm": 576,
+          "rangeMiles": 358,
+          "priceEur": 99990,
+          "priceUsd": 79990
+        },
+        {
+          "name": "Plaid",
+          "batterySize": 100,
+          "rangeKm": 543,
+          "rangeMiles": 337,
+          "priceEur": 117990,
+          "priceUsd": 109990
+        }
+      ]
     },
     {
       "id": 8,
@@ -109,22 +299,74 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 50990,
-      "image": "./images/cars/tesla-model-y.jpg",
-      "specFile": "tesla-model-y.json"
+      "image": "/images/cars/tesla-model-y.webp",
+      "specFile": "tesla-model-y.json",
+      "trims": [
+        {
+          "name": "RWD",
+          "batterySize": 60,
+          "rangeKm": 455,
+          "rangeMiles": 283,
+          "priceEur": 44990,
+          "priceUsd": 44990
+        },
+        {
+          "name": "Long Range AWD",
+          "batterySize": 82,
+          "rangeKm": 533,
+          "rangeMiles": 331,
+          "priceEur": 54990,
+          "priceUsd": 52990
+        },
+        {
+          "name": "Performance",
+          "batterySize": 82,
+          "rangeKm": 514,
+          "rangeMiles": 319,
+          "priceEur": 59990,
+          "priceUsd": 57990
+        }
+      ]
     },
     {
       "id": 9,
       "brand": "BMW",
       "model": "i4 eDrive40",
-      "description": "Gran Coupé RWD",
+      "description": "Gran CoupÃ© RWD",
       "rangeKm": 590,
       "rangeMiles": 367,
       "batterySize": 83.9,
       "year": 2024,
       "priceEur": 56700,
       "priceUsd": 59900,
-      "image": "./images/cars/bmw-i4.jpg",
-      "specFile": "bmw-i4.json"
+      "image": "/images/cars/bmw-i4.webp",
+      "specFile": "bmw-i4.json",
+      "trims": [
+        {
+          "name": "eDrive35",
+          "batterySize": 70.2,
+          "rangeKm": 483,
+          "rangeMiles": 300,
+          "priceEur": 49900,
+          "priceUsd": 47900
+        },
+        {
+          "name": "eDrive40",
+          "batterySize": 83.9,
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 58900,
+          "priceUsd": 57900
+        },
+        {
+          "name": "M50 xDrive",
+          "batterySize": 83.9,
+          "rangeKm": 521,
+          "rangeMiles": 324,
+          "priceEur": 79900,
+          "priceUsd": 77900
+        }
+      ]
     },
     {
       "id": 10,
@@ -137,8 +379,34 @@
       "year": 2024,
       "priceEur": 92800,
       "priceUsd": 96900,
-      "image": "./images/cars/bmw-ix.jpg",
-      "specFile": "bmw-ix.json"
+      "image": "/images/cars/bmw-ix.webp",
+      "specFile": "bmw-ix.json",
+      "trims": [
+        {
+          "name": "xDrive40",
+          "batterySize": 76.6,
+          "rangeKm": 425,
+          "rangeMiles": 264,
+          "priceEur": 77300,
+          "priceUsd": 76000
+        },
+        {
+          "name": "xDrive50",
+          "batterySize": 111.5,
+          "rangeKm": 630,
+          "rangeMiles": 391,
+          "priceEur": 98600,
+          "priceUsd": 97100
+        },
+        {
+          "name": "M60",
+          "batterySize": 111.5,
+          "rangeKm": 566,
+          "rangeMiles": 352,
+          "priceEur": 133000,
+          "priceUsd": 131000
+        }
+      ]
     },
     {
       "id": 11,
@@ -151,8 +419,42 @@
       "year": 2024,
       "priceEur": 144800,
       "priceUsd": 149900,
-      "image": "./images/cars/porsche-taycan.jpg",
-      "specFile": "porsche-taycan.json"
+      "image": "/images/cars/porsche-taycan.webp",
+      "specFile": "porsche-taycan.json",
+      "trims": [
+        {
+          "name": "Standard Battery",
+          "batterySize": 79.2,
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 94813,
+          "priceUsd": 90900
+        },
+        {
+          "name": "4S",
+          "batterySize": 93.4,
+          "rangeKm": 598,
+          "rangeMiles": 372,
+          "priceEur": 123713,
+          "priceUsd": 115000
+        },
+        {
+          "name": "Turbo",
+          "batterySize": 105,
+          "rangeKm": 562,
+          "rangeMiles": 349,
+          "priceEur": 169003,
+          "priceUsd": 160400
+        },
+        {
+          "name": "Turbo S",
+          "batterySize": 105,
+          "rangeKm": 584,
+          "rangeMiles": 363,
+          "priceEur": 196004,
+          "priceUsd": 194500
+        }
+      ]
     },
     {
       "id": 12,
@@ -165,8 +467,34 @@
       "year": 2024,
       "priceEur": 142800,
       "priceUsd": 147900,
-      "image": "./images/cars/audi-etron-gt.jpg",
-      "specFile": "audi-etron-gt.json"
+      "image": "/images/cars/audi-etron-gt.webp",
+      "specFile": "audi-etron-gt.json",
+      "trims": [
+        {
+          "name": "e-tron GT",
+          "batterySize": 93.4,
+          "rangeKm": 487,
+          "rangeMiles": 303,
+          "priceEur": 105000,
+          "priceUsd": 107900
+        },
+        {
+          "name": "RS e-tron GT",
+          "batterySize": 93.4,
+          "rangeKm": 472,
+          "rangeMiles": 293,
+          "priceEur": 148000,
+          "priceUsd": 150000
+        },
+        {
+          "name": "RS Performance",
+          "batterySize": 105,
+          "rangeKm": 609,
+          "rangeMiles": 378,
+          "priceEur": 175000,
+          "priceUsd": 177000
+        }
+      ]
     },
     {
       "id": 13,
@@ -179,8 +507,42 @@
       "year": 2024,
       "priceEur": 109800,
       "priceUsd": 114900,
-      "image": "./images/cars/mercedes-eqs.jpg",
-      "specFile": "mercedes-eqs.json"
+      "image": "/images/cars/mercedes-eqs.webp",
+      "specFile": "mercedes-eqs.json",
+      "trims": [
+        {
+          "name": "EQS 350",
+          "batterySize": 107.8,
+          "rangeKm": 688,
+          "rangeMiles": 428,
+          "priceEur": 99900,
+          "priceUsd": 99900
+        },
+        {
+          "name": "EQS 450+",
+          "batterySize": 107.8,
+          "rangeKm": 800,
+          "rangeMiles": 497,
+          "priceEur": 109551,
+          "priceUsd": 104400
+        },
+        {
+          "name": "EQS 450 4MATIC",
+          "batterySize": 107.8,
+          "rangeKm": 682,
+          "rangeMiles": 424,
+          "priceEur": 115000,
+          "priceUsd": 110000
+        },
+        {
+          "name": "EQS 580 4MATIC",
+          "batterySize": 107.8,
+          "rangeKm": 723,
+          "rangeMiles": 449,
+          "priceEur": 135000,
+          "priceUsd": 129000
+        }
+      ]
     },
     {
       "id": 14,
@@ -193,8 +555,26 @@
       "year": 2024,
       "priceEur": 43995,
       "priceUsd": 46995,
-      "image": "./images/cars/vw-id3.jpg",
-      "specFile": "vw-id3.json"
+      "image": "/images/cars/vw-id3.webp",
+      "specFile": "vw-id3.json",
+      "trims": [
+        {
+          "name": "Tour (58 kWh)",
+          "batterySize": 58,
+          "rangeKm": 426,
+          "rangeMiles": 265,
+          "priceEur": 35990,
+          "priceUsd": 35990
+        },
+        {
+          "name": "Pro S (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 549,
+          "rangeMiles": 341,
+          "priceEur": 42990,
+          "priceUsd": 41795
+        }
+      ]
     },
     {
       "id": 15,
@@ -207,8 +587,34 @@
       "year": 2024,
       "priceEur": 43900,
       "priceUsd": 46900,
-      "image": "./images/cars/hyundai-ioniq6.jpg",
-      "specFile": "hyundai-ioniq6.json"
+      "image": "/images/cars/hyundai-ioniq6.webp",
+      "specFile": "hyundai-ioniq6.json",
+      "trims": [
+        {
+          "name": "SR RWD (53 kWh)",
+          "batterySize": 53,
+          "rangeKm": 429,
+          "rangeMiles": 267,
+          "priceEur": 37900,
+          "priceUsd": 34615
+        },
+        {
+          "name": "LR RWD (77 kWh)",
+          "batterySize": 77.4,
+          "rangeKm": 614,
+          "rangeMiles": 382,
+          "priceEur": 43900,
+          "priceUsd": 38615
+        },
+        {
+          "name": "LR AWD (77 kWh)",
+          "batterySize": 77.4,
+          "rangeKm": 583,
+          "rangeMiles": 362,
+          "priceEur": 49900,
+          "priceUsd": 44615
+        }
+      ]
     },
     {
       "id": 16,
@@ -221,8 +627,34 @@
       "year": 2024,
       "priceEur": 139900,
       "priceUsd": 144900,
-      "image": "./images/cars/bmw-i7.jpg",
-      "specFile": "bmw-i7.json"
+      "image": "/images/cars/bmw-i7.webp",
+      "specFile": "bmw-i7.json",
+      "trims": [
+        {
+          "name": "eDrive60",
+          "batterySize": 101.7,
+          "rangeKm": 625,
+          "rangeMiles": 388,
+          "priceEur": 116900,
+          "priceUsd": 105700
+        },
+        {
+          "name": "xDrive60",
+          "batterySize": 101.7,
+          "rangeKm": 591,
+          "rangeMiles": 367,
+          "priceEur": 126900,
+          "priceUsd": 119700
+        },
+        {
+          "name": "M70 xDrive",
+          "batterySize": 101.7,
+          "rangeKm": 560,
+          "rangeMiles": 348,
+          "priceEur": 185900,
+          "priceUsd": 184900
+        }
+      ]
     },
     {
       "id": 17,
@@ -235,8 +667,34 @@
       "year": 2024,
       "priceEur": 69900,
       "priceUsd": 74900,
-      "image": "./images/cars/bmw-i5.jpg",
-      "specFile": "bmw-i5.json"
+      "image": "/images/cars/bmw-i5.webp",
+      "specFile": "bmw-i5.json",
+      "trims": [
+        {
+          "name": "eDrive40",
+          "batterySize": 81.2,
+          "rangeKm": 582,
+          "rangeMiles": 362,
+          "priceEur": 66300,
+          "priceUsd": 65900
+        },
+        {
+          "name": "xDrive40",
+          "batterySize": 84,
+          "rangeKm": 516,
+          "rangeMiles": 321,
+          "priceEur": 72800,
+          "priceUsd": 72300
+        },
+        {
+          "name": "M60 xDrive",
+          "batterySize": 84,
+          "rangeKm": 455,
+          "rangeMiles": 283,
+          "priceEur": 111200,
+          "priceUsd": 110700
+        }
+      ]
     },
     {
       "id": 18,
@@ -249,22 +707,58 @@
       "year": 2024,
       "priceEur": 47900,
       "priceUsd": 52900,
-      "image": "./images/cars/bmw-ix1.jpg",
-      "specFile": "bmw-ix1.json"
+      "image": "/images/cars/bmw-ix1.webp",
+      "specFile": "bmw-ix1.json",
+      "trims": [
+        {
+          "name": "eDrive20",
+          "batterySize": 64.7,
+          "rangeKm": 440,
+          "rangeMiles": 274,
+          "priceEur": 43900,
+          "priceUsd": 43400
+        },
+        {
+          "name": "xDrive30",
+          "batterySize": 64.7,
+          "rangeKm": 417,
+          "rangeMiles": 259,
+          "priceEur": 48100,
+          "priceUsd": 47600
+        }
+      ]
     },
     {
       "id": 19,
       "brand": "BMW",
       "model": "iX2 xDrive30",
-      "description": "Sports Activity Coupé",
+      "description": "Sports Activity CoupÃ©",
       "rangeKm": 449,
       "rangeMiles": 279,
       "batterySize": 64.7,
       "year": 2024,
       "priceEur": 49900,
       "priceUsd": 54900,
-      "image": "./images/cars/bmw-ix2.jpg",
-      "specFile": "bmw-ix2.json"
+      "image": "/images/cars/bmw-ix2.webp",
+      "specFile": "bmw-ix2.json",
+      "trims": [
+        {
+          "name": "eDrive20",
+          "batterySize": 64.7,
+          "rangeKm": 449,
+          "rangeMiles": 279,
+          "priceEur": 48900,
+          "priceUsd": 48400
+        },
+        {
+          "name": "xDrive30",
+          "batterySize": 64.7,
+          "rangeKm": 417,
+          "rangeMiles": 259,
+          "priceEur": 52900,
+          "priceUsd": 52400
+        }
+      ]
     },
     {
       "id": 20,
@@ -277,7 +771,7 @@
       "year": 2024,
       "priceEur": 67900,
       "priceUsd": 72900,
-      "image": "./images/cars/bmw-ix3.jpg",
+      "image": "/images/cars/bmw-ix3.webp",
       "specFile": "bmw-ix3.json"
     },
     {
@@ -291,8 +785,26 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "./images/cars/mercedes-eqa.jpg",
-      "specFile": "mercedes-eqa.json"
+      "image": "/images/cars/mercedes-eqa.webp",
+      "specFile": "mercedes-eqa.json",
+      "trims": [
+        {
+          "name": "EQA 250+",
+          "batterySize": 70.5,
+          "rangeKm": 560,
+          "rangeMiles": 348,
+          "priceEur": 52297,
+          "priceUsd": 50000
+        },
+        {
+          "name": "EQA 350 4MATIC",
+          "batterySize": 70.5,
+          "rangeKm": 461,
+          "rangeMiles": 287,
+          "priceEur": 60000,
+          "priceUsd": 58000
+        }
+      ]
     },
     {
       "id": 22,
@@ -305,8 +817,26 @@
       "year": 2024,
       "priceEur": 55990,
       "priceUsd": 60990,
-      "image": "./images/cars/mercedes-eqb.jpg",
-      "specFile": "mercedes-eqb.json"
+      "image": "/images/cars/mercedes-eqb.webp",
+      "specFile": "mercedes-eqb.json",
+      "trims": [
+        {
+          "name": "EQB 250+",
+          "batterySize": 70.5,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 53000,
+          "priceUsd": 50000
+        },
+        {
+          "name": "EQB 350 4MATIC",
+          "batterySize": 70.5,
+          "rangeKm": 487,
+          "rangeMiles": 303,
+          "priceEur": 60680,
+          "priceUsd": 58000
+        }
+      ]
     },
     {
       "id": 23,
@@ -319,7 +849,7 @@
       "year": 2024,
       "priceEur": 66990,
       "priceUsd": 71990,
-      "image": "./images/cars/mercedes-eqc.jpg",
+      "image": "/images/cars/mercedes-eqc.webp",
       "specFile": "mercedes-eqc.json"
     },
     {
@@ -333,8 +863,34 @@
       "year": 2024,
       "priceEur": 69990,
       "priceUsd": 74990,
-      "image": "./images/cars/mercedes-eqe.jpg",
-      "specFile": "mercedes-eqe.json"
+      "image": "/images/cars/mercedes-eqe.webp",
+      "specFile": "mercedes-eqe.json",
+      "trims": [
+        {
+          "name": "EQE 300",
+          "batterySize": 90.6,
+          "rangeKm": 631,
+          "rangeMiles": 392,
+          "priceEur": 73000,
+          "priceUsd": 70000
+        },
+        {
+          "name": "EQE 350+",
+          "batterySize": 90.6,
+          "rangeKm": 660,
+          "rangeMiles": 410,
+          "priceEur": 80609,
+          "priceUsd": 75000
+        },
+        {
+          "name": "EQE 500 4MATIC",
+          "batterySize": 90.6,
+          "rangeKm": 574,
+          "rangeMiles": 357,
+          "priceEur": 94000,
+          "priceUsd": 89000
+        }
+      ]
     },
     {
       "id": 25,
@@ -347,22 +903,58 @@
       "year": 2024,
       "priceEur": 86990,
       "priceUsd": 91990,
-      "image": "./images/cars/mercedes-eqe-suv.jpg",
-      "specFile": "mercedes-eqe-suv.json"
+      "image": "/images/cars/mercedes-eqe-suv.webp",
+      "specFile": "mercedes-eqe-suv.json",
+      "trims": [
+        {
+          "name": "EQE SUV 350+",
+          "batterySize": 90.6,
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 79000,
+          "priceUsd": 75000
+        },
+        {
+          "name": "EQE SUV 500 4MATIC",
+          "batterySize": 90.6,
+          "rangeKm": 516,
+          "rangeMiles": 321,
+          "priceEur": 95000,
+          "priceUsd": 90000
+        }
+      ]
     },
     {
       "id": 26,
       "brand": "Volkswagen",
       "model": "ID.5 GTX",
-      "description": "Sports SUV Coupé AWD",
+      "description": "Sports SUV CoupÃ© AWD",
       "rangeKm": 512,
       "rangeMiles": 318,
       "batterySize": 77,
       "year": 2024,
       "priceEur": 53990,
       "priceUsd": 58990,
-      "image": "./images/cars/vw-id5.jpg",
-      "specFile": "vw-id5.json"
+      "image": "/images/cars/vw-id5.webp",
+      "specFile": "vw-id5.json",
+      "trims": [
+        {
+          "name": "Pro RWD",
+          "batterySize": 77,
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 45990,
+          "priceUsd": 45990
+        },
+        {
+          "name": "GTX AWD",
+          "batterySize": 77,
+          "rangeKm": 497,
+          "rangeMiles": 309,
+          "priceEur": 55990,
+          "priceUsd": 55990
+        }
+      ]
     },
     {
       "id": 27,
@@ -375,8 +967,26 @@
       "year": 2024,
       "priceEur": 64990,
       "priceUsd": 69990,
-      "image": "./images/cars/vw-id-buzz.jpg",
-      "specFile": "vw-id-buzz.json"
+      "image": "/images/cars/vw-id-buzz.webp",
+      "specFile": "vw-id-buzz.json",
+      "trims": [
+        {
+          "name": "Pro (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 423,
+          "rangeMiles": 263,
+          "priceEur": 54990,
+          "priceUsd": 59995
+        },
+        {
+          "name": "LWB Pro+",
+          "batterySize": 86,
+          "rangeKm": 461,
+          "rangeMiles": 286,
+          "priceEur": 73990,
+          "priceUsd": 69995
+        }
+      ]
     },
     {
       "id": 28,
@@ -389,8 +999,34 @@
       "year": 2024,
       "priceEur": 56990,
       "priceUsd": 61990,
-      "image": "./images/cars/vw-id7.jpg",
-      "specFile": "vw-id7.json"
+      "image": "/images/cars/vw-id7.webp",
+      "specFile": "vw-id7.json",
+      "trims": [
+        {
+          "name": "Pro (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 621,
+          "rangeMiles": 386,
+          "priceEur": 55990,
+          "priceUsd": 55990
+        },
+        {
+          "name": "Pro S (91 kWh)",
+          "batterySize": 91,
+          "rangeKm": 709,
+          "rangeMiles": 441,
+          "priceEur": 62990,
+          "priceUsd": 62990
+        },
+        {
+          "name": "GTX AWD",
+          "batterySize": 86,
+          "rangeKm": 621,
+          "rangeMiles": 386,
+          "priceEur": 63990,
+          "priceUsd": 63990
+        }
+      ]
     },
     {
       "id": 29,
@@ -403,8 +1039,34 @@
       "year": 2024,
       "priceEur": 52990,
       "priceUsd": 57990,
-      "image": "./images/cars/audi-q4-etron.jpg",
-      "specFile": "audi-q4-etron.json"
+      "image": "/images/cars/audi-q4-etron.webp",
+      "specFile": "audi-q4-etron.json",
+      "trims": [
+        {
+          "name": "40 (52 kWh)",
+          "batterySize": 52,
+          "rangeKm": 347,
+          "rangeMiles": 216,
+          "priceEur": 39900,
+          "priceUsd": 41900
+        },
+        {
+          "name": "45 RWD",
+          "batterySize": 82,
+          "rangeKm": 541,
+          "rangeMiles": 336,
+          "priceEur": 46900,
+          "priceUsd": 48900
+        },
+        {
+          "name": "50 quattro AWD",
+          "batterySize": 82,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 53900,
+          "priceUsd": 55900
+        }
+      ]
     },
     {
       "id": 30,
@@ -417,8 +1079,34 @@
       "year": 2024,
       "priceEur": 85990,
       "priceUsd": 90990,
-      "image": "./images/cars/audi-q8-etron.jpg",
-      "specFile": "audi-q8-e-tron.json"
+      "image": "/images/cars/audi-q8-e-tron.webp",
+      "specFile": "audi-q8-e-tron.json",
+      "trims": [
+        {
+          "name": "Q8 50 e-tron",
+          "batterySize": 95,
+          "rangeKm": 491,
+          "rangeMiles": 305,
+          "priceEur": 78900,
+          "priceUsd": 80900
+        },
+        {
+          "name": "Q8 55 e-tron",
+          "batterySize": 114,
+          "rangeKm": 582,
+          "rangeMiles": 362,
+          "priceEur": 92900,
+          "priceUsd": 94900
+        },
+        {
+          "name": "SQ8 e-tron",
+          "batterySize": 114,
+          "rangeKm": 494,
+          "rangeMiles": 307,
+          "priceEur": 108900,
+          "priceUsd": 110900
+        }
+      ]
     },
     {
       "id": 31,
@@ -431,8 +1119,42 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "./images/cars/skoda-enyaq.jpg",
-      "specFile": "skoda-enyaq.json"
+      "image": "/images/cars/skoda-enyaq.webp",
+      "specFile": "skoda-enyaq.json",
+      "trims": [
+        {
+          "name": "Enyaq 50",
+          "batterySize": 62,
+          "rangeKm": 380,
+          "rangeMiles": 236,
+          "priceEur": 38990,
+          "priceUsd": 38490
+        },
+        {
+          "name": "Enyaq 60",
+          "batterySize": 77,
+          "rangeKm": 534,
+          "rangeMiles": 332,
+          "priceEur": 44990,
+          "priceUsd": 44490
+        },
+        {
+          "name": "Enyaq 85x AWD",
+          "batterySize": 82,
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 50990,
+          "priceUsd": 50490
+        },
+        {
+          "name": "iV RS",
+          "batterySize": 82,
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 58990,
+          "priceUsd": 58490
+        }
+      ]
     },
     {
       "id": 32,
@@ -445,8 +1167,34 @@
       "year": 2024,
       "priceEur": 44990,
       "priceUsd": 49990,
-      "image": "./images/cars/cupra-born.jpg",
-      "specFile": "cupra-born.json"
+      "image": "/images/cars/cupra-born.webp",
+      "specFile": "cupra-born.json",
+      "trims": [
+        {
+          "name": "58 kWh",
+          "batterySize": 58,
+          "rangeKm": 476,
+          "rangeMiles": 296,
+          "priceEur": 34990,
+          "priceUsd": 34490
+        },
+        {
+          "name": "77 kWh",
+          "batterySize": 77,
+          "rangeKm": 540,
+          "rangeMiles": 335,
+          "priceEur": 37990,
+          "priceUsd": 37490
+        },
+        {
+          "name": "e-Boost 82 kWh",
+          "batterySize": 82,
+          "rangeKm": 570,
+          "rangeMiles": 354,
+          "priceEur": 42990,
+          "priceUsd": 42490
+        }
+      ]
     },
     {
       "id": 33,
@@ -459,8 +1207,34 @@
       "year": 2024,
       "priceEur": 84990,
       "priceUsd": 89990,
-      "image": "./images/cars/porsche-macan-ev.jpg",
-      "specFile": "porsche-macan-ev.json"
+      "image": "/images/cars/porsche-macan-ev.webp",
+      "specFile": "porsche-macan-ev.json",
+      "trims": [
+        {
+          "name": "4 (100 kWh)",
+          "batterySize": 100,
+          "rangeKm": 613,
+          "rangeMiles": 381,
+          "priceEur": 81853,
+          "priceUsd": 75000
+        },
+        {
+          "name": "4S (100 kWh)",
+          "batterySize": 100,
+          "rangeKm": 591,
+          "rangeMiles": 367,
+          "priceEur": 95000,
+          "priceUsd": 90000
+        },
+        {
+          "name": "Turbo",
+          "batterySize": 100,
+          "rangeKm": 575,
+          "rangeMiles": 357,
+          "priceEur": 115000,
+          "priceUsd": 109000
+        }
+      ]
     },
     {
       "id": 34,
@@ -473,8 +1247,26 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "./images/cars/byd-atto-3.jpg",
-      "specFile": "byd-atto-3.json"
+      "image": "/images/cars/byd-atto-3.webp",
+      "specFile": "byd-atto-3.json",
+      "trims": [
+        {
+          "name": "Standard (50 kWh)",
+          "batterySize": 49.92,
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 32990,
+          "priceUsd": 32490
+        },
+        {
+          "name": "Extended (60 kWh)",
+          "batterySize": 60.5,
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 37990,
+          "priceUsd": 37490
+        }
+      ]
     },
     {
       "id": 35,
@@ -487,8 +1279,34 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "./images/cars/byd-seal.jpg",
-      "specFile": "byd-seal.json"
+      "image": "/images/cars/byd-seal.webp",
+      "specFile": "byd-seal.json",
+      "trims": [
+        {
+          "name": "SR RWD (58 kWh)",
+          "batterySize": 58.56,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 39990,
+          "priceUsd": 39490
+        },
+        {
+          "name": "LR RWD (82 kWh)",
+          "batterySize": 82.56,
+          "rangeKm": 570,
+          "rangeMiles": 354,
+          "priceEur": 44990,
+          "priceUsd": 44490
+        },
+        {
+          "name": "Perf. AWD",
+          "batterySize": 82.56,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 49990,
+          "priceUsd": 49490
+        }
+      ]
     },
     {
       "id": 36,
@@ -501,8 +1319,26 @@
       "year": 2024,
       "priceEur": 29990,
       "priceUsd": 34990,
-      "image": "./images/cars/byd-dolphin.jpg",
-      "specFile": "byd-dolphin.json"
+      "image": "/images/cars/byd-dolphin.webp",
+      "specFile": "byd-dolphin.json",
+      "trims": [
+        {
+          "name": "Standard (45 kWh)",
+          "batterySize": 44.9,
+          "rangeKm": 340,
+          "rangeMiles": 211,
+          "priceEur": 29990,
+          "priceUsd": 29490
+        },
+        {
+          "name": "Boost (60 kWh)",
+          "batterySize": 60.4,
+          "rangeKm": 427,
+          "rangeMiles": 265,
+          "priceEur": 34990,
+          "priceUsd": 34490
+        }
+      ]
     },
     {
       "id": 37,
@@ -515,8 +1351,34 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "./images/cars/mg-4.jpg",
-      "specFile": "mg-4.json"
+      "image": "/images/cars/mg-4.webp",
+      "specFile": "mg-4.json",
+      "trims": [
+        {
+          "name": "Standard (64 kWh)",
+          "batterySize": 64,
+          "rangeKm": 435,
+          "rangeMiles": 270,
+          "priceEur": 27990,
+          "priceUsd": 27490
+        },
+        {
+          "name": "Extended (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 31990,
+          "priceUsd": 31490
+        },
+        {
+          "name": "Trophy Extended",
+          "batterySize": 77,
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 35490,
+          "priceUsd": 34990
+        }
+      ]
     },
     {
       "id": 38,
@@ -529,8 +1391,26 @@
       "year": 2024,
       "priceEur": 33990,
       "priceUsd": 38990,
-      "image": "./images/cars/mg-zs-ev.jpg",
-      "specFile": "mg-zs-ev.json"
+      "image": "/images/cars/mg-zs-ev.webp",
+      "specFile": "mg-zs-ev.json",
+      "trims": [
+        {
+          "name": "Standard (51 kWh)",
+          "batterySize": 51,
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 31990,
+          "priceUsd": 31490
+        },
+        {
+          "name": "LR (72.6 kWh)",
+          "batterySize": 72.6,
+          "rangeKm": 440,
+          "rangeMiles": 274,
+          "priceEur": 36990,
+          "priceUsd": 36490
+        }
+      ]
     },
     {
       "id": 39,
@@ -543,8 +1423,26 @@
       "year": 2024,
       "priceEur": 40990,
       "priceUsd": 45990,
-      "image": "./images/cars/mg-marvel-r.jpg",
-      "specFile": "mg-marvel-r.json"
+      "image": "/images/cars/mg-marvel-r.webp",
+      "specFile": "mg-marvel-r.json",
+      "trims": [
+        {
+          "name": "Performance RWD",
+          "batterySize": 70,
+          "rangeKm": 402,
+          "rangeMiles": 250,
+          "priceEur": 35990,
+          "priceUsd": 35490
+        },
+        {
+          "name": "Performance AWD",
+          "batterySize": 70,
+          "rangeKm": 370,
+          "rangeMiles": 230,
+          "priceEur": 39990,
+          "priceUsd": 39490
+        }
+      ]
     },
     {
       "id": 40,
@@ -557,8 +1455,34 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "./images/cars/renault-megane-e-tech.jpg",
-      "specFile": "renault-megane-e-tech.json"
+      "image": "/images/cars/renault-megane-e-tech.webp",
+      "specFile": "renault-megane-e-tech.json",
+      "trims": [
+        {
+          "name": "EV40 (40 kWh)",
+          "batterySize": 40,
+          "rangeKm": 300,
+          "rangeMiles": 186,
+          "priceEur": 33490,
+          "priceUsd": 32990
+        },
+        {
+          "name": "EV60 Comfort",
+          "batterySize": 60,
+          "rangeKm": 450,
+          "rangeMiles": 280,
+          "priceEur": 37990,
+          "priceUsd": 37490
+        },
+        {
+          "name": "EV60 Optimum",
+          "batterySize": 60,
+          "rangeKm": 470,
+          "rangeMiles": 292,
+          "priceEur": 40490,
+          "priceUsd": 39990
+        }
+      ]
     },
     {
       "id": 41,
@@ -571,7 +1495,7 @@
       "year": 2024,
       "priceEur": 33990,
       "priceUsd": 38990,
-      "image": "./images/cars/renault-zoe.jpg",
+      "image": "/images/cars/renault-zoe.webp",
       "specFile": "renault-zoe.json"
     },
     {
@@ -585,7 +1509,7 @@
       "year": 2024,
       "priceEur": 32990,
       "priceUsd": 37990,
-      "image": "./images/cars/peugeot-e208.jpg",
+      "image": "/images/cars/peugeot-e208.webp",
       "specFile": "peugeot-e208.json"
     },
     {
@@ -599,7 +1523,7 @@
       "year": 2024,
       "priceEur": 36990,
       "priceUsd": 41990,
-      "image": "./images/cars/peugeot-e2008.jpg",
+      "image": "/images/cars/peugeot-e2008.webp",
       "specFile": "peugeot-e2008.json"
     },
     {
@@ -613,8 +1537,34 @@
       "year": 2024,
       "priceEur": 42990,
       "priceUsd": 47990,
-      "image": "./images/cars/smart-1.jpg",
-      "specFile": "smart-1.json"
+      "image": "/images/cars/smart-1.webp",
+      "specFile": "smart-1.json",
+      "trims": [
+        {
+          "name": "Pure (62 kWh)",
+          "batterySize": 62,
+          "rangeKm": 400,
+          "rangeMiles": 249,
+          "priceEur": 36990,
+          "priceUsd": 36490
+        },
+        {
+          "name": "Pro+ (66 kWh)",
+          "batterySize": 66,
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 40990,
+          "priceUsd": 40490
+        },
+        {
+          "name": "BRABUS",
+          "batterySize": 66,
+          "rangeKm": 400,
+          "rangeMiles": 249,
+          "priceEur": 47990,
+          "priceUsd": 47490
+        }
+      ]
     },
     {
       "id": 45,
@@ -627,8 +1577,26 @@
       "year": 2024,
       "priceEur": 48990,
       "priceUsd": 53990,
-      "image": "./images/cars/smart-3.jpg",
-      "specFile": "smart-3.json"
+      "image": "/images/cars/smart-3.webp",
+      "specFile": "smart-3.json",
+      "trims": [
+        {
+          "name": "Pro+ (66 kWh)",
+          "batterySize": 66,
+          "rangeKm": 455,
+          "rangeMiles": 283,
+          "priceEur": 40990,
+          "priceUsd": 40490
+        },
+        {
+          "name": "BRABUS",
+          "batterySize": 66,
+          "rangeKm": 440,
+          "rangeMiles": 273,
+          "priceEur": 49990,
+          "priceUsd": 49490
+        }
+      ]
     },
     {
       "id": 46,
@@ -641,7 +1609,7 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "./images/cars/citroen-ec4.jpg",
+      "image": "/images/cars/citroen-ec4.webp",
       "specFile": "citroen-e-c4.json"
     },
     {
@@ -655,7 +1623,7 @@
       "year": 2024,
       "priceEur": 36990,
       "priceUsd": 41990,
-      "image": "./images/cars/citroen-ec4x.jpg",
+      "image": "/images/cars/citroen-ec4x.webp",
       "specFile": "citroen-ec4x.json"
     },
     {
@@ -669,7 +1637,7 @@
       "year": 2024,
       "priceEur": 20990,
       "priceUsd": 25990,
-      "image": "./images/cars/dacia-spring.jpg",
+      "image": "/images/cars/dacia-spring.webp",
       "specFile": "dacia-spring.json"
     },
     {
@@ -683,8 +1651,26 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "./images/cars/toyota-bz4x.jpg",
-      "specFile": "toyota-bz4x.json"
+      "image": "/images/cars/toyota-bz4x.webp",
+      "specFile": "toyota-bz4x.json",
+      "trims": [
+        {
+          "name": "FWD (71.4 kWh)",
+          "batterySize": 71.4,
+          "rangeKm": 516,
+          "rangeMiles": 321,
+          "priceEur": 42990,
+          "priceUsd": 42990
+        },
+        {
+          "name": "AWD (71.4 kWh)",
+          "batterySize": 71.4,
+          "rangeKm": 466,
+          "rangeMiles": 290,
+          "priceEur": 46990,
+          "priceUsd": 46990
+        }
+      ]
     },
     {
       "id": 50,
@@ -697,8 +1683,26 @@
       "year": 2024,
       "priceEur": 68990,
       "priceUsd": 73990,
-      "image": "./images/cars/lexus-rz.jpg",
-      "specFile": "lexus-rz.json"
+      "image": "/images/cars/lexus-rz.webp",
+      "specFile": "lexus-rz.json",
+      "trims": [
+        {
+          "name": "RZ 300e FWD",
+          "batterySize": 71.4,
+          "rangeKm": 480,
+          "rangeMiles": 299,
+          "priceEur": 57900,
+          "priceUsd": 56900
+        },
+        {
+          "name": "RZ 450e AWD",
+          "batterySize": 71.4,
+          "rangeKm": 440,
+          "rangeMiles": 274,
+          "priceEur": 63900,
+          "priceUsd": 61150
+        }
+      ]
     },
     {
       "id": 51,
@@ -711,7 +1715,7 @@
       "year": 2024,
       "priceEur": 47990,
       "priceUsd": 52990,
-      "image": "./images/cars/honda-eny1.jpg",
+      "image": "/images/cars/honda-e-ny1.webp",
       "specFile": "honda-e-ny1.json"
     },
     {
@@ -725,8 +1729,42 @@
       "year": 2024,
       "priceEur": 71990,
       "priceUsd": 76990,
-      "image": "./images/cars/genesis-gv60.jpg",
-      "specFile": "genesis-gv60.json"
+      "image": "/images/cars/genesis-gv60.webp",
+      "specFile": "genesis-gv60.json",
+      "trims": [
+        {
+          "name": "SR RWD",
+          "batterySize": 58,
+          "rangeKm": 381,
+          "rangeMiles": 237,
+          "priceEur": 47900,
+          "priceUsd": 41350
+        },
+        {
+          "name": "LR RWD",
+          "batterySize": 77.4,
+          "rangeKm": 481,
+          "rangeMiles": 299,
+          "priceEur": 53900,
+          "priceUsd": 47350
+        },
+        {
+          "name": "LR AWD",
+          "batterySize": 77.4,
+          "rangeKm": 451,
+          "rangeMiles": 280,
+          "priceEur": 57900,
+          "priceUsd": 51350
+        },
+        {
+          "name": "Sport Plus AWD",
+          "batterySize": 77.4,
+          "rangeKm": 432,
+          "rangeMiles": 268,
+          "priceEur": 65900,
+          "priceUsd": 59350
+        }
+      ]
     },
     {
       "id": 53,
@@ -739,7 +1777,7 @@
       "year": 2024,
       "priceEur": 79990,
       "priceUsd": 84990,
-      "image": "./images/cars/genesis-g80.jpg",
+      "image": "/images/cars/genesis-electrified-g80.webp",
       "specFile": "genesis-electrified-g80.json"
     },
     {
@@ -753,7 +1791,7 @@
       "year": 2024,
       "priceEur": 49990,
       "priceUsd": 54990,
-      "image": "./images/cars/subaru-solterra.jpg",
+      "image": "/images/cars/subaru-solterra.webp",
       "specFile": "subaru-solterra.json"
     },
     {
@@ -767,8 +1805,34 @@
       "year": 2024,
       "priceEur": 45990,
       "priceUsd": 50990,
-      "image": "./images/cars/volvo-ex30.jpg",
-      "specFile": "volvo-ex30.json"
+      "image": "/images/cars/volvo-ex30.webp",
+      "specFile": "volvo-ex30.json",
+      "trims": [
+        {
+          "name": "Core (51 kWh)",
+          "batterySize": 51,
+          "rangeKm": 344,
+          "rangeMiles": 214,
+          "priceEur": 34990,
+          "priceUsd": 37990
+        },
+        {
+          "name": "Plus (69 kWh)",
+          "batterySize": 69,
+          "rangeKm": 480,
+          "rangeMiles": 298,
+          "priceEur": 40990,
+          "priceUsd": 43990
+        },
+        {
+          "name": "Perf. AWD",
+          "batterySize": 69,
+          "rangeKm": 460,
+          "rangeMiles": 286,
+          "priceEur": 48990,
+          "priceUsd": 51990
+        }
+      ]
     },
     {
       "id": 56,
@@ -781,8 +1845,34 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "./images/cars/volvo-ex90.jpg",
-      "specFile": "volvo-ex90.json"
+      "image": "/images/cars/volvo-ex90.webp",
+      "specFile": "volvo-ex90.json",
+      "trims": [
+        {
+          "name": "Plus AWD",
+          "batterySize": 107,
+          "rangeKm": 580,
+          "rangeMiles": 360,
+          "priceEur": 84990,
+          "priceUsd": 84990
+        },
+        {
+          "name": "Ultra AWD",
+          "batterySize": 107,
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 92990,
+          "priceUsd": 91990
+        },
+        {
+          "name": "Perf. AWD",
+          "batterySize": 107,
+          "rangeKm": 560,
+          "rangeMiles": 348,
+          "priceEur": 105990,
+          "priceUsd": 101990
+        }
+      ]
     },
     {
       "id": 57,
@@ -795,8 +1885,26 @@
       "year": 2024,
       "priceEur": 54990,
       "priceUsd": 59990,
-      "image": "./images/cars/volvo-c40.jpg",
-      "specFile": "volvo-c40.json"
+      "image": "/images/cars/volvo-c40.webp",
+      "specFile": "volvo-c40.json",
+      "trims": [
+        {
+          "name": "Single Motor RWD",
+          "batterySize": 82,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 50890,
+          "priceUsd": 49890
+        },
+        {
+          "name": "Twin Motor AWD",
+          "batterySize": 78,
+          "rangeKm": 465,
+          "rangeMiles": 289,
+          "priceEur": 57890,
+          "priceUsd": 56890
+        }
+      ]
     },
     {
       "id": 58,
@@ -809,8 +1917,34 @@
       "year": 2024,
       "priceEur": 52990,
       "priceUsd": 57990,
-      "image": "./images/cars/volvo-xc40.jpg",
-      "specFile": "volvo-xc40.json"
+      "image": "/images/cars/volvo-xc40.webp",
+      "specFile": "volvo-xc40.json",
+      "trims": [
+        {
+          "name": "Standard (52 kWh)",
+          "batterySize": 52,
+          "rangeKm": 417,
+          "rangeMiles": 259,
+          "priceEur": 40990,
+          "priceUsd": 40990
+        },
+        {
+          "name": "Extended (82 kWh)",
+          "batterySize": 82,
+          "rangeKm": 534,
+          "rangeMiles": 332,
+          "priceEur": 51990,
+          "priceUsd": 51990
+        },
+        {
+          "name": "Twin Motor AWD",
+          "batterySize": 78,
+          "rangeKm": 484,
+          "rangeMiles": 301,
+          "priceEur": 57990,
+          "priceUsd": 57990
+        }
+      ]
     },
     {
       "id": 59,
@@ -823,8 +1957,42 @@
       "year": 2024,
       "priceEur": 55990,
       "priceUsd": 60990,
-      "image": "./images/cars/polestar-2.jpg",
-      "specFile": "polestar-2.json"
+      "image": "/images/cars/polestar-2.webp",
+      "specFile": "polestar-2.json",
+      "trims": [
+        {
+          "name": "SR Single Motor",
+          "batterySize": 69,
+          "rangeKm": 496,
+          "rangeMiles": 308,
+          "priceEur": 44990,
+          "priceUsd": 44990
+        },
+        {
+          "name": "LR Single Motor",
+          "batterySize": 82,
+          "rangeKm": 635,
+          "rangeMiles": 395,
+          "priceEur": 54990,
+          "priceUsd": 54990
+        },
+        {
+          "name": "LR Dual Motor",
+          "batterySize": 82,
+          "rangeKm": 592,
+          "rangeMiles": 368,
+          "priceEur": 60990,
+          "priceUsd": 60990
+        },
+        {
+          "name": "Performance",
+          "batterySize": 82,
+          "rangeKm": 575,
+          "rangeMiles": 357,
+          "priceEur": 69990,
+          "priceUsd": 67900
+        }
+      ]
     },
     {
       "id": 60,
@@ -837,8 +2005,26 @@
       "year": 2024,
       "priceEur": 89990,
       "priceUsd": 94990,
-      "image": "./images/cars/polestar-3.jpg",
-      "specFile": "polestar-3.json"
+      "image": "/images/cars/polestar-3.webp",
+      "specFile": "polestar-3.json",
+      "trims": [
+        {
+          "name": "Long Range",
+          "batterySize": 111,
+          "rangeKm": 628,
+          "rangeMiles": 390,
+          "priceEur": 89990,
+          "priceUsd": 89990
+        },
+        {
+          "name": "LR Performance",
+          "batterySize": 111,
+          "rangeKm": 600,
+          "rangeMiles": 373,
+          "priceEur": 97990,
+          "priceUsd": 97990
+        }
+      ]
     },
     {
       "id": 61,
@@ -851,8 +2037,34 @@
       "year": 2024,
       "priceEur": 63990,
       "priceUsd": 68990,
-      "image": "./images/cars/polestar-4.jpg",
-      "specFile": "polestar-4.json"
+      "image": "/images/cars/polestar-4.webp",
+      "specFile": "polestar-4.json",
+      "trims": [
+        {
+          "name": "SR RWD",
+          "batterySize": 94,
+          "rangeKm": 543,
+          "rangeMiles": 337,
+          "priceEur": 59990,
+          "priceUsd": 59990
+        },
+        {
+          "name": "LR RWD",
+          "batterySize": 100,
+          "rangeKm": 614,
+          "rangeMiles": 382,
+          "priceEur": 69990,
+          "priceUsd": 69990
+        },
+        {
+          "name": "LR Performance",
+          "batterySize": 100,
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 79990,
+          "priceUsd": 75900
+        }
+      ]
     },
     {
       "id": 62,
@@ -865,7 +2077,7 @@
       "year": 2024,
       "priceEur": 79990,
       "priceUsd": 84990,
-      "image": "./images/cars/jaguar-ipace.jpg",
+      "image": "/images/cars/jaguar-ipace.webp",
       "specFile": "jaguar-ipace.json"
     },
     {
@@ -879,8 +2091,34 @@
       "year": 2024,
       "priceEur": 69990,
       "priceUsd": 74990,
-      "image": "./images/cars/fisker-ocean.jpg",
-      "specFile": "fisker-ocean.json"
+      "image": "/images/cars/fisker-ocean.webp",
+      "specFile": "fisker-ocean.json",
+      "trims": [
+        {
+          "name": "Sport (71 kWh)",
+          "batterySize": 71.4,
+          "rangeKm": 440,
+          "rangeMiles": 273,
+          "priceEur": 37499,
+          "priceUsd": 37499
+        },
+        {
+          "name": "Ultra (113 kWh)",
+          "batterySize": 113,
+          "rangeKm": 707,
+          "rangeMiles": 440,
+          "priceEur": 63999,
+          "priceUsd": 63999
+        },
+        {
+          "name": "Extreme AWD",
+          "batterySize": 113,
+          "rangeKm": 630,
+          "rangeMiles": 391,
+          "priceEur": 68999,
+          "priceUsd": 68999
+        }
+      ]
     },
     {
       "id": 64,
@@ -893,8 +2131,34 @@
       "year": 2024,
       "priceEur": 84990,
       "priceUsd": 89990,
-      "image": "./images/cars/lucid-air.jpg",
-      "specFile": "lucid-air.json"
+      "image": "/images/cars/lucid-air.webp",
+      "specFile": "lucid-air.json",
+      "trims": [
+        {
+          "name": "Pure",
+          "batterySize": 88,
+          "rangeKm": 644,
+          "rangeMiles": 400,
+          "priceEur": 77900,
+          "priceUsd": 70000
+        },
+        {
+          "name": "Grand Touring",
+          "batterySize": 112,
+          "rangeKm": 837,
+          "rangeMiles": 520,
+          "priceEur": 138900,
+          "priceUsd": 138000
+        },
+        {
+          "name": "Sapphire",
+          "batterySize": 118,
+          "rangeKm": 715,
+          "rangeMiles": 444,
+          "priceEur": 247000,
+          "priceUsd": 249000
+        }
+      ]
     },
     {
       "id": 65,
@@ -907,7 +2171,7 @@
       "year": 2024,
       "priceEur": 34990,
       "priceUsd": 39990,
-      "image": "./images/cars/opel-corsa-e.jpg",
+      "image": "/images/cars/opel-corsa-e.webp",
       "specFile": "opel-corsa-e.json"
     },
     {
@@ -921,7 +2185,7 @@
       "year": 2024,
       "priceEur": 37990,
       "priceUsd": 42990,
-      "image": "./images/cars/opel-mokka-e.jpg",
+      "image": "/images/cars/opel-mokka-e.webp",
       "specFile": "opel-mokka-e.json"
     },
     {
@@ -935,7 +2199,7 @@
       "year": 2024,
       "priceEur": 39990,
       "priceUsd": 44990,
-      "image": "./images/cars/opel-astra-e.jpg",
+      "image": "/images/cars/opel-astra-e.webp",
       "specFile": "opel-astra-e.json"
     },
     {
@@ -949,7 +2213,7 @@
       "year": 2024,
       "priceEur": 40990,
       "priceUsd": 45990,
-      "image": "./images/cars/peugeot-e308.jpg",
+      "image": "/images/cars/peugeot-e308.webp",
       "specFile": "peugeot-e308.json"
     },
     {
@@ -963,8 +2227,26 @@
       "year": 2024,
       "priceEur": 46990,
       "priceUsd": 51990,
-      "image": "./images/cars/peugeot-e3008.jpg",
-      "specFile": "peugeot-e3008.json"
+      "image": "/images/cars/peugeot-e3008.webp",
+      "specFile": "peugeot-e3008.json",
+      "trims": [
+        {
+          "name": "SR (73 kWh)",
+          "batterySize": 73,
+          "rangeKm": 527,
+          "rangeMiles": 327,
+          "priceEur": 42990,
+          "priceUsd": 42490
+        },
+        {
+          "name": "LR (98 kWh)",
+          "batterySize": 98,
+          "rangeKm": 700,
+          "rangeMiles": 435,
+          "priceEur": 51990,
+          "priceUsd": 51490
+        }
+      ]
     },
     {
       "id": 70,
@@ -977,7 +2259,7 @@
       "year": 2024,
       "priceEur": 38990,
       "priceUsd": 43990,
-      "image": "./images/cars/citroen-eberlingo.jpg",
+      "image": "/images/cars/citroen-eberlingo.webp",
       "specFile": "citroen-eberlingo.json"
     },
     {
@@ -991,8 +2273,34 @@
       "year": 2024,
       "priceEur": 29990,
       "priceUsd": 34990,
-      "image": "./images/cars/fiat-500e.jpg",
-      "specFile": "fiat-500e.json"
+      "image": "/images/cars/fiat-500e.webp",
+      "specFile": "fiat-500e.json",
+      "trims": [
+        {
+          "name": "Action (24 kWh)",
+          "batterySize": 23.8,
+          "rangeKm": 190,
+          "rangeMiles": 118,
+          "priceEur": 24990,
+          "priceUsd": 24490
+        },
+        {
+          "name": "Passion (42 kWh)",
+          "batterySize": 42,
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 29990,
+          "priceUsd": 29490
+        },
+        {
+          "name": "La Prima Cabrio",
+          "batterySize": 42,
+          "rangeKm": 310,
+          "rangeMiles": 193,
+          "priceEur": 37990,
+          "priceUsd": 37490
+        }
+      ]
     },
     {
       "id": 72,
@@ -1005,21 +2313,21 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "./images/cars/mazda-mx30.jpg",
+      "image": "/images/cars/mazda-mx30.webp",
       "specFile": "mazda-mx30.json"
     },
     {
       "id": 73,
       "brand": "Rolls-Royce",
       "model": "Spectre",
-      "description": "Ultra Luxury Coupé",
+      "description": "Ultra Luxury CoupÃ©",
       "rangeKm": 530,
       "rangeMiles": 329,
       "batterySize": 102,
       "year": 2024,
       "priceEur": 399990,
       "priceUsd": 419990,
-      "image": "./images/cars/rolls-royce-spectre.jpg",
+      "image": "/images/cars/rolls-royce-spectre.webp",
       "specFile": "rolls-royce-spectre.json"
     },
     {
@@ -1033,8 +2341,26 @@
       "year": 2024,
       "priceEur": 35990,
       "priceUsd": 40990,
-      "image": "./images/cars/mini-cooper-se.jpg",
-      "specFile": "mini-cooper-se.json"
+      "image": "/images/cars/mini-cooper-se.webp",
+      "specFile": "mini-cooper-se.json",
+      "trims": [
+        {
+          "name": "SE (29 kWh)",
+          "batterySize": 28.9,
+          "rangeKm": 235,
+          "rangeMiles": 146,
+          "priceEur": 33900,
+          "priceUsd": 30900
+        },
+        {
+          "name": "E (40.7 kWh)",
+          "batterySize": 40.7,
+          "rangeKm": 305,
+          "rangeMiles": 190,
+          "priceEur": 36900,
+          "priceUsd": 33900
+        }
+      ]
     },
     {
       "id": 75,
@@ -1047,8 +2373,2462 @@
       "year": 2024,
       "priceEur": 39990,
       "priceUsd": 44990,
-      "image": "./images/cars/mini-aceman.jpg",
-      "specFile": "mini-aceman.json"
+      "image": "/images/cars/mini-aceman.webp",
+      "specFile": "mini-aceman.json",
+      "trims": [
+        {
+          "name": "E (42.5 kWh)",
+          "batterySize": 42.5,
+          "rangeKm": 310,
+          "rangeMiles": 193,
+          "priceEur": 36900,
+          "priceUsd": 35900
+        },
+        {
+          "name": "SE (54.2 kWh)",
+          "batterySize": 54.2,
+          "rangeKm": 406,
+          "rangeMiles": 252,
+          "priceEur": 40900,
+          "priceUsd": 39900
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "model": "IONIQ 5 N",
+      "trims": {
+        "name": "Standard (84 kWh)",
+        "rangeKm": 448,
+        "rangeMiles": 278,
+        "priceEur": 67000,
+        "priceUsd": 65000,
+        "batterySize": 84
+      },
+      "image": "/images/cars/hyundai-ioniq5-n.webp",
+      "rangeKm": 448,
+      "rangeMiles": 278,
+      "year": 2024,
+      "specFile": "hyundai-ioniq5-n.json",
+      "brand": "Hyundai",
+      "priceUsd": 67000,
+      "batterySize": 84,
+      "priceEur": 67000,
+      "description": "Performance AWD"
+    },
+    {
+      "id": 77,
+      "model": "EV6 GT",
+      "trims": {
+        "name": "GT AWD",
+        "rangeKm": 424,
+        "rangeMiles": 263,
+        "priceEur": 63000,
+        "priceUsd": 62000,
+        "batterySize": 77.4
+      },
+      "image": "/images/cars/kia-ev6-gt.webp",
+      "rangeKm": 424,
+      "rangeMiles": 263,
+      "year": 2024,
+      "specFile": "kia-ev6-gt.json",
+      "brand": "Kia",
+      "priceUsd": 62000,
+      "batterySize": 77.4,
+      "priceEur": 63000,
+      "description": "Performance AWD"
+    },
+    {
+      "id": 78,
+      "model": "EV9",
+      "trims": [
+        {
+          "name": "Air (76.1 kWh RWD)",
+          "rangeKm": 492,
+          "rangeMiles": 306,
+          "priceEur": 64990,
+          "priceUsd": 64000,
+          "batterySize": 76.1
+        },
+        {
+          "name": "GT-Line (99.8 kWh AWD)",
+          "rangeKm": 541,
+          "rangeMiles": 336,
+          "priceEur": 74990,
+          "priceUsd": 77400,
+          "batterySize": 99.8
+        },
+        {
+          "name": "GT (99.8 kWh AWD)",
+          "rangeKm": 501,
+          "rangeMiles": 311,
+          "priceEur": 89990,
+          "priceUsd": 90000,
+          "batterySize": 99.8
+        }
+      ],
+      "image": "/images/cars/kia-ev9.webp",
+      "rangeKm": 541,
+      "rangeMiles": 336,
+      "year": 2024,
+      "specFile": "kia-ev9.json",
+      "brand": "Kia",
+      "priceUsd": 77400,
+      "batterySize": 99.8,
+      "priceEur": 74990,
+      "description": "GT-Line AWD"
+    },
+    {
+      "id": 79,
+      "model": "Eletre",
+      "trims": [
+        {
+          "name": "Eletre (112 kWh)",
+          "rangeKm": 600,
+          "rangeMiles": 373,
+          "priceEur": 99990,
+          "priceUsd": 119000,
+          "batterySize": 112
+        },
+        {
+          "name": "Eletre S (112 kWh)",
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 119990,
+          "priceUsd": 139000,
+          "batterySize": 112
+        },
+        {
+          "name": "Eletre R (112 kWh)",
+          "rangeKm": 490,
+          "rangeMiles": 305,
+          "priceEur": 149990,
+          "priceUsd": 169000,
+          "batterySize": 112
+        }
+      ],
+      "image": "/images/cars/lotus-eletre.webp",
+      "rangeKm": 600,
+      "rangeMiles": 373,
+      "year": 2024,
+      "specFile": "lotus-eletre.json",
+      "brand": "Lotus",
+      "priceUsd": 119000,
+      "batterySize": 112,
+      "priceEur": 99990,
+      "description": "Electric Hyper SUV"
+    },
+    {
+      "id": 80,
+      "model": "Emeya",
+      "trims": [
+        {
+          "name": "Emeya (102 kWh)",
+          "rangeKm": 610,
+          "rangeMiles": 379,
+          "priceEur": 99990,
+          "priceUsd": 115000,
+          "batterySize": 102
+        },
+        {
+          "name": "Emeya S (102 kWh)",
+          "rangeKm": 560,
+          "rangeMiles": 348,
+          "priceEur": 119990,
+          "priceUsd": 135000,
+          "batterySize": 102
+        },
+        {
+          "name": "Emeya R (102 kWh)",
+          "rangeKm": 490,
+          "rangeMiles": 305,
+          "priceEur": 149990,
+          "priceUsd": 165000,
+          "batterySize": 102
+        }
+      ],
+      "image": "/images/cars/lotus-emeya.webp",
+      "rangeKm": 610,
+      "rangeMiles": 379,
+      "year": 2024,
+      "specFile": "lotus-emeya.json",
+      "brand": "Lotus",
+      "priceUsd": 115000,
+      "batterySize": 102,
+      "priceEur": 99990,
+      "description": "Electric GT Sedan"
+    },
+    {
+      "id": 81,
+      "model": "Gravity",
+      "trims": [
+        {
+          "name": "Grand Touring",
+          "rangeKm": 700,
+          "rangeMiles": 435,
+          "priceEur": 109000,
+          "priceUsd": 94900,
+          "batterySize": 118
+        },
+        {
+          "name": "Grand Touring Performance",
+          "rangeKm": 640,
+          "rangeMiles": 398,
+          "priceEur": 139000,
+          "priceUsd": 124000,
+          "batterySize": 118
+        }
+      ],
+      "image": "/images/cars/lucid-gravity.webp",
+      "rangeKm": 700,
+      "rangeMiles": 435,
+      "year": 2025,
+      "specFile": "lucid-gravity.json",
+      "brand": "Lucid",
+      "priceUsd": 109000,
+      "batterySize": 118,
+      "priceEur": 109000,
+      "description": "7-Seat Luxury SUV"
+    },
+    {
+      "id": 82,
+      "model": "LYRIQ",
+      "trims": [
+        {
+          "name": "RWD (102 kWh)",
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 58590,
+          "priceUsd": 58590,
+          "batterySize": 102
+        },
+        {
+          "name": "AWD (102 kWh)",
+          "rangeKm": 480,
+          "rangeMiles": 298,
+          "priceEur": 65990,
+          "priceUsd": 63990,
+          "batterySize": 102
+        }
+      ],
+      "image": "/images/cars/cadillac-lyriq.webp",
+      "rangeKm": 530,
+      "rangeMiles": 329,
+      "year": 2024,
+      "specFile": "cadillac-lyriq.json",
+      "brand": "Cadillac",
+      "priceUsd": 58590,
+      "batterySize": 102,
+      "priceEur": 58590,
+      "description": "Luxury Electric SUV"
+    },
+    {
+      "id": 83,
+      "model": "Blazer EV",
+      "trims": [
+        {
+          "name": "LT FWD",
+          "rangeKm": 500,
+          "rangeMiles": 311,
+          "priceEur": 44995,
+          "priceUsd": 44995,
+          "batterySize": 82
+        },
+        {
+          "name": "RS AWD",
+          "rangeKm": 480,
+          "rangeMiles": 298,
+          "priceEur": 49995,
+          "priceUsd": 49995,
+          "batterySize": 102
+        },
+        {
+          "name": "SS AWD",
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 54995,
+          "priceUsd": 54995,
+          "batterySize": 102
+        }
+      ],
+      "image": "/images/cars/chevrolet-blazer-ev.webp",
+      "rangeKm": 515,
+      "rangeMiles": 320,
+      "year": 2024,
+      "specFile": "chevrolet-blazer-ev.json",
+      "brand": "Chevrolet",
+      "priceUsd": 44995,
+      "batterySize": 102,
+      "priceEur": 44995,
+      "description": "AWD SS"
+    },
+    {
+      "id": 84,
+      "model": "Cybertruck",
+      "trims": [
+        {
+          "name": "AWD (123 kWh)",
+          "rangeKm": 547,
+          "rangeMiles": 340,
+          "priceEur": 79990,
+          "priceUsd": 69990,
+          "batterySize": 123
+        },
+        {
+          "name": "Cyberbeast (123 kWh)",
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 99990,
+          "priceUsd": 99990,
+          "batterySize": 123
+        }
+      ],
+      "image": "/images/cars/tesla-cybertruck.webp",
+      "rangeKm": 547,
+      "rangeMiles": 340,
+      "year": 2024,
+      "specFile": "tesla-cybertruck.json",
+      "brand": "Tesla",
+      "priceUsd": 79990,
+      "batterySize": 123,
+      "priceEur": 89990,
+      "description": "AWD Dual Motor"
+    },
+    {
+      "id": 85,
+      "model": "R1S",
+      "trims": [
+        {
+          "name": "Dual Standard (105 kWh)",
+          "rangeKm": 482,
+          "rangeMiles": 300,
+          "priceEur": 69990,
+          "priceUsd": 68900,
+          "batterySize": 105
+        },
+        {
+          "name": "Quad Large (135 kWh)",
+          "rangeKm": 640,
+          "rangeMiles": 398,
+          "priceEur": 84990,
+          "priceUsd": 79900,
+          "batterySize": 135
+        }
+      ],
+      "image": "/images/cars/rivian-r1s.webp",
+      "rangeKm": 640,
+      "rangeMiles": 398,
+      "year": 2024,
+      "specFile": "rivian-r1s.json",
+      "brand": "Rivian",
+      "priceUsd": 79900,
+      "batterySize": 135,
+      "priceEur": 84990,
+      "description": "Adventure Electric SUV"
+    },
+    {
+      "year": 2024,
+      "rangeKm": 500,
+      "id": 86,
+      "priceEur": 2200000,
+      "description": "Electric Hypercar",
+      "priceUsd": 2200000,
+      "image": "/images/cars/pininfarina-battista.webp",
+      "model": "Battista",
+      "brand": "Pininfarina",
+      "specFile": "pininfarina-battista.json",
+      "batterySize": 120,
+      "rangeMiles": 311
+    },
+    {
+      "year": 2024,
+      "rangeKm": 550,
+      "id": 87,
+      "priceEur": 2000000,
+      "description": "Electric Hypercar",
+      "priceUsd": 2200000,
+      "image": "/images/cars/rimac-nevera.webp",
+      "model": "Nevera",
+      "brand": "Rimac",
+      "specFile": "rimac-nevera.json",
+      "batterySize": 120,
+      "rangeMiles": 342
+    },
+    {
+      "id": 88,
+      "model": "ET5",
+      "trims": [
+        {
+          "name": "Standard (75 kWh)",
+          "rangeKm": 456,
+          "rangeMiles": 283,
+          "priceEur": 44990,
+          "priceUsd": 44990,
+          "batterySize": 75
+        },
+        {
+          "name": "Long Range (100 kWh)",
+          "rangeKm": 590,
+          "rangeMiles": 367,
+          "priceEur": 48990,
+          "priceUsd": 48990,
+          "batterySize": 100
+        }
+      ],
+      "image": "/images/cars/nio-et5.webp",
+      "rangeKm": 590,
+      "rangeMiles": 367,
+      "year": 2024,
+      "specFile": "nio-et5.json",
+      "brand": "NIO",
+      "priceUsd": 44990,
+      "batterySize": 100,
+      "priceEur": 44990,
+      "description": "Battery Swap Sedan"
+    },
+    {
+      "id": 89,
+      "model": "Funky Cat",
+      "trims": [
+        {
+          "name": "First Edition (48 kWh)",
+          "rangeKm": 310,
+          "rangeMiles": 193,
+          "priceEur": 27990,
+          "priceUsd": 27990,
+          "batterySize": 48
+        },
+        {
+          "name": "Pro (63 kWh)",
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 29990,
+          "priceUsd": 29990,
+          "batterySize": 63
+        }
+      ],
+      "image": "/images/cars/ora-funky-cat.webp",
+      "rangeKm": 420,
+      "rangeMiles": 261,
+      "year": 2024,
+      "specFile": "ora-funky-cat.json",
+      "brand": "ORA",
+      "priceUsd": 29990,
+      "batterySize": 63,
+      "priceEur": 29990,
+      "description": "Retro Electric Hatchback"
+    },
+    {
+      "year": 2024,
+      "rangeKm": 465,
+      "id": 90,
+      "priceEur": 39990,
+      "description": "Electric MPV",
+      "priceUsd": 39990,
+      "image": "/images/cars/maxus-euniq-6.webp",
+      "model": "EUNIQ 6",
+      "brand": "Maxus",
+      "specFile": "maxus-euniq-6.json",
+      "batterySize": 90,
+      "rangeMiles": 289
+    },
+    {
+      "year": 2024,
+      "rangeKm": 363,
+      "id": 91,
+      "priceEur": 79990,
+      "description": "Premium Electric Van",
+      "priceUsd": 84990,
+      "image": "/images/cars/mercedes-eqv.webp",
+      "model": "EQV 300",
+      "brand": "Mercedes",
+      "specFile": "mercedes-eqv.json",
+      "batterySize": 90,
+      "rangeMiles": 226
+    },
+    {
+      "id": 92,
+      "model": "E-HS9",
+      "trims": [
+        {
+          "name": "450 km Standard",
+          "rangeKm": 450,
+          "rangeMiles": 279,
+          "priceEur": 69990,
+          "priceUsd": 69990,
+          "batterySize": 84
+        },
+        {
+          "name": "515 km Long Range",
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 79990,
+          "priceUsd": 79990,
+          "batterySize": 108.7
+        }
+      ],
+      "image": "/images/cars/hongqi-e-hs9.webp",
+      "rangeKm": 515,
+      "rangeMiles": 320,
+      "year": 2024,
+      "specFile": "hongqi-e-hs9.json",
+      "brand": "Hongqi",
+      "priceUsd": 79990,
+      "batterySize": 108.7,
+      "priceEur": 79990,
+      "description": "Luxury Electric SUV"
+    },
+    {
+      "id": 93,
+      "model": "VF8",
+      "trims": [
+        {
+          "name": "Eco (75 kWh)",
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 40990,
+          "priceUsd": 40990,
+          "batterySize": 75
+        },
+        {
+          "name": "Plus (87.7 kWh)",
+          "rangeKm": 471,
+          "rangeMiles": 293,
+          "priceEur": 44990,
+          "priceUsd": 44990,
+          "batterySize": 87.7
+        }
+      ],
+      "image": "/images/cars/vinfast-vf8.webp",
+      "rangeKm": 471,
+      "rangeMiles": 293,
+      "year": 2024,
+      "specFile": "vinfast-vf8.json",
+      "brand": "VinFast",
+      "priceUsd": 44990,
+      "batterySize": 87.7,
+      "priceEur": 44990,
+      "description": "Electric Crossover SUV"
+    },
+    {
+      "id": 94,
+      "model": "G9",
+      "trims": [
+        {
+          "name": "RWD Standard (78 kWh)",
+          "rangeKm": 460,
+          "rangeMiles": 286,
+          "priceEur": 49990,
+          "priceUsd": 54990,
+          "batterySize": 78
+        },
+        {
+          "name": "AWD Long Range (98 kWh)",
+          "rangeKm": 570,
+          "rangeMiles": 354,
+          "priceEur": 54990,
+          "priceUsd": 59990,
+          "batterySize": 98
+        }
+      ],
+      "image": "/images/cars/xpeng-g9.webp",
+      "rangeKm": 570,
+      "rangeMiles": 354,
+      "year": 2024,
+      "specFile": "xpeng-g9.json",
+      "brand": "Xpeng",
+      "priceUsd": 59990,
+      "batterySize": 98,
+      "priceEur": 54990,
+      "description": "Electric SUV"
+    },
+    {
+      "id": 95,
+      "model": "P7",
+      "trims": [
+        {
+          "name": "RWD (70.8 kWh)",
+          "rangeKm": 480,
+          "rangeMiles": 298,
+          "priceEur": 39990,
+          "priceUsd": 41990,
+          "batterySize": 70.8
+        },
+        {
+          "name": "AWD Long Range (82.7 kWh)",
+          "rangeKm": 576,
+          "rangeMiles": 358,
+          "priceEur": 44990,
+          "priceUsd": 46990,
+          "batterySize": 82.7
+        }
+      ],
+      "image": "/images/cars/xpeng-p7.webp",
+      "rangeKm": 576,
+      "rangeMiles": 358,
+      "year": 2024,
+      "specFile": "xpeng-p7.json",
+      "brand": "Xpeng",
+      "priceUsd": 46990,
+      "batterySize": 82.7,
+      "priceEur": 44990,
+      "description": "Electric Sport Sedan"
+    },
+    {
+      "id": 96,
+      "model": "001",
+      "trims": [
+        {
+          "name": "WE (86 kWh RWD)",
+          "rangeKm": 540,
+          "rangeMiles": 335,
+          "priceEur": 49990,
+          "priceUsd": 49990,
+          "batterySize": 86
+        },
+        {
+          "name": "YOU (100 kWh AWD)",
+          "rangeKm": 620,
+          "rangeMiles": 385,
+          "priceEur": 54990,
+          "priceUsd": 54990,
+          "batterySize": 100
+        }
+      ],
+      "image": "/images/cars/zeekr-001.webp",
+      "rangeKm": 620,
+      "rangeMiles": 385,
+      "year": 2024,
+      "specFile": "zeekr-001.json",
+      "brand": "Zeekr",
+      "priceUsd": 54990,
+      "batterySize": 100,
+      "priceEur": 54990,
+      "description": "Premium Electric Shooting Brake"
+    },
+    {
+      "id": 97,
+      "model": "Kona Electric",
+      "trims": [
+        {
+          "name": "Standard (48.4 kWh)",
+          "rangeKm": 342,
+          "rangeMiles": 213,
+          "priceEur": 34990,
+          "priceUsd": 35990,
+          "batterySize": 48.4
+        },
+        {
+          "name": "Long Range (65.4 kWh)",
+          "rangeKm": 514,
+          "rangeMiles": 320,
+          "priceEur": 39990,
+          "priceUsd": 41990,
+          "batterySize": 65.4
+        }
+      ],
+      "image": "/images/cars/hyundai-kona-electric.webp",
+      "rangeKm": 514,
+      "rangeMiles": 320,
+      "year": 2024,
+      "specFile": "hyundai-kona-electric.json",
+      "brand": "Hyundai",
+      "priceUsd": 41990,
+      "batterySize": 65.4,
+      "priceEur": 39990,
+      "description": "Compact Electric SUV"
+    },
+    {
+      "id": 98,
+      "model": "Ariya",
+      "trims": [
+        {
+          "name": "FWD 63 kWh",
+          "rangeKm": 403,
+          "rangeMiles": 250,
+          "priceEur": 43990,
+          "priceUsd": 43990,
+          "batterySize": 63
+        },
+        {
+          "name": "FWD 91 kWh",
+          "rangeKm": 533,
+          "rangeMiles": 331,
+          "priceEur": 49990,
+          "priceUsd": 49990,
+          "batterySize": 91
+        },
+        {
+          "name": "e-4ORCE AWD 87 kWh",
+          "rangeKm": 460,
+          "rangeMiles": 286,
+          "priceEur": 55990,
+          "priceUsd": 55990,
+          "batterySize": 87
+        }
+      ],
+      "image": "/images/cars/nissan-ariya.webp",
+      "rangeKm": 533,
+      "rangeMiles": 331,
+      "year": 2024,
+      "specFile": "nissan-ariya.json",
+      "brand": "Nissan",
+      "priceUsd": 49990,
+      "batterySize": 91,
+      "priceEur": 49990,
+      "description": "AWD e-4ORCE"
+    },
+    {
+      "id": 99,
+      "model": "Leaf",
+      "trims": [
+        {
+          "name": "Acenta 40 kWh",
+          "rangeKm": 270,
+          "rangeMiles": 168,
+          "priceEur": 29990,
+          "priceUsd": 28990,
+          "batterySize": 40
+        },
+        {
+          "name": "e+ Tekna 62 kWh",
+          "rangeKm": 385,
+          "rangeMiles": 239,
+          "priceEur": 34990,
+          "priceUsd": 32490,
+          "batterySize": 62
+        }
+      ],
+      "image": "/images/cars/nissan-leaf.webp",
+      "rangeKm": 385,
+      "rangeMiles": 239,
+      "year": 2024,
+      "specFile": "nissan-leaf.json",
+      "brand": "Nissan",
+      "priceUsd": 28990,
+      "batterySize": 62,
+      "priceEur": 34990,
+      "description": "e+ 62 kWh"
+    },
+    {
+      "id": 100,
+      "model": "5 E-Tech",
+      "trims": [
+        {
+          "name": "Evolution 40 kWh",
+          "rangeKm": 312,
+          "rangeMiles": 194,
+          "priceEur": 24990,
+          "priceUsd": 24990,
+          "batterySize": 40
+        },
+        {
+          "name": "Techno 52 kWh",
+          "rangeKm": 400,
+          "rangeMiles": 249,
+          "priceEur": 28990,
+          "priceUsd": 31990,
+          "batterySize": 52
+        },
+        {
+          "name": "Iconic 52 kWh",
+          "rangeKm": 400,
+          "rangeMiles": 249,
+          "priceEur": 32990,
+          "priceUsd": 34990,
+          "batterySize": 52
+        }
+      ],
+      "image": "/images/cars/renault-5-e-tech.webp",
+      "rangeKm": 400,
+      "rangeMiles": 249,
+      "year": 2024,
+      "specFile": "renault-5-e-tech.json",
+      "brand": "Renault",
+      "priceUsd": 31990,
+      "batterySize": 52,
+      "priceEur": 28990,
+      "description": "52 kWh 150 hp"
+    },
+    {
+      "id": 101,
+      "model": "4 E-Tech",
+      "trims": [
+        {
+          "name": "Evolution 40 kWh",
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 29990,
+          "priceUsd": 32990,
+          "batterySize": 40
+        },
+        {
+          "name": "Techno 52 kWh",
+          "rangeKm": 400,
+          "rangeMiles": 249,
+          "priceEur": 34990,
+          "priceUsd": 36990,
+          "batterySize": 52
+        }
+      ],
+      "image": "/images/cars/renault-4-e-tech.webp",
+      "rangeKm": 400,
+      "rangeMiles": 249,
+      "year": 2025,
+      "specFile": "renault-4-e-tech.json",
+      "brand": "Renault",
+      "priceUsd": 36990,
+      "batterySize": 52,
+      "priceEur": 34990,
+      "description": "52 kWh"
+    },
+    {
+      "id": 102,
+      "model": "Q6 e-tron",
+      "trims": [
+        {
+          "name": "RWD (100 kWh)",
+          "rangeKm": 641,
+          "rangeMiles": 398,
+          "priceEur": 63990,
+          "priceUsd": 66990,
+          "batterySize": 100
+        },
+        {
+          "name": "quattro AWD (100 kWh)",
+          "rangeKm": 598,
+          "rangeMiles": 371,
+          "priceEur": 74990,
+          "priceUsd": 77990,
+          "batterySize": 100
+        },
+        {
+          "name": "SQ6 e-tron AWD",
+          "rangeKm": 565,
+          "rangeMiles": 351,
+          "priceEur": 84990,
+          "priceUsd": 89990,
+          "batterySize": 100
+        }
+      ],
+      "image": "/images/cars/audi-q6-etron.webp",
+      "rangeKm": 598,
+      "rangeMiles": 371,
+      "year": 2024,
+      "specFile": "audi-q6-etron.json",
+      "brand": "Audi",
+      "priceUsd": 77990,
+      "batterySize": 100,
+      "priceEur": 74990,
+      "description": "quattro AWD"
+    },
+    {
+      "id": 103,
+      "model": "A6 e-tron",
+      "trims": [
+        {
+          "name": "RWD (100 kWh)",
+          "rangeKm": 756,
+          "rangeMiles": 470,
+          "priceEur": 73990,
+          "priceUsd": 73990,
+          "batterySize": 100
+        },
+        {
+          "name": "Performance AWD (100 kWh)",
+          "rangeKm": 700,
+          "rangeMiles": 435,
+          "priceEur": 79990,
+          "priceUsd": 79990,
+          "batterySize": 100
+        },
+        {
+          "name": "S6 e-tron AWD",
+          "rangeKm": 640,
+          "rangeMiles": 398,
+          "priceEur": 89990,
+          "priceUsd": 89990,
+          "batterySize": 100
+        }
+      ],
+      "image": "/images/cars/audi-a6-etron.webp",
+      "rangeKm": 756,
+      "rangeMiles": 470,
+      "year": 2024,
+      "specFile": "audi-a6-etron.json",
+      "brand": "Audi",
+      "priceUsd": 79990,
+      "batterySize": 100,
+      "priceEur": 79990,
+      "description": "Performance AWD"
+    },
+    {
+      "id": 104,
+      "model": "Tavascan",
+      "trims": [
+        {
+          "name": "V2 RWD (77 kWh)",
+          "rangeKm": 565,
+          "rangeMiles": 351,
+          "priceEur": 42990,
+          "priceUsd": 44990,
+          "batterySize": 77
+        },
+        {
+          "name": "VZ AWD (82 kWh)",
+          "rangeKm": 549,
+          "rangeMiles": 341,
+          "priceEur": 45990,
+          "priceUsd": 48990,
+          "batterySize": 82
+        }
+      ],
+      "image": "/images/cars/cupra-tavascan.webp",
+      "rangeKm": 549,
+      "rangeMiles": 341,
+      "year": 2024,
+      "specFile": "cupra-tavascan.json",
+      "brand": "CUPRA",
+      "priceUsd": 48990,
+      "batterySize": 82,
+      "priceEur": 45990,
+      "description": "VZ AWD"
+    },
+    {
+      "id": 105,
+      "model": "Explorer Electric",
+      "trims": [
+        {
+          "name": "Standard Range RWD",
+          "rangeKm": 602,
+          "rangeMiles": 374,
+          "priceEur": 45990,
+          "priceUsd": 42990,
+          "batterySize": 82
+        },
+        {
+          "name": "Extended Range RWD",
+          "rangeKm": 602,
+          "rangeMiles": 374,
+          "priceEur": 49990,
+          "priceUsd": 46990,
+          "batterySize": 82
+        }
+      ],
+      "image": "/images/cars/ford-explorer-ev.webp",
+      "rangeKm": 602,
+      "rangeMiles": 374,
+      "year": 2024,
+      "specFile": "ford-explorer-ev.json",
+      "brand": "Ford",
+      "priceUsd": 42990,
+      "batterySize": 82,
+      "priceEur": 45990,
+      "description": "Standard Range RWD"
+    },
+    {
+      "id": 106,
+      "model": "Capri Electric",
+      "trims": [
+        {
+          "name": "Standard Range RWD (77 kWh)",
+          "rangeKm": 592,
+          "rangeMiles": 368,
+          "priceEur": 42490,
+          "priceUsd": 42990,
+          "batterySize": 77
+        },
+        {
+          "name": "Extended Range AWD (82 kWh)",
+          "rangeKm": 627,
+          "rangeMiles": 390,
+          "priceEur": 50990,
+          "priceUsd": 52990,
+          "batterySize": 82
+        }
+      ],
+      "image": "/images/cars/ford-capri-ev.webp",
+      "rangeKm": 627,
+      "rangeMiles": 390,
+      "year": 2024,
+      "specFile": "ford-capri-ev.json",
+      "brand": "Ford",
+      "priceUsd": 42990,
+      "batterySize": 82,
+      "priceEur": 42490,
+      "description": "AWD Premium"
+    },
+    {
+      "id": 107,
+      "model": "Avenger",
+      "trims": [
+        {
+          "name": "Altitude (54 kWh)",
+          "rangeKm": 404,
+          "rangeMiles": 251,
+          "priceEur": 35900,
+          "priceUsd": 38900,
+          "batterySize": 54
+        },
+        {
+          "name": "Summit (54 kWh)",
+          "rangeKm": 404,
+          "rangeMiles": 251,
+          "priceEur": 39900,
+          "priceUsd": 42900,
+          "batterySize": 54
+        }
+      ],
+      "image": "/images/cars/jeep-avenger-ev.webp",
+      "rangeKm": 404,
+      "rangeMiles": 251,
+      "year": 2024,
+      "specFile": "jeep-avenger-ev.json",
+      "brand": "Jeep",
+      "priceUsd": 38900,
+      "batterySize": 54,
+      "priceEur": 35900,
+      "description": "Electric"
+    },
+    {
+      "id": 108,
+      "model": "Junior",
+      "trims": [
+        {
+          "name": "Junior Electric (54 kWh)",
+          "rangeKm": 410,
+          "rangeMiles": 255,
+          "priceEur": 36900,
+          "priceUsd": 39900,
+          "batterySize": 54
+        },
+        {
+          "name": "Junior Veloce (54 kWh)",
+          "rangeKm": 390,
+          "rangeMiles": 242,
+          "priceEur": 42900,
+          "priceUsd": 45900,
+          "batterySize": 54
+        }
+      ],
+      "image": "/images/cars/alfa-romeo-junior-ev.webp",
+      "rangeKm": 410,
+      "rangeMiles": 255,
+      "year": 2024,
+      "specFile": "alfa-romeo-junior-ev.json",
+      "brand": "Alfa Romeo",
+      "priceUsd": 39900,
+      "batterySize": 54,
+      "priceEur": 36900,
+      "description": "Electric"
+    },
+    {
+      "id": 109,
+      "model": "EV3",
+      "trims": [
+        {
+          "name": "Standard Range (58.3 kWh)",
+          "rangeKm": 436,
+          "rangeMiles": 271,
+          "priceEur": 35990,
+          "priceUsd": 37990,
+          "batterySize": 58.3
+        },
+        {
+          "name": "Long Range (81.4 kWh)",
+          "rangeKm": 600,
+          "rangeMiles": 373,
+          "priceEur": 39990,
+          "priceUsd": 42990,
+          "batterySize": 81.4
+        }
+      ],
+      "image": "/images/cars/kia-ev3.webp",
+      "rangeKm": 600,
+      "rangeMiles": 373,
+      "year": 2025,
+      "specFile": "kia-ev3.json",
+      "brand": "Kia",
+      "priceUsd": 42990,
+      "batterySize": 81.4,
+      "priceEur": 39990,
+      "description": "Long Range"
+    },
+    {
+      "id": 110,
+      "model": "ë-C3",
+      "trims": [
+        {
+          "name": "You (44 kWh)",
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 23300,
+          "priceUsd": 26990,
+          "batterySize": 44
+        },
+        {
+          "name": "Max (44 kWh)",
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 26300,
+          "priceUsd": 28990,
+          "batterySize": 44
+        }
+      ],
+      "image": "/images/cars/citroen-ec3.webp",
+      "rangeKm": 320,
+      "rangeMiles": 199,
+      "year": 2024,
+      "specFile": "citroen-ec3.json",
+      "brand": "Citroën",
+      "priceUsd": 26990,
+      "batterySize": 44,
+      "priceEur": 23300,
+      "description": "Electric"
+    },
+    {
+      "id": 111,
+      "model": "Elroq",
+      "trims": [
+        {
+          "name": "50 RWD (55 kWh)",
+          "rangeKm": 375,
+          "rangeMiles": 233,
+          "priceEur": 33900,
+          "priceUsd": 34990,
+          "batterySize": 55
+        },
+        {
+          "name": "85 RWD (82 kWh)",
+          "rangeKm": 580,
+          "rangeMiles": 360,
+          "priceEur": 39900,
+          "priceUsd": 41990,
+          "batterySize": 82
+        },
+        {
+          "name": "85x AWD (82 kWh)",
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 43900,
+          "priceUsd": 46990,
+          "batterySize": 82
+        }
+      ],
+      "image": "/images/cars/skoda-elroq.webp",
+      "rangeKm": 580,
+      "rangeMiles": 360,
+      "year": 2024,
+      "specFile": "skoda-elroq.json",
+      "brand": "Škoda",
+      "priceUsd": 36990,
+      "batterySize": 82,
+      "priceEur": 33900,
+      "description": "85 AWD"
+    },
+    {
+      "id": 112,
+      "model": "e-5008",
+      "trims": [
+        {
+          "name": "Allure (98 kWh)",
+          "rangeKm": 660,
+          "rangeMiles": 410,
+          "priceEur": 44990,
+          "priceUsd": 48990,
+          "batterySize": 98
+        },
+        {
+          "name": "GT (98 kWh)",
+          "rangeKm": 648,
+          "rangeMiles": 403,
+          "priceEur": 52990,
+          "priceUsd": 56990,
+          "batterySize": 98
+        }
+      ],
+      "image": "/images/cars/peugeot-e5008.webp",
+      "rangeKm": 660,
+      "rangeMiles": 410,
+      "year": 2024,
+      "specFile": "peugeot-e5008.json",
+      "brand": "Peugeot",
+      "priceUsd": 48990,
+      "batterySize": 98,
+      "priceEur": 44990,
+      "description": "7-Seat Electric SUV"
+    },
+    {
+      "id": 113,
+      "model": "GV70 Electrified",
+      "trims": [
+        {
+          "name": "Standard AWD (77.4 kWh)",
+          "rangeKm": 470,
+          "rangeMiles": 282,
+          "priceEur": 72900,
+          "priceUsd": 74900,
+          "batterySize": 77.4
+        },
+        {
+          "name": "Sport Plus AWD",
+          "rangeKm": 440,
+          "rangeMiles": 273,
+          "priceEur": 79900,
+          "priceUsd": 81900,
+          "batterySize": 77.4
+        }
+      ],
+      "image": "/images/cars/genesis-gv70-electrified.webp",
+      "rangeKm": 470,
+      "rangeMiles": 282,
+      "year": 2024,
+      "specFile": "genesis-gv70-electrified.json",
+      "brand": "Genesis",
+      "priceUsd": 74900,
+      "batterySize": 77.4,
+      "priceEur": 72900,
+      "description": "Sport AWD"
+    },
+    {
+      "id": 114,
+      "model": "R1T",
+      "trims": [
+        {
+          "name": "Standard (105 kWh)",
+          "rangeKm": 434,
+          "rangeMiles": 270,
+          "priceEur": 69900,
+          "priceUsd": 67500,
+          "batterySize": 105
+        },
+        {
+          "name": "Large (135 kWh)",
+          "rangeKm": 505,
+          "rangeMiles": 314,
+          "priceEur": 79900,
+          "priceUsd": 74900,
+          "batterySize": 135
+        },
+        {
+          "name": "Max (149 kWh)",
+          "rangeKm": 563,
+          "rangeMiles": 350,
+          "priceEur": 94900,
+          "priceUsd": 89900,
+          "batterySize": 149
+        }
+      ],
+      "image": "/images/cars/rivian-r1t.webp",
+      "rangeKm": 505,
+      "rangeMiles": 314,
+      "year": 2024,
+      "specFile": "rivian-r1t.json",
+      "brand": "Rivian",
+      "priceUsd": 74900,
+      "batterySize": 135,
+      "priceEur": 79900,
+      "description": "Adventure Electric Truck"
+    },
+    {
+      "id": 115,
+      "model": "ET7",
+      "trims": [
+        {
+          "name": "Standard (75 kWh)",
+          "rangeKm": 455,
+          "rangeMiles": 283,
+          "priceEur": 54990,
+          "priceUsd": 54990,
+          "batterySize": 75
+        },
+        {
+          "name": "Long Range (100 kWh)",
+          "rangeKm": 580,
+          "rangeMiles": 360,
+          "priceEur": 60990,
+          "priceUsd": 60990,
+          "batterySize": 100
+        },
+        {
+          "name": "Signature Edition (150 kWh)",
+          "rangeKm": 850,
+          "rangeMiles": 528,
+          "priceEur": 74990,
+          "priceUsd": 74990,
+          "batterySize": 150
+        }
+      ],
+      "image": "/images/cars/nio-et7.webp",
+      "rangeKm": 580,
+      "rangeMiles": 360,
+      "year": 2024,
+      "specFile": "nio-et7.json",
+      "brand": "NIO",
+      "priceUsd": 54990,
+      "batterySize": 100,
+      "priceEur": 54990,
+      "description": "Flagship Luxury Sedan"
+    },
+    {
+      "id": 116,
+      "model": "Sea Lion 7",
+      "trims": [
+        {
+          "name": "FWD (82.56 kWh)",
+          "rangeKm": 567,
+          "rangeMiles": 352,
+          "priceEur": 42990,
+          "priceUsd": 42990,
+          "batterySize": 82.56
+        },
+        {
+          "name": "AWD Performance (82.56 kWh)",
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 44990,
+          "priceUsd": 44990,
+          "batterySize": 82.56
+        }
+      ],
+      "image": "/images/cars/byd-sea-lion-7.webp",
+      "rangeKm": 567,
+      "rangeMiles": 352,
+      "year": 2024,
+      "specFile": "byd-sea-lion-7.json",
+      "brand": "BYD",
+      "priceUsd": 44990,
+      "batterySize": 82.56,
+      "priceEur": 44990,
+      "description": "AWD Performance"
+    },
+    {
+      "id": 117,
+      "model": "Han",
+      "trims": [
+        {
+          "name": "RWD (85.4 kWh)",
+          "rangeKm": 521,
+          "rangeMiles": 324,
+          "priceEur": 46990,
+          "priceUsd": 46990,
+          "batterySize": 85.4
+        },
+        {
+          "name": "AWD (85.4 kWh)",
+          "rangeKm": 480,
+          "rangeMiles": 298,
+          "priceEur": 49990,
+          "priceUsd": 49990,
+          "batterySize": 85.4
+        }
+      ],
+      "image": "/images/cars/byd-han.webp",
+      "rangeKm": 521,
+      "rangeMiles": 324,
+      "year": 2024,
+      "specFile": "byd-han.json",
+      "brand": "BYD",
+      "priceUsd": 49990,
+      "batterySize": 85.4,
+      "priceEur": 49990,
+      "description": "AWD Premium Sedan"
+    },
+    {
+      "id": 118,
+      "model": "X",
+      "trims": [
+        {
+          "name": "RWD (66 kWh)",
+          "rangeKm": 440,
+          "rangeMiles": 273,
+          "priceEur": 34900,
+          "priceUsd": 34900,
+          "batterySize": 66
+        },
+        {
+          "name": "AWD (66 kWh)",
+          "rangeKm": 395,
+          "rangeMiles": 245,
+          "priceEur": 39900,
+          "priceUsd": 39900,
+          "batterySize": 66
+        }
+      ],
+      "image": "/images/cars/zeekr-x.webp",
+      "rangeKm": 440,
+      "rangeMiles": 273,
+      "year": 2024,
+      "specFile": "zeekr-x.json",
+      "brand": "Zeekr",
+      "priceUsd": 34900,
+      "batterySize": 66,
+      "priceEur": 34900,
+      "description": "AWD Sport Compact"
+    },
+    {
+      "id": 119,
+      "model": "#5",
+      "trims": [
+        {
+          "name": "FWD (100 kWh)",
+          "rangeKm": 460,
+          "rangeMiles": 286,
+          "priceEur": 49990,
+          "priceUsd": 52990,
+          "batterySize": 100
+        },
+        {
+          "name": "AWD Brabus (100 kWh)",
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 59990,
+          "priceUsd": 63990,
+          "batterySize": 100
+        }
+      ],
+      "image": "/images/cars/smart-5.webp",
+      "rangeKm": 460,
+      "rangeMiles": 286,
+      "year": 2025,
+      "specFile": "smart-5.json",
+      "brand": "Smart",
+      "priceUsd": 52990,
+      "batterySize": 100,
+      "priceEur": 49990,
+      "description": "Electric SUV"
+    },
+    {
+      "id": 120,
+      "brand": "Kia",
+      "model": "Niro EV",
+      "description": "Long Range",
+      "year": 2024,
+      "rangeKm": 463,
+      "rangeMiles": 253,
+      "batterySize": 64.8,
+      "priceEur": 41990,
+      "priceUsd": 40990,
+      "image": "/images/cars/kia-niro-ev.webp",
+      "specFile": "kia-niro-ev.json",
+      "trims": [
+        {
+          "name": "Air (64.8 kWh)",
+          "batterySize": 64.8,
+          "rangeKm": 463,
+          "rangeMiles": 253,
+          "priceEur": 39990,
+          "priceUsd": 38990
+        },
+        {
+          "name": "Wind (64.8 kWh)",
+          "batterySize": 64.8,
+          "rangeKm": 463,
+          "rangeMiles": 253,
+          "priceEur": 41990,
+          "priceUsd": 40990
+        },
+        {
+          "name": "Wave (64.8 kWh)",
+          "batterySize": 64.8,
+          "rangeKm": 463,
+          "rangeMiles": 253,
+          "priceEur": 44990,
+          "priceUsd": 43990
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "brand": "Kia",
+      "model": "Soul EV",
+      "description": "64 kWh Long Range",
+      "year": 2022,
+      "rangeKm": 452,
+      "rangeMiles": 243,
+      "batterySize": 64,
+      "priceEur": 37990,
+      "priceUsd": 35990,
+      "image": "/images/cars/kia-soul-ev.webp",
+      "specFile": "kia-soul-ev.json",
+      "trims": [
+        {
+          "name": "Standard (39.2 kWh)",
+          "batterySize": 39.2,
+          "rangeKm": 277,
+          "rangeMiles": 172,
+          "priceEur": 32990,
+          "priceUsd": 30990
+        },
+        {
+          "name": "Long Range (64 kWh)",
+          "batterySize": 64,
+          "rangeKm": 452,
+          "rangeMiles": 243,
+          "priceEur": 37990,
+          "priceUsd": 35990
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "brand": "Honda",
+      "model": "e",
+      "description": "Advance",
+      "year": 2022,
+      "rangeKm": 222,
+      "rangeMiles": 137,
+      "batterySize": 35.5,
+      "priceEur": 36990,
+      "priceUsd": 36990,
+      "image": "/images/cars/honda-e.webp",
+      "specFile": "honda-e.json",
+      "trims": [
+        {
+          "name": "Honda e (144 hp)",
+          "batterySize": 35.5,
+          "rangeKm": 222,
+          "rangeMiles": 137,
+          "priceEur": 34990,
+          "priceUsd": 34990
+        },
+        {
+          "name": "Honda e Advance (154 hp)",
+          "batterySize": 35.5,
+          "rangeKm": 222,
+          "rangeMiles": 137,
+          "priceEur": 36990,
+          "priceUsd": 36990
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "brand": "BMW",
+      "model": "i3",
+      "description": "120 Ah",
+      "year": 2021,
+      "rangeKm": 316,
+      "rangeMiles": 153,
+      "batterySize": 42.2,
+      "priceEur": 42000,
+      "priceUsd": 45000,
+      "image": "/images/cars/bmw-i3.webp",
+      "specFile": "bmw-i3.json",
+      "trims": [
+        {
+          "name": "i3 120 Ah (2019-2022)",
+          "batterySize": 42.2,
+          "rangeKm": 316,
+          "rangeMiles": 196,
+          "priceEur": 42000,
+          "priceUsd": 45000
+        },
+        {
+          "name": "i3s 120 Ah",
+          "batterySize": 42.2,
+          "rangeKm": 298,
+          "rangeMiles": 153,
+          "priceEur": 45000,
+          "priceUsd": 48000
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "brand": "Mercedes",
+      "model": "EQS SUV 450+",
+      "description": "Luxury 3-Row SUV",
+      "year": 2024,
+      "rangeKm": 609,
+      "rangeMiles": 378,
+      "batterySize": 108.4,
+      "priceEur": 109990,
+      "priceUsd": 114900,
+      "image": "/images/cars/mercedes-eqs-suv.webp",
+      "specFile": "mercedes-eqs-suv.json",
+      "trims": [
+        {
+          "name": "EQS SUV 450+ RWD",
+          "batterySize": 108.4,
+          "rangeKm": 609,
+          "rangeMiles": 378,
+          "priceEur": 109990,
+          "priceUsd": 114900
+        },
+        {
+          "name": "EQS SUV 450 4MATIC",
+          "batterySize": 108.4,
+          "rangeKm": 563,
+          "rangeMiles": 350,
+          "priceEur": 119990,
+          "priceUsd": 124900
+        },
+        {
+          "name": "EQS SUV 580 4MATIC",
+          "batterySize": 108.4,
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 139990,
+          "priceUsd": 144900
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "brand": "Audi",
+      "model": "RS e-tron GT",
+      "description": "Performance Flagship",
+      "year": 2024,
+      "rangeKm": 495,
+      "rangeMiles": 307,
+      "batterySize": 105,
+      "priceEur": 148400,
+      "priceUsd": 148000,
+      "image": "/images/cars/audi-rs-etron-gt.webp",
+      "specFile": "audi-rs-etron-gt.json",
+      "trims": [
+        {
+          "name": "RS e-tron GT (475 kW)",
+          "batterySize": 105,
+          "rangeKm": 495,
+          "rangeMiles": 307,
+          "priceEur": 148400,
+          "priceUsd": 148000
+        },
+        {
+          "name": "RS e-tron GT Performance (630 kW)",
+          "batterySize": 105,
+          "rangeKm": 472,
+          "rangeMiles": 293,
+          "priceEur": 175000,
+          "priceUsd": 177000
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "brand": "Ford",
+      "model": "F-150 Lightning",
+      "description": "Extended Range AWD",
+      "year": 2024,
+      "rangeKm": 515,
+      "rangeMiles": 320,
+      "batterySize": 131,
+      "priceEur": 56990,
+      "priceUsd": 49995,
+      "image": "/images/cars/ford-f150-lightning.webp",
+      "specFile": "ford-f150-lightning.json",
+      "trims": [
+        {
+          "name": "Pro Standard Range",
+          "batterySize": 98,
+          "rangeKm": 370,
+          "rangeMiles": 230,
+          "priceEur": 47990,
+          "priceUsd": 41990
+        },
+        {
+          "name": "XLT Extended Range",
+          "batterySize": 131,
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 53990,
+          "priceUsd": 49995
+        },
+        {
+          "name": "Platinum Extended Range",
+          "batterySize": 131,
+          "rangeKm": 515,
+          "rangeMiles": 320,
+          "priceEur": 79990,
+          "priceUsd": 74995
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "brand": "Renault",
+      "model": "Scenic E-Tech",
+      "description": "87 kWh Long Range",
+      "year": 2024,
+      "rangeKm": 625,
+      "rangeMiles": 388,
+      "batterySize": 87,
+      "priceEur": 39990,
+      "priceUsd": 43990,
+      "image": "/images/cars/renault-scenic-e-tech.webp",
+      "specFile": "renault-scenic-e-tech.json",
+      "trims": [
+        {
+          "name": "Techno 60 kWh",
+          "batterySize": 60,
+          "rangeKm": 430,
+          "rangeMiles": 267,
+          "priceEur": 35990,
+          "priceUsd": 38990
+        },
+        {
+          "name": "Techno 87 kWh",
+          "batterySize": 87,
+          "rangeKm": 625,
+          "rangeMiles": 388,
+          "priceEur": 39990,
+          "priceUsd": 43990
+        },
+        {
+          "name": "Iconic 87 kWh",
+          "batterySize": 87,
+          "rangeKm": 625,
+          "rangeMiles": 388,
+          "priceEur": 44990,
+          "priceUsd": 47990
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "brand": "Opel",
+      "model": "Frontera Electric",
+      "description": "Affordable Electric SUV",
+      "year": 2024,
+      "rangeKm": 305,
+      "rangeMiles": 190,
+      "batterySize": 44,
+      "priceEur": 28990,
+      "priceUsd": 32990,
+      "image": "/images/cars/opel-frontera-electric.webp",
+      "specFile": "opel-frontera-electric.json",
+      "trims": [
+        {
+          "name": "Standard (44 kWh)",
+          "batterySize": 44,
+          "rangeKm": 305,
+          "rangeMiles": 190,
+          "priceEur": 28990,
+          "priceUsd": 32990
+        },
+        {
+          "name": "Extended (54 kWh)",
+          "batterySize": 54,
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 33990,
+          "priceUsd": 37990
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "brand": "Opel",
+      "model": "Grandland Electric",
+      "description": "Long Range FWD",
+      "year": 2024,
+      "rangeKm": 533,
+      "rangeMiles": 331,
+      "batterySize": 82,
+      "priceEur": 44990,
+      "priceUsd": 49990,
+      "image": "/images/cars/opel-grandland-electric.webp",
+      "specFile": "opel-grandland-electric.json",
+      "trims": [
+        {
+          "name": "GS (73 kWh)",
+          "batterySize": 73,
+          "rangeKm": 452,
+          "rangeMiles": 281,
+          "priceEur": 40990,
+          "priceUsd": 44990
+        },
+        {
+          "name": "GS Long Range (82 kWh)",
+          "batterySize": 82,
+          "rangeKm": 533,
+          "rangeMiles": 331,
+          "priceEur": 44990,
+          "priceUsd": 49990
+        },
+        {
+          "name": "GSe AWD (82 kWh)",
+          "batterySize": 82,
+          "rangeKm": 475,
+          "rangeMiles": 295,
+          "priceEur": 52990,
+          "priceUsd": 57990
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "brand": "Fiat",
+      "model": "Grande Panda Electric",
+      "description": "Affordable City EV",
+      "year": 2024,
+      "rangeKm": 320,
+      "rangeMiles": 199,
+      "batterySize": 44,
+      "priceEur": 26990,
+      "priceUsd": 29990,
+      "image": "/images/cars/fiat-grande-panda-electric.webp",
+      "specFile": "fiat-grande-panda-electric.json",
+      "trims": [
+        {
+          "name": "Electric (44 kWh)",
+          "batterySize": 44,
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 26990,
+          "priceUsd": 29990
+        },
+        {
+          "name": "La Prima (44 kWh)",
+          "batterySize": 44,
+          "rangeKm": 320,
+          "rangeMiles": 199,
+          "priceEur": 30990,
+          "priceUsd": 33990
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "brand": "DS",
+      "model": "3 E-Tense",
+      "description": "Premium Electric Compact",
+      "year": 2024,
+      "rangeKm": 402,
+      "rangeMiles": 250,
+      "batterySize": 54,
+      "priceEur": 37990,
+      "priceUsd": 41990,
+      "image": "/images/cars/ds3-e-tense.webp",
+      "specFile": "ds3-e-tense.json",
+      "trims": [
+        {
+          "name": "DS 3 (54 kWh)",
+          "batterySize": 54,
+          "rangeKm": 402,
+          "rangeMiles": 250,
+          "priceEur": 37990,
+          "priceUsd": 41990
+        },
+        {
+          "name": "DS 3 Performance Line (54 kWh)",
+          "batterySize": 54,
+          "rangeKm": 390,
+          "rangeMiles": 242,
+          "priceEur": 41990,
+          "priceUsd": 45990
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "brand": "Lancia",
+      "model": "Ypsilon Electric",
+      "description": "Italian Premium EV",
+      "year": 2024,
+      "rangeKm": 403,
+      "rangeMiles": 250,
+      "batterySize": 54,
+      "priceEur": 35990,
+      "priceUsd": 39990,
+      "image": "/images/cars/lancia-ypsilon-electric.webp",
+      "specFile": "lancia-ypsilon-electric.json",
+      "trims": [
+        {
+          "name": "Ypsilon (54 kWh)",
+          "batterySize": 54,
+          "rangeKm": 403,
+          "rangeMiles": 250,
+          "priceEur": 35990,
+          "priceUsd": 39990
+        },
+        {
+          "name": "Ypsilon Cassina (54 kWh)",
+          "batterySize": 54,
+          "rangeKm": 403,
+          "rangeMiles": 250,
+          "priceEur": 41990,
+          "priceUsd": 45990
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "brand": "Leapmotor",
+      "model": "C10",
+      "description": "Electric SUV",
+      "year": 2024,
+      "rangeKm": 420,
+      "rangeMiles": 261,
+      "batterySize": 69.9,
+      "priceEur": 36400,
+      "priceUsd": 39990,
+      "image": "/images/cars/leapmotor-c10.webp",
+      "specFile": "leapmotor-c10.json",
+      "trims": [
+        {
+          "name": "C10 FWD (69.9 kWh)",
+          "batterySize": 69.9,
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 36400,
+          "priceUsd": 39990
+        },
+        {
+          "name": "C10 AWD (69.9 kWh)",
+          "batterySize": 69.9,
+          "rangeKm": 390,
+          "rangeMiles": 242,
+          "priceEur": 40400,
+          "priceUsd": 43990
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "brand": "MG",
+      "model": "Cyberster",
+      "description": "Electric Sports Roadster",
+      "year": 2024,
+      "rangeKm": 536,
+      "rangeMiles": 333,
+      "batterySize": 77,
+      "priceEur": 52990,
+      "priceUsd": 56990,
+      "image": "/images/cars/mg-cyberster.webp",
+      "specFile": "mg-cyberster.json",
+      "trims": [
+        {
+          "name": "Standard AWD (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 536,
+          "rangeMiles": 333,
+          "priceEur": 52990,
+          "priceUsd": 56990
+        },
+        {
+          "name": "GT AWD Trophy (77 kWh)",
+          "batterySize": 77,
+          "rangeKm": 502,
+          "rangeMiles": 312,
+          "priceEur": 57990,
+          "priceUsd": 61990
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "brand": "BYD",
+      "model": "Tang",
+      "description": "7-Seat Electric SUV",
+      "year": 2024,
+      "rangeKm": 530,
+      "rangeMiles": 329,
+      "batterySize": 108.8,
+      "priceEur": 69990,
+      "priceUsd": 74990,
+      "image": "/images/cars/byd-tang.webp",
+      "specFile": "byd-tang.json",
+      "trims": [
+        {
+          "name": "AWD Standard (108.8 kWh)",
+          "batterySize": 108.8,
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 69990,
+          "priceUsd": 74990
+        },
+        {
+          "name": "AWD Premium (108.8 kWh)",
+          "batterySize": 108.8,
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 79990,
+          "priceUsd": 84990
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "brand": "BYD",
+      "model": "Seal U",
+      "description": "Compact Electric SUV",
+      "year": 2024,
+      "rangeKm": 430,
+      "rangeMiles": 267,
+      "batterySize": 82.56,
+      "priceEur": 37990,
+      "priceUsd": 40990,
+      "image": "/images/cars/byd-seal-u.webp",
+      "specFile": "byd-seal-u.json",
+      "trims": [
+        {
+          "name": "Comfort FWD (82.56 kWh)",
+          "batterySize": 82.56,
+          "rangeKm": 430,
+          "rangeMiles": 267,
+          "priceEur": 37990,
+          "priceUsd": 40990
+        },
+        {
+          "name": "Excellence FWD (82.56 kWh)",
+          "batterySize": 82.56,
+          "rangeKm": 420,
+          "rangeMiles": 261,
+          "priceEur": 42990,
+          "priceUsd": 45990
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "brand": "BYD",
+      "model": "Atto 2",
+      "description": "Affordable City EV",
+      "year": 2025,
+      "rangeKm": 312,
+      "rangeMiles": 194,
+      "batterySize": 45.1,
+      "priceEur": 24990,
+      "priceUsd": 27990,
+      "image": "/images/cars/byd-atto-2.webp",
+      "specFile": "byd-atto-2.json",
+      "trims": [
+        {
+          "name": "Active (45.1 kWh)",
+          "batterySize": 45.1,
+          "rangeKm": 312,
+          "rangeMiles": 194,
+          "priceEur": 24990,
+          "priceUsd": 27990
+        },
+        {
+          "name": "Comfort (45.1 kWh)",
+          "batterySize": 45.1,
+          "rangeKm": 312,
+          "rangeMiles": 194,
+          "priceEur": 27990,
+          "priceUsd": 30990
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "brand": "NIO",
+      "model": "ES6",
+      "description": "Smart Electric SUV",
+      "year": 2024,
+      "rangeKm": 447,
+      "rangeMiles": 278,
+      "batterySize": 75,
+      "priceEur": 47990,
+      "priceUsd": 50990,
+      "image": "/images/cars/nio-es6.webp",
+      "specFile": "nio-es6.json",
+      "trims": [
+        {
+          "name": "Standard (75 kWh)",
+          "batterySize": 75,
+          "rangeKm": 447,
+          "rangeMiles": 278,
+          "priceEur": 47990,
+          "priceUsd": 50990
+        },
+        {
+          "name": "Long Range (100 kWh)",
+          "batterySize": 100,
+          "rangeKm": 575,
+          "rangeMiles": 357,
+          "priceEur": 54990,
+          "priceUsd": 57990
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "brand": "NIO",
+      "model": "EL6",
+      "description": "Smart Electric Coupe SUV",
+      "year": 2024,
+      "rangeKm": 426,
+      "rangeMiles": 265,
+      "batterySize": 75,
+      "priceEur": 47990,
+      "priceUsd": 50990,
+      "image": "/images/cars/nio-el6.webp",
+      "specFile": "nio-el6.json",
+      "trims": [
+        {
+          "name": "Standard (75 kWh)",
+          "batterySize": 75,
+          "rangeKm": 426,
+          "rangeMiles": 265,
+          "priceEur": 47990,
+          "priceUsd": 50990
+        },
+        {
+          "name": "Long Range (100 kWh)",
+          "batterySize": 100,
+          "rangeKm": 551,
+          "rangeMiles": 342,
+          "priceEur": 54990,
+          "priceUsd": 57990
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "brand": "Zeekr",
+      "model": "007",
+      "description": "Ultra-Performance Sedan",
+      "year": 2024,
+      "rangeKm": 544,
+      "rangeMiles": 338,
+      "batterySize": 100,
+      "priceEur": 44990,
+      "priceUsd": 47990,
+      "image": "/images/cars/zeekr-007.webp",
+      "specFile": "zeekr-007.json",
+      "trims": [
+        {
+          "name": "RWD (75 kWh)",
+          "batterySize": 75,
+          "rangeKm": 450,
+          "rangeMiles": 280,
+          "priceEur": 39990,
+          "priceUsd": 42990
+        },
+        {
+          "name": "AWD Performance (100 kWh)",
+          "batterySize": 100,
+          "rangeKm": 544,
+          "rangeMiles": 338,
+          "priceEur": 44990,
+          "priceUsd": 47990
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "brand": "Hyundai",
+      "model": "IONIQ 9",
+      "description": "3-Row Family SUV",
+      "year": 2025,
+      "rangeKm": 620,
+      "rangeMiles": 385,
+      "batterySize": 110.3,
+      "priceEur": 59990,
+      "priceUsd": 62990,
+      "image": "/images/cars/hyundai-ioniq9.webp",
+      "specFile": "hyundai-ioniq9.json",
+      "trims": [
+        {
+          "name": "Standard 2WD (110.3 kWh)",
+          "batterySize": 110.3,
+          "rangeKm": 620,
+          "rangeMiles": 385,
+          "priceEur": 59990,
+          "priceUsd": 62990
+        },
+        {
+          "name": "Long Range AWD (110.3 kWh)",
+          "batterySize": 110.3,
+          "rangeKm": 580,
+          "rangeMiles": 360,
+          "priceEur": 69990,
+          "priceUsd": 72990
+        },
+        {
+          "name": "Performance AWD N Line",
+          "batterySize": 110.3,
+          "rangeKm": 555,
+          "rangeMiles": 345,
+          "priceEur": 79990,
+          "priceUsd": 82990
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "brand": "Hyundai",
+      "model": "Casper Electric",
+      "description": "Compact City EV",
+      "year": 2024,
+      "rangeKm": 315,
+      "rangeMiles": 196,
+      "batterySize": 49,
+      "priceEur": 28990,
+      "priceUsd": 31990,
+      "image": "/images/cars/hyundai-casper-electric.webp",
+      "specFile": "hyundai-casper-electric.json",
+      "trims": [
+        {
+          "name": "Standard (35 kWh)",
+          "batterySize": 35,
+          "rangeKm": 237,
+          "rangeMiles": 147,
+          "priceEur": 24990,
+          "priceUsd": 26990
+        },
+        {
+          "name": "Long Range (49 kWh)",
+          "batterySize": 49,
+          "rangeKm": 315,
+          "rangeMiles": 196,
+          "priceEur": 28990,
+          "priceUsd": 31990
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "brand": "Honda",
+      "model": "Prologue",
+      "description": "AWD Electric SUV",
+      "year": 2024,
+      "rangeKm": 476,
+      "rangeMiles": 296,
+      "batterySize": 85,
+      "priceEur": 48990,
+      "priceUsd": 47400,
+      "image": "/images/cars/honda-prologue.webp",
+      "specFile": "honda-prologue.json",
+      "trims": [
+        {
+          "name": "EX AWD (85 kWh)",
+          "batterySize": 85,
+          "rangeKm": 476,
+          "rangeMiles": 296,
+          "priceEur": 48990,
+          "priceUsd": 47400
+        },
+        {
+          "name": "Touring AWD (85 kWh)",
+          "batterySize": 85,
+          "rangeKm": 476,
+          "rangeMiles": 296,
+          "priceEur": 54990,
+          "priceUsd": 53400
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "brand": "Xpeng",
+      "model": "G6",
+      "description": "Ultra-Fast Charging SUV",
+      "year": 2024,
+      "rangeKm": 570,
+      "rangeMiles": 354,
+      "batterySize": 87.5,
+      "priceEur": 44990,
+      "priceUsd": 47990,
+      "image": "/images/cars/xpeng-g6.webp",
+      "specFile": "xpeng-g6.json",
+      "trims": [
+        {
+          "name": "RWD Standard (66 kWh)",
+          "batterySize": 66,
+          "rangeKm": 435,
+          "rangeMiles": 270,
+          "priceEur": 39990,
+          "priceUsd": 41990
+        },
+        {
+          "name": "AWD Long Range (87.5 kWh)",
+          "batterySize": 87.5,
+          "rangeKm": 570,
+          "rangeMiles": 354,
+          "priceEur": 44990,
+          "priceUsd": 47990
+        },
+        {
+          "name": "AWD Performance (87.5 kWh)",
+          "batterySize": 87.5,
+          "rangeKm": 530,
+          "rangeMiles": 329,
+          "priceEur": 49990,
+          "priceUsd": 52990
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "brand": "Škoda",
+      "model": "Enyaq Coupe iV",
+      "description": "RS SUV Coupe",
+      "year": 2024,
+      "rangeKm": 545,
+      "rangeMiles": 339,
+      "batterySize": 82,
+      "priceEur": 50990,
+      "priceUsd": 54990,
+      "image": "/images/cars/skoda-enyaq-coupe.webp",
+      "specFile": "skoda-enyaq-coupe.json",
+      "trims": [
+        {
+          "name": "Coupe 60 (58 kWh)",
+          "batterySize": 58,
+          "rangeKm": 412,
+          "rangeMiles": 256,
+          "priceEur": 43990,
+          "priceUsd": 46990
+        },
+        {
+          "name": "Coupe 85x AWD (82 kWh)",
+          "batterySize": 82,
+          "rangeKm": 520,
+          "rangeMiles": 323,
+          "priceEur": 47990,
+          "priceUsd": 50990
+        },
+        {
+          "name": "Coupe RS (82 kWh)",
+          "batterySize": 82,
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 50990,
+          "priceUsd": 54990
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "brand": "Volkswagen",
+      "model": "ID.2",
+      "description": "Affordable Entry EV",
+      "year": 2025,
+      "rangeKm": 450,
+      "rangeMiles": 280,
+      "batterySize": 56,
+      "priceEur": 24990,
+      "priceUsd": 27990,
+      "image": "/images/cars/volkswagen-id2.webp",
+      "specFile": "volkswagen-id2.json",
+      "trims": [
+        {
+          "name": "Standard (38 kWh)",
+          "batterySize": 38,
+          "rangeKm": 310,
+          "rangeMiles": 193,
+          "priceEur": 24990,
+          "priceUsd": 25990
+        },
+        {
+          "name": "Long Range (56 kWh)",
+          "batterySize": 56,
+          "rangeKm": 450,
+          "rangeMiles": 280,
+          "priceEur": 29990,
+          "priceUsd": 31990
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "brand": "Porsche",
+      "model": "Taycan Sport Turismo",
+      "description": "4S Electric Estate",
+      "year": 2024,
+      "rangeKm": 616,
+      "rangeMiles": 383,
+      "batterySize": 105,
+      "priceEur": 95990,
+      "priceUsd": 99900,
+      "image": "/images/cars/porsche-taycan-sport-turismo.webp",
+      "specFile": "porsche-taycan-sport-turismo.json",
+      "trims": [
+        {
+          "name": "Sport Turismo (105 kWh)",
+          "batterySize": 105,
+          "rangeKm": 616,
+          "rangeMiles": 383,
+          "priceEur": 95990,
+          "priceUsd": 99900
+        },
+        {
+          "name": "4S Sport Turismo (105 kWh)",
+          "batterySize": 105,
+          "rangeKm": 590,
+          "rangeMiles": 366,
+          "priceEur": 119990,
+          "priceUsd": 122900
+        },
+        {
+          "name": "Turbo Sport Turismo (105 kWh)",
+          "batterySize": 105,
+          "rangeKm": 543,
+          "rangeMiles": 337,
+          "priceEur": 169990,
+          "priceUsd": 172900
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "brand": "Mazda",
+      "model": "EZ-6",
+      "description": "Electric Sedan",
+      "year": 2024,
+      "rangeKm": 552,
+      "rangeMiles": 343,
+      "batterySize": 68.8,
+      "priceEur": 41990,
+      "priceUsd": 44990,
+      "image": "/images/cars/mazda-ez6.webp",
+      "specFile": "mazda-ez6.json",
+      "trims": [
+        {
+          "name": "EZ-6 Standard (68.8 kWh)",
+          "batterySize": 68.8,
+          "rangeKm": 552,
+          "rangeMiles": 343,
+          "priceEur": 41990,
+          "priceUsd": 44990
+        },
+        {
+          "name": "EZ-6 Premium (68.8 kWh)",
+          "batterySize": 68.8,
+          "rangeKm": 545,
+          "rangeMiles": 339,
+          "priceEur": 45990,
+          "priceUsd": 48990
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "brand": "Renault",
+      "model": "Kangoo E-Tech",
+      "description": "Electric People Carrier",
+      "year": 2022,
+      "rangeKm": 300,
+      "rangeMiles": 186,
+      "batterySize": 45,
+      "priceEur": 35990,
+      "priceUsd": 39990,
+      "image": "/images/cars/renault-kangoo-e-tech.webp",
+      "specFile": "renault-kangoo-e-tech.json",
+      "trims": [
+        {
+          "name": "EV45 (45 kWh)",
+          "batterySize": 45,
+          "rangeKm": 300,
+          "rangeMiles": 186,
+          "priceEur": 35990,
+          "priceUsd": 39990
+        },
+        {
+          "name": "EV45 Techno (45 kWh)",
+          "batterySize": 45,
+          "rangeKm": 300,
+          "rangeMiles": 186,
+          "priceEur": 38990,
+          "priceUsd": 41990
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+    "id": 135,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.6 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "380 kW (517 hp)",
+            "Maximum Torque": "700 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "BYD Blade (LFP)",
+            "Battery Capacity": "108.8 kWh",
+            "Usable Battery Capacity": "104 kWh",
+            "Maximum DC Charging Power": "120 kW",
+            "Charging Time (AC 11kW)": "10.5 hours",
+            "Charging Time (DC 120kW, 10-80%)": "47 minutes"
+        },
+        "Dimensions": {
+            "Length": "4970 mm",
+            "Width": "1955 mm",
+            "Height": "1745 mm",
+            "Wheelbase": "2820 mm",
+            "Ground Clearance": "215 mm",
+            "Trunk Capacity": "235 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2655 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "530 km",
+            "EPA Range": "329 miles",
+            "Energy Consumption": "22.0 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Snow, Normal, Sport, Eco",
+            "Heat Pump": "Yes",
+            "Display Size": "15.6-inch rotating touchscreen",
+            "Sound System": "Dynaudio 12 speakers",
+            "7 Seats": "Yes",
+            "DiPilot Assist": "Yes",
+            "Over-the-air Updates": "Yes",
+            "CTB Technology": "Yes"
+        }
+    }
+}

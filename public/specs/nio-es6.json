@@ -1,0 +1,46 @@
+{
+    "id": 138,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.0 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "360 kW (489 hp)",
+            "Maximum Torque": "700 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "75 kWh",
+            "Usable Battery Capacity": "70 kWh",
+            "Maximum DC Charging Power": "180 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 180kW, 10-80%)": "20 minutes"
+        },
+        "Dimensions": {
+            "Length": "4854 mm",
+            "Width": "1995 mm",
+            "Height": "1758 mm",
+            "Wheelbase": "2915 mm",
+            "Ground Clearance": "190 mm",
+            "Trunk Capacity": "435 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2165 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "447 km",
+            "EPA Range": "278 miles",
+            "Energy Consumption": "17.9 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Comfort, Sport, Eco",
+            "Heat Pump": "Yes",
+            "Display Size": "12.8-inch AMOLED",
+            "Sound System": "Dolby Atmos 7.1 system",
+            "NIO Pilot": "Yes",
+            "Over-the-air Updates": "Yes",
+            "Battery Swap": "Yes (3 minutes)",
+            "NOMI AI Assistant": "Yes"
+        }
+    }
+}

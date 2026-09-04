@@ -1,0 +1,47 @@
+﻿{
+    "id":  103,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "756 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "470 miles",
+                                              "Energy Consumption":  "14.5 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2946 mm",
+                                              "Width":  "1923 mm",
+                                              "Length":  "4928 mm",
+                                              "Ground Clearance":  "135 mm",
+                                              "Height":  "1527 mm",
+                                              "Curb Weight":  "2225 kg",
+                                              "Frunk Capacity":  "100 L",
+                                              "Trunk Capacity":  "502 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "4.5 seconds",
+                                               "Top Speed":  "240 km/h",
+                                               "Maximum Torque":  "800 Nm",
+                                               "Maximum Power":  "370 kW (503 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "10.5 hours",
+                                                           "Battery Capacity":  "100 kWh",
+                                                           "Maximum DC Charging Power":  "270 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "94.9 kWh",
+                                                           "Charging Time (DC 270kW, 10-80%)":  "21 minutes"
+                                                       },
+                           "Features":  {
+                                            "Drive Type":  "Performance AWD",
+                                            "Frunk":  "100 L",
+                                            "800V Architecture":  "Yes",
+                                            "Matrix LED Headlights":  "Standard",
+                                            "Sound System":  "Bang \u0026 Olufsen 20 speakers",
+                                            "Display Size":  "14.5-inch MMI",
+                                            "Heat Pump":  "Standard",
+                                            "Drive Modes":  "efficiency, comfort, auto, dynamic, individual",
+                                            "Augmented Reality HUD":  "Standard",
+                                            "Over-the-air Updates":  "Yes"
+                                        }
+                       }
+}

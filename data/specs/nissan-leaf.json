@@ -1,0 +1,46 @@
+﻿{
+    "id":  99,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "385 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "212 miles",
+                                              "Energy Consumption":  "17.7 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2700 mm",
+                                              "Width":  "1788 mm",
+                                              "Length":  "4490 mm",
+                                              "Ground Clearance":  "150 mm",
+                                              "Height":  "1532 mm",
+                                              "Curb Weight":  "1598 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "435 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "7.9 seconds",
+                                               "Top Speed":  "150 km/h",
+                                               "Maximum Torque":  "320 Nm",
+                                               "Maximum Power":  "110 kW (150 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 6.6kW)":  "11 hours",
+                                                           "Battery Capacity":  "62 kWh",
+                                                           "Maximum DC Charging Power":  "100 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 100kW, 10-80%)":  "45 minutes",
+                                                           "Usable Battery Capacity":  "59 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Type":  "Front Wheel Drive",
+                                            "ProPilot Assist":  "Standard",
+                                            "e-Pedal":  "Yes",
+                                            "Sound System":  "Bose 8 speakers",
+                                            "Display Size":  "8-inch touchscreen",
+                                            "Heat Pump":  "Yes",
+                                            "CHAdeMO":  "Yes",
+                                            "Drive Modes":  "Eco, Normal, Sport",
+                                            "Over-the-air Updates":  "No"
+                                        }
+                       }
+}

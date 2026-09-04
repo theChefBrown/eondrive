@@ -1,0 +1,45 @@
+﻿{
+    "id":  112,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "660 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "410 miles",
+                                              "Energy Consumption":  "16.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2895 mm",
+                                              "Width":  "1895 mm",
+                                              "Length":  "4791 mm",
+                                              "Ground Clearance":  "185 mm",
+                                              "Height":  "1694 mm",
+                                              "Curb Weight":  "2290 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "745 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "8.8 seconds",
+                                               "Top Speed":  "170 km/h",
+                                               "Maximum Torque":  "345 Nm",
+                                               "Maximum Power":  "170 kW (231 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 22kW)":  "5 hours",
+                                                           "Battery Capacity":  "98 kWh",
+                                                           "Charging Time (DC 160kW, 10-80%)":  "30 minutes",
+                                                           "Maximum DC Charging Power":  "160 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "93 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Normal, Eco, Sport",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Front Wheel Drive",
+                                            "7 Seats":  "Available",
+                                            "Sound System":  "Focal 10-speaker Premium",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "21-inch Panoramic i-Cockpit",
+                                            "Night Vision":  "Available"
+                                        }
+                       }
+}

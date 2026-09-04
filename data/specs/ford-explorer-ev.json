@@ -1,0 +1,45 @@
+﻿{
+    "id":  105,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "602 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "374 miles",
+                                              "Energy Consumption":  "14.7 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2765 mm",
+                                              "Width":  "1872 mm",
+                                              "Length":  "4467 mm",
+                                              "Ground Clearance":  "165 mm",
+                                              "Height":  "1613 mm",
+                                              "Curb Weight":  "2184 kg",
+                                              "Frunk Capacity":  "15 L",
+                                              "Trunk Capacity":  "450 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "6.3 seconds",
+                                               "Top Speed":  "180 km/h",
+                                               "Maximum Torque":  "545 Nm",
+                                               "Maximum Power":  "210 kW (286 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "7.5 hours",
+                                                           "Battery Capacity":  "82 kWh",
+                                                           "Maximum DC Charging Power":  "135 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 135kW, 10-80%)":  "36 minutes",
+                                                           "Usable Battery Capacity":  "77 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Eco, Normal, Slippery, Sport",
+                                            "Heat Pump":  "Yes",
+                                            "Ford Pro Assist":  "Available",
+                                            "Drive Type":  "Rear Wheel Drive",
+                                            "Sound System":  "Bang \u0026 Olufsen 10 speakers",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "14.6-inch touchscreen",
+                                            "Frunk":  "15 L"
+                                        }
+                       }
+}

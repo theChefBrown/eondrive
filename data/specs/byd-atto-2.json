@@ -1,0 +1,44 @@
+{
+    "id": 137,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "11.5 seconds",
+            "Top Speed": "130 km/h",
+            "Maximum Power": "70 kW (95 hp)",
+            "Maximum Torque": "180 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "BYD Blade (LFP)",
+            "Battery Capacity": "45.1 kWh",
+            "Usable Battery Capacity": "43.2 kWh",
+            "Maximum DC Charging Power": "80 kW",
+            "Charging Time (AC 6.6kW)": "7.5 hours",
+            "Charging Time (DC 80kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4050 mm",
+            "Width": "1770 mm",
+            "Height": "1550 mm",
+            "Wheelbase": "2620 mm",
+            "Ground Clearance": "150 mm",
+            "Trunk Capacity": "288 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "1490 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "312 km",
+            "EPA Range": "194 miles",
+            "Energy Consumption": "14.6 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front Wheel Drive",
+            "Drive Modes": "Normal, Eco, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "10.1-inch touchscreen",
+            "Sound System": "Standard",
+            "ADAS Driver Assistance": "Level 2",
+            "Over-the-air Updates": "Yes"
+        }
+    }
+}

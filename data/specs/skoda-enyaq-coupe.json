@@ -1,0 +1,46 @@
+{
+    "id": 145,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "5.5 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "220 kW (299 hp)",
+            "Maximum Torque": "460 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "77 kWh",
+            "Maximum DC Charging Power": "135 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 135kW, 10-80%)": "36 minutes"
+        },
+        "Dimensions": {
+            "Length": "4653 mm",
+            "Width": "1877 mm",
+            "Height": "1601 mm",
+            "Wheelbase": "2765 mm",
+            "Ground Clearance": "155 mm",
+            "Trunk Capacity": "570 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2200 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "545 km",
+            "EPA Range": "339 miles",
+            "Energy Consumption": "16.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "13-inch infotainment",
+            "Sound System": "Canton Sound System",
+            "Over-the-air Updates": "Yes",
+            "Travel Assist": "Available",
+            "Matrix LED": "Standard",
+            "Body Style": "SUV Coupe"
+        }
+    }
+}

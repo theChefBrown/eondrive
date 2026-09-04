@@ -1,0 +1,45 @@
+﻿{
+    "id":  104,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "549 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "341 miles",
+                                              "Energy Consumption":  "16.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2766 mm",
+                                              "Width":  "1861 mm",
+                                              "Length":  "4644 mm",
+                                              "Ground Clearance":  "155 mm",
+                                              "Height":  "1597 mm",
+                                              "Curb Weight":  "2270 kg",
+                                              "Frunk Capacity":  "15 L",
+                                              "Trunk Capacity":  "540 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "5.6 seconds",
+                                               "Top Speed":  "180 km/h",
+                                               "Maximum Torque":  "545 Nm",
+                                               "Maximum Power":  "250 kW (340 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "7.5 hours",
+                                                           "Battery Capacity":  "82 kWh",
+                                                           "Maximum DC Charging Power":  "135 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 135kW, 10-80%)":  "36 minutes",
+                                                           "Usable Battery Capacity":  "77 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Sport, Comfort, Eco, Off-road",
+                                            "CUPRA Connect":  "Yes",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Travel Assist":  "Available",
+                                            "Sound System":  "Sennheiser Premium",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "12.9-inch touchscreen"
+                                        }
+                       }
+}

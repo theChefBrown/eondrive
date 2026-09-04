@@ -1,0 +1,45 @@
+﻿{
+    "id":  117,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "521 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "324 miles",
+                                              "Energy Consumption":  "17.8 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2920 mm",
+                                              "Width":  "1910 mm",
+                                              "Length":  "4995 mm",
+                                              "Ground Clearance":  "145 mm",
+                                              "Height":  "1495 mm",
+                                              "Curb Weight":  "2220 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "395 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "3.9 seconds",
+                                               "Top Speed":  "185 km/h",
+                                               "Maximum Torque":  "700 Nm",
+                                               "Maximum Power":  "380 kW (517 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "8 hours",
+                                                           "Battery Capacity":  "85.4 kWh",
+                                                           "Charging Time (DC 120kW, 10-80%)":  "30 minutes",
+                                                           "Maximum DC Charging Power":  "120 kW",
+                                                           "Battery Type":  "BYD Blade (LFP)",
+                                                           "Usable Battery Capacity":  "82 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Snow, Normal, Sport, Eco",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Sound System":  "Dynaudio 12 speakers",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "15.6-inch rotating touchscreen",
+                                            "DiPilot":  "Yes",
+                                            "CTB Technology":  "Yes"
+                                        }
+                       }
+}

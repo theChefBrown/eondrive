@@ -1,0 +1,47 @@
+{
+    "id": 126,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "4.5 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "426 kW (580 hp)",
+            "Maximum Torque": "1050 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "131 kWh",
+            "Usable Battery Capacity": "123 kWh",
+            "Maximum DC Charging Power": "150 kW",
+            "Charging Time (AC 19.2kW)": "8 hours",
+            "Charging Time (DC 150kW, 10-80%)": "44 minutes"
+        },
+        "Dimensions": {
+            "Length": "5915 mm",
+            "Width": "2093 mm",
+            "Height": "1955 mm",
+            "Wheelbase": "3683 mm",
+            "Ground Clearance": "237 mm",
+            "Trunk Capacity": "1635 L",
+            "Frunk Capacity": "400 L",
+            "Curb Weight": "2948 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "515 km",
+            "EPA Range": "320 miles",
+            "Energy Consumption": "27.0 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Normal, Sport, Tow/Haul, Off-Road, Dyno",
+            "Onboard Generator": "Pro Power Onboard 9.6 kW",
+            "Display Size": "15.5-inch SYNC 4A",
+            "Sound System": "B&O Sound System 18 speakers",
+            "Ford BlueCruise": "Available",
+            "Over-the-air Updates": "Yes",
+            "Frunk (Mega Power Frunk)": "400 L",
+            "Towing Capacity": "4536 kg",
+            "Max Payload": "907 kg"
+        }
+    }
+}

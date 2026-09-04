@@ -1,0 +1,45 @@
+{
+    "id": 136,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "9.0 seconds",
+            "Top Speed": "175 km/h",
+            "Maximum Power": "160 kW (218 hp)",
+            "Maximum Torque": "310 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "BYD Blade (LFP)",
+            "Battery Capacity": "82.56 kWh",
+            "Usable Battery Capacity": "79 kWh",
+            "Maximum DC Charging Power": "88 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 88kW, 10-80%)": "47 minutes"
+        },
+        "Dimensions": {
+            "Length": "4785 mm",
+            "Width": "1890 mm",
+            "Height": "1668 mm",
+            "Wheelbase": "2765 mm",
+            "Ground Clearance": "180 mm",
+            "Trunk Capacity": "425 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2065 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "430 km",
+            "EPA Range": "267 miles",
+            "Energy Consumption": "19.6 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "15.6-inch rotating touchscreen",
+            "Sound System": "8 speakers",
+            "DiPilot Assist": "Yes",
+            "Vehicle-to-Load": "Yes",
+            "Over-the-air Updates": "Yes"
+        }
+    }
+}

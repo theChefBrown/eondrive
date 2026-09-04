@@ -1,0 +1,46 @@
+﻿{
+    "id":  115,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "580 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "360 miles",
+                                              "Energy Consumption":  "19.5 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "3060 mm",
+                                              "Width":  "1987 mm",
+                                              "Length":  "5101 mm",
+                                              "Ground Clearance":  "130 mm",
+                                              "Height":  "1509 mm",
+                                              "Curb Weight":  "2379 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "363 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "3.8 seconds",
+                                               "Top Speed":  "200 km/h",
+                                               "Maximum Torque":  "850 Nm",
+                                               "Maximum Power":  "480 kW (653 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (DC 180kW, 10-80%)":  "20 minutes",
+                                                           "Charging Time (AC 11kW)":  "10 hours",
+                                                           "Battery Capacity":  "100 kWh",
+                                                           "Maximum DC Charging Power":  "500 kW (Battery Swap)",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "90 kWh"
+                                                       },
+                           "Features":  {
+                                            "Battery Swap":  "Yes (3 min)",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Digital Cockpit":  "NOMI AI",
+                                            "NIO Pilot":  "Yes",
+                                            "Sound System":  "Dolby Atmos 23 speakers",
+                                            "Display Size":  "12.8-inch AMOLED",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Modes":  "Comfort, Sport, Eco",
+                                            "Over-the-air Updates":  "Yes"
+                                        }
+                       }
+}

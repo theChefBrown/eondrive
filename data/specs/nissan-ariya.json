@@ -1,0 +1,44 @@
+﻿{
+    "id":  98,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "533 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "331 miles",
+                                              "Energy Consumption":  "19.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2775 mm",
+                                              "Width":  "1850 mm",
+                                              "Length":  "4595 mm",
+                                              "Ground Clearance":  "180 mm",
+                                              "Height":  "1660 mm",
+                                              "Curb Weight":  "2154 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "468 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "5.7 seconds",
+                                               "Top Speed":  "200 km/h",
+                                               "Maximum Torque":  "600 Nm",
+                                               "Maximum Power":  "225 kW (306 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 22kW)":  "5 hours",
+                                                           "Charging Time (DC 130kW, 10-80%)":  "35 minutes",
+                                                           "Battery Capacity":  "91 kWh",
+                                                           "Maximum DC Charging Power":  "130 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "87 kWh"
+                                                       },
+                           "Features":  {
+                                            "Over-the-air Updates":  "Yes",
+                                            "Drive Type":  "AWD e-4ORCE",
+                                            "Heat Pump":  "Yes",
+                                            "ProPilot Assist":  "Available",
+                                            "Sound System":  "Bose 10 speakers",
+                                            "Drive Modes":  "Sport, Normal, Eco, Snow",
+                                            "Display Size":  "12.3-inch dual screens"
+                                        }
+                       }
+}

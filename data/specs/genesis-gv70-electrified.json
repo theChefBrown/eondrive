@@ -1,0 +1,45 @@
+﻿{
+    "id":  113,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "470 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "282 miles",
+                                              "Energy Consumption":  "17.9 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2875 mm",
+                                              "Width":  "1910 mm",
+                                              "Length":  "4715 mm",
+                                              "Ground Clearance":  "178 mm",
+                                              "Height":  "1630 mm",
+                                              "Curb Weight":  "2225 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "503 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "4.2 seconds",
+                                               "Top Speed":  "235 km/h",
+                                               "Maximum Torque":  "700 Nm",
+                                               "Maximum Power":  "320 kW (435 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "7.3 hours",
+                                                           "Battery Capacity":  "77.4 kWh",
+                                                           "Maximum DC Charging Power":  "350 kW",
+                                                           "Battery Type":  "Lithium Ion Polymer",
+                                                           "Charging Time (DC 350kW, 10-80%)":  "18 minutes",
+                                                           "Usable Battery Capacity":  "73.4 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Sport, Comfort, Eco, Custom",
+                                            "Heat Pump":  "Yes",
+                                            "800V Ultra-Fast Charging":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Boost Mode":  "Yes (10 sec)",
+                                            "Sound System":  "Lexicon 15-speaker",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "14.5-inch infotainment"
+                                        }
+                       }
+}

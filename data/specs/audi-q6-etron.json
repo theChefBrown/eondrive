@@ -1,0 +1,46 @@
+﻿{
+    "id":  102,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "598 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "371 miles",
+                                              "Energy Consumption":  "17.9 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2899 mm",
+                                              "Width":  "1939 mm",
+                                              "Length":  "4771 mm",
+                                              "Ground Clearance":  "180 mm",
+                                              "Height":  "1648 mm",
+                                              "Curb Weight":  "2295 kg",
+                                              "Frunk Capacity":  "64 L",
+                                              "Trunk Capacity":  "526 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "4.3 seconds",
+                                               "Top Speed":  "210 km/h",
+                                               "Maximum Torque":  "855 Nm",
+                                               "Maximum Power":  "285 kW (387 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "10.5 hours",
+                                                           "Battery Capacity":  "100 kWh",
+                                                           "Maximum DC Charging Power":  "270 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "94.9 kWh",
+                                                           "Charging Time (DC 270kW, 10-80%)":  "21 minutes"
+                                                       },
+                           "Features":  {
+                                            "Drive Type":  "Dual Motor quattro AWD",
+                                            "800V Architecture":  "Yes",
+                                            "Matrix LED Headlights":  "Standard",
+                                            "Sound System":  "Sonos Premium",
+                                            "Display Size":  "11.9-inch MMI",
+                                            "Heat Pump":  "Standard",
+                                            "Drive Modes":  "efficiency, comfort, auto, dynamic, individual",
+                                            "Augmented Reality HUD":  "Available",
+                                            "Over-the-air Updates":  "Yes"
+                                        }
+                       }
+}

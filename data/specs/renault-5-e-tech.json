@@ -1,0 +1,45 @@
+﻿{
+    "id":  100,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "400 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "249 miles",
+                                              "Energy Consumption":  "14.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2534 mm",
+                                              "Width":  "1770 mm",
+                                              "Length":  "3922 mm",
+                                              "Ground Clearance":  "126 mm",
+                                              "Height":  "1500 mm",
+                                              "Curb Weight":  "1449 kg",
+                                              "Frunk Capacity":  "18 L",
+                                              "Trunk Capacity":  "326 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "7.5 seconds",
+                                               "Top Speed":  "150 km/h",
+                                               "Maximum Torque":  "245 Nm",
+                                               "Maximum Power":  "110 kW (150 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "5 hours",
+                                                           "Battery Capacity":  "52 kWh",
+                                                           "Maximum DC Charging Power":  "100 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 100kW, 10-80%)":  "30 minutes",
+                                                           "Usable Battery Capacity":  "50 kWh"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Eco, Normal, Sport",
+                                            "Vehicle-to-Grid":  "Yes (V2G)",
+                                            "Drive Type":  "Front Wheel Drive",
+                                            "Sound System":  "Harman Kardon",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Frunk":  "18 L",
+                                            "Display Size":  "10.1-inch Google BuiltIn",
+                                            "Google Assistant":  "Built-in"
+                                        }
+                       }
+}

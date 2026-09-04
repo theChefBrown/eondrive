@@ -1,0 +1,45 @@
+{
+    "id": 127,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "8.4 seconds",
+            "Top Speed": "170 km/h",
+            "Maximum Power": "170 kW (218 hp)",
+            "Maximum Torque": "300 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "87 kWh",
+            "Usable Battery Capacity": "85 kWh",
+            "Maximum DC Charging Power": "150 kW",
+            "Charging Time (AC 22kW)": "4.5 hours",
+            "Charging Time (DC 150kW, 10-80%)": "37 minutes"
+        },
+        "Dimensions": {
+            "Length": "4470 mm",
+            "Width": "1863 mm",
+            "Height": "1571 mm",
+            "Wheelbase": "2785 mm",
+            "Ground Clearance": "170 mm",
+            "Trunk Capacity": "545 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "1791 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "625 km",
+            "EPA Range": "388 miles",
+            "Energy Consumption": "15.3 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport, My Sense",
+            "Heat Pump": "Yes",
+            "Display Size": "12-inch Google Built-in",
+            "Sound System": "Harman Kardon 9 speakers",
+            "Google Assistant": "Built-in",
+            "Over-the-air Updates": "Yes",
+            "Car of the Year 2024": "Yes"
+        }
+    }
+}

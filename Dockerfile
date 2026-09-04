@@ -1,23 +1,33 @@
-# Use Node.js LTS version
-FROM node:20-slim
+# ── Build stage ──────────────────────────────────────────────────
+FROM node:20-slim AS builder
 
-# Create app directory
-WORKDIR /usr/src/app
-
-# Copy package files
-COPY package*.json ./
+WORKDIR /app
 
 # Install dependencies
-RUN npm install
+COPY package*.json ./
+RUN npm ci
 
-# Copy source code
+# Copy source and build
 COPY . .
-
-# Build TypeScript
 RUN npm run build
 
-# Expose port
+# Optionally build the server
+RUN npm run build:server || true
+
+# ── Production stage ──────────────────────────────────────────────
+FROM node:20-slim AS runner
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+# Copy Vite build output and server
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/dist-server ./dist-server
+
 EXPOSE 3000
 
-# Start the application
-CMD ["npm", "start"]
+CMD ["node", "dist-server/server.cjs"]

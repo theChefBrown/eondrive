@@ -1,0 +1,45 @@
+{
+    "id": 148,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "7.5 seconds",
+            "Top Speed": "180 km/h",
+            "Maximum Power": "200 kW (272 hp)",
+            "Maximum Torque": "320 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "68.8 kWh",
+            "Usable Battery Capacity": "66 kWh",
+            "Maximum DC Charging Power": "100 kW",
+            "Charging Time (AC 11kW)": "6.5 hours",
+            "Charging Time (DC 100kW, 10-80%)": "38 minutes"
+        },
+        "Dimensions": {
+            "Length": "4921 mm",
+            "Width": "1890 mm",
+            "Height": "1475 mm",
+            "Wheelbase": "2890 mm",
+            "Ground Clearance": "130 mm",
+            "Trunk Capacity": "450 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "1865 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "552 km",
+            "EPA Range": "343 miles",
+            "Energy Consumption": "13.5 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Rear Wheel Drive",
+            "Drive Modes": "Normal, Eco, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "14.6-inch Mazda Connect",
+            "Sound System": "Bose 12 speakers",
+            "Mazda Co-Pilot Concept": "Available",
+            "Over-the-air Updates": "Yes",
+            "Developed with Changan": "Yes"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+﻿{
+    "id":  107,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "404 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "251 miles",
+                                              "Energy Consumption":  "13.8 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2562 mm",
+                                              "Width":  "1776 mm",
+                                              "Length":  "4084 mm",
+                                              "Ground Clearance":  "200 mm",
+                                              "Height":  "1525 mm",
+                                              "Curb Weight":  "1524 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "355 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "9.0 seconds",
+                                               "Top Speed":  "150 km/h",
+                                               "Maximum Torque":  "260 Nm",
+                                               "Maximum Power":  "115 kW (156 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "5 hours",
+                                                           "Battery Capacity":  "54 kWh",
+                                                           "Maximum DC Charging Power":  "100 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 100kW, 10-80%)":  "24 minutes",
+                                                           "Usable Battery Capacity":  "50.8 kWh"
+                                                       },
+                           "Features":  {
+                                            "Parallel Park Assist":  "Standard",
+                                            "Drive Type":  "Front Wheel Drive",
+                                            "Heat Pump":  "No",
+                                            "Sound System":  "Alpine Premium",
+                                            "Drive Modes":  "Normal, Eco, Sport, Sand",
+                                            "Display Size":  "10.25-inch touchscreen",
+                                            "Over-the-air Updates":  "Yes"
+                                        }
+                       }
+}

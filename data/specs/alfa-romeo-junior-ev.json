@@ -1,0 +1,45 @@
+﻿{
+    "id":  108,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "410 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "255 miles",
+                                              "Energy Consumption":  "14.5 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2560 mm",
+                                              "Width":  "1778 mm",
+                                              "Length":  "4173 mm",
+                                              "Ground Clearance":  "170 mm",
+                                              "Height":  "1500 mm",
+                                              "Curb Weight":  "1550 kg",
+                                              "Frunk Capacity":  "0 L",
+                                              "Trunk Capacity":  "400 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "7.0 seconds",
+                                               "Top Speed":  "150 km/h",
+                                               "Maximum Torque":  "260 Nm",
+                                               "Maximum Power":  "115 kW (156 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 11kW)":  "5 hours",
+                                                           "Battery Capacity":  "54 kWh",
+                                                           "Maximum DC Charging Power":  "100 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Charging Time (DC 100kW, 10-80%)":  "24 minutes",
+                                                           "Usable Battery Capacity":  "50.8 kWh"
+                                                       },
+                           "Features":  {
+                                            "Level 2 ADAS":  "Standard",
+                                            "Drive Modes":  "Normal, Dynamic, Advanced Efficiency",
+                                            "Heat Pump":  "No",
+                                            "Drive Type":  "Front Wheel Drive",
+                                            "Sound System":  "Harman Kardon",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "10.25-inch touchscreen",
+                                            "DNA Drive Modes":  "Yes"
+                                        }
+                       }
+}

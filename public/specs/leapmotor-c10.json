@@ -1,0 +1,45 @@
+{
+    "id": 133,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.7 seconds",
+            "Top Speed": "172 km/h",
+            "Maximum Power": "160 kW (218 hp)",
+            "Maximum Torque": "320 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "69.9 kWh",
+            "Usable Battery Capacity": "67 kWh",
+            "Maximum DC Charging Power": "80 kW",
+            "Charging Time (AC 11kW)": "7 hours",
+            "Charging Time (DC 80kW, 10-80%)": "40 minutes"
+        },
+        "Dimensions": {
+            "Length": "4739 mm",
+            "Width": "1900 mm",
+            "Height": "1680 mm",
+            "Wheelbase": "2825 mm",
+            "Ground Clearance": "180 mm",
+            "Trunk Capacity": "435 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2020 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "420 km",
+            "EPA Range": "261 miles",
+            "Energy Consumption": "17.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "14.6-inch touchscreen",
+            "Sound System": "8-speaker system",
+            "Leap Pilot ADAS": "Level 2",
+            "Over-the-air Updates": "Yes",
+            "Stellantis Partnership": "Yes (Stellantis distribution)"
+        }
+    }
+}

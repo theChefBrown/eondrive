@@ -1,0 +1,45 @@
+﻿{
+    "id":  119,
+    "specifications":  {
+                           "Efficiency":  {
+                                              "WLTP Range":  "460 km",
+                                              "CO2 Emissions":  "0 g/km",
+                                              "EPA Range":  "286 miles",
+                                              "Energy Consumption":  "22.0 kWh/100 km"
+                                          },
+                           "Dimensions":  {
+                                              "Wheelbase":  "2900 mm",
+                                              "Width":  "1920 mm",
+                                              "Length":  "4705 mm",
+                                              "Ground Clearance":  "190 mm",
+                                              "Height":  "1705 mm",
+                                              "Curb Weight":  "2290 kg",
+                                              "Frunk Capacity":  "15 L",
+                                              "Trunk Capacity":  "490 L"
+                                          },
+                           "Performance":  {
+                                               "Acceleration 0-100 km/h":  "5.4 seconds",
+                                               "Top Speed":  "180 km/h",
+                                               "Maximum Torque":  "584 Nm",
+                                               "Maximum Power":  "250 kW (340 hp)"
+                                           },
+                           "Battery \u0026 Charging":  {
+                                                           "Charging Time (AC 22kW)":  "5 hours",
+                                                           "Battery Capacity":  "100 kWh",
+                                                           "Maximum DC Charging Power":  "150 kW",
+                                                           "Battery Type":  "Lithium Ion",
+                                                           "Usable Battery Capacity":  "94 kWh",
+                                                           "Charging Time (DC 150kW, 10-80%)":  "35 minutes"
+                                                       },
+                           "Features":  {
+                                            "Drive Modes":  "Eco, Normal, Sport",
+                                            "Heat Pump":  "Yes",
+                                            "Drive Type":  "Dual Motor AWD",
+                                            "Sound System":  "9-speaker premium",
+                                            "Over-the-air Updates":  "Yes",
+                                            "Display Size":  "13-inch touchscreen",
+                                            "360 Camera":  "Standard",
+                                            "ADAS Level 2+":  "Standard"
+                                        }
+                       }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 124,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "6.7 seconds",
+            "Top Speed": "210 km/h",
+            "Maximum Power": "265 kW (360 hp)",
+            "Maximum Torque": "568 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "108.4 kWh",
+            "Usable Battery Capacity": "104.5 kWh",
+            "Maximum DC Charging Power": "200 kW",
+            "Charging Time (AC 11kW)": "10.8 hours",
+            "Charging Time (DC 200kW, 10-80%)": "31 minutes"
+        },
+        "Dimensions": {
+            "Length": "5125 mm",
+            "Width": "1959 mm",
+            "Height": "1718 mm",
+            "Wheelbase": "3210 mm",
+            "Ground Clearance": "196 mm",
+            "Trunk Capacity": "645 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "2770 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "609 km",
+            "EPA Range": "378 miles",
+            "Energy Consumption": "19.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Rear Wheel Drive",
+            "Drive Modes": "Eco, Comfort, Sport, Individual, Off-Road",
+            "Heat Pump": "Optional",
+            "Display Size": "12.8-inch MBUX Hyperscreen",
+            "Sound System": "Burmester 3D 15 speakers",
+            "MBUX Interior Assist": "Yes",
+            "Over-the-air Updates": "Yes",
+            "Airmatic Air Suspension": "Standard",
+            "7 Seats": "Optional"
+        }
+    }
+}

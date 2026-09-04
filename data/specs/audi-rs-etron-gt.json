@@ -1,0 +1,47 @@
+{
+    "id": 125,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.3 seconds",
+            "Top Speed": "250 km/h",
+            "Maximum Power": "475 kW (646 hp)",
+            "Maximum Torque": "830 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "105 kWh",
+            "Usable Battery Capacity": "97 kWh",
+            "Maximum DC Charging Power": "320 kW",
+            "Charging Time (AC 11kW)": "11 hours",
+            "Charging Time (DC 320kW, 10-80%)": "18 minutes"
+        },
+        "Dimensions": {
+            "Length": "4990 mm",
+            "Width": "1964 mm",
+            "Height": "1395 mm",
+            "Wheelbase": "2900 mm",
+            "Ground Clearance": "120 mm",
+            "Trunk Capacity": "366 L",
+            "Frunk Capacity": "81 L",
+            "Curb Weight": "2370 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "495 km",
+            "EPA Range": "307 miles",
+            "Energy Consumption": "19.8 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor quattro AWD",
+            "Drive Modes": "efficiency, comfort, auto, dynamic, RS Mode, individual",
+            "Adaptive Air Suspension": "Standard",
+            "Display Size": "10.1-inch MMI",
+            "Sound System": "Bang & Olufsen 16 speakers",
+            "Matrix LED Headlights": "Standard",
+            "Over-the-air Updates": "Yes",
+            "800V Architecture": "Yes",
+            "Carbon Ceramic Brakes": "Optional",
+            "RS Sport Suspension": "Standard"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 129,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "9.0 seconds",
+            "Top Speed": "170 km/h",
+            "Maximum Power": "157 kW (213 hp)",
+            "Maximum Torque": "345 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "82 kWh",
+            "Usable Battery Capacity": "78 kWh",
+            "Maximum DC Charging Power": "160 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 160kW, 10-80%)": "30 minutes"
+        },
+        "Dimensions": {
+            "Length": "4650 mm",
+            "Width": "1908 mm",
+            "Height": "1664 mm",
+            "Wheelbase": "2675 mm",
+            "Ground Clearance": "180 mm",
+            "Trunk Capacity": "550 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "1905 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "533 km",
+            "EPA Range": "331 miles",
+            "Energy Consumption": "16.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Front Wheel Drive",
+            "Drive Modes": "Eco, Normal, Sport, Mountain",
+            "Heat Pump": "Yes",
+            "Display Size": "16-inch Panoramic Vizor",
+            "Sound System": "Focal 14 speakers",
+            "Night Vision": "Available",
+            "Over-the-air Updates": "Yes",
+            "Intelli-Lux LED Matrix": "Standard"
+        }
+    }
+}

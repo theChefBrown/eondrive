@@ -1,0 +1,46 @@
+{
+    "id": 144,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.9 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "358 kW (487 hp)",
+            "Maximum Torque": "660 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "87.5 kWh",
+            "Usable Battery Capacity": "82.5 kWh",
+            "Maximum DC Charging Power": "280 kW",
+            "Charging Time (AC 11kW)": "9 hours",
+            "Charging Time (DC 280kW, 10-80%)": "20 minutes"
+        },
+        "Dimensions": {
+            "Length": "4753 mm",
+            "Width": "1920 mm",
+            "Height": "1650 mm",
+            "Wheelbase": "2890 mm",
+            "Ground Clearance": "185 mm",
+            "Trunk Capacity": "571 L",
+            "Frunk Capacity": "71 L",
+            "Curb Weight": "2170 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "570 km",
+            "EPA Range": "354 miles",
+            "Energy Consumption": "16.7 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Eco, Normal, Sport",
+            "Heat Pump": "Yes",
+            "Display Size": "14.96-inch central + 10.25-inch",
+            "Sound System": "Dynaudio Premium",
+            "Xpeng ADAS": "XPilot 4.0",
+            "Over-the-air Updates": "Yes",
+            "800V Architecture": "Yes",
+            "Frunk": "71 L"
+        }
+    }
+}

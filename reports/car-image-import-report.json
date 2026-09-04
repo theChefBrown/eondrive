@@ -1,0 +1,1049 @@
+{
+  "generatedAt": "2026-09-04T11:19:26.755Z",
+  "catalogVehicles": 149,
+  "scannedVehicles": 149,
+  "importedThisRun": [
+    {
+      "id": 1,
+      "vehicle": "Tesla Model 3 Long Range",
+      "path": "/images/cars/tesla-model-3-lr.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Tesla_Model_3_Long_Range_Dual_Motor_in_Red_Multi-Coat,_front_left,_2021-05-30.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 2,
+      "vehicle": "Hyundai IONIQ 5",
+      "path": "/images/cars/hyundai-ioniq5.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IAA_2021,_Munich_(IAA10368).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 3,
+      "vehicle": "Ford Mustang Mach-E",
+      "path": "/images/cars/ford-mach-e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Mustang_Mach-E_Red_Ford.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 4,
+      "vehicle": "Volkswagen ID.4 Pro",
+      "path": "/images/cars/vw-id4.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_ID.4_Pro_(Netherlands)_front_view.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 5,
+      "vehicle": "Kia EV6 Long Range",
+      "path": "/images/cars/kia-ev6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Kia_EV6_Air_Long_Range_2WD_(Front).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 6,
+      "vehicle": "Tesla Model S",
+      "path": "/images/cars/tesla-model-s.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Tesla_Model_S_P85_(14595148594).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 7,
+      "vehicle": "Tesla Model X",
+      "path": "/images/cars/tesla-model-x.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Model_X_100D_1X7A6736.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 8,
+      "vehicle": "Tesla Model Y",
+      "path": "/images/cars/tesla-model-y.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_(Facelift)_%E2%80%93_f_05052026.jpg",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "id": 9,
+      "vehicle": "BMW i4 eDrive40",
+      "path": "/images/cars/bmw-i4.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_BMW_i4_eDrive40_M_Sport_AMT.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 10,
+      "vehicle": "BMW iX xDrive50",
+      "path": "/images/cars/bmw-ix.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_I20_iX_xDrive50_Sport_Mineral_White_Metallic_(3).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 11,
+      "vehicle": "Porsche Taycan Turbo S",
+      "path": "/images/cars/porsche-taycan.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_IAA_2019_JM_0787.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 12,
+      "vehicle": "Audi e-tron GT",
+      "path": "/images/cars/audi-etron-gt.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_e-tron_GT_concept,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0763).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 13,
+      "vehicle": "Mercedes EQS 450+",
+      "path": "/images/cars/mercedes-eqs.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_EQS_450%2B_(V297)_(5).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 14,
+      "vehicle": "Volkswagen ID.3 Pro S",
+      "path": "/images/cars/vw-id3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_ID.7_Pro_S_Tourer_front_view.png",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": 15,
+      "vehicle": "Hyundai IONIQ 6",
+      "path": "/images/cars/hyundai-ioniq6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_IONIQ_6_N_CE1_N_Performance_Blue_Pearl_(6).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 16,
+      "vehicle": "BMW i7 xDrive60",
+      "path": "/images/cars/bmw-i7.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_i7_xDrive60_1X7A6822.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 17,
+      "vehicle": "BMW i5 eDrive40",
+      "path": "/images/cars/bmw-i5.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_i5_IAA_2023_1X7A0105.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 18,
+      "vehicle": "BMW iX1 xDrive30",
+      "path": "/images/cars/bmw-ix1.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_iX1_xDrive30_(U11)_%E2%80%93_f_05052024.jpg",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "id": 19,
+      "vehicle": "BMW iX2 xDrive30",
+      "path": "/images/cars/bmw-ix2.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_iX2_xDrive30_1X7A1877.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 20,
+      "vehicle": "BMW iX3 M Sport",
+      "path": "/images/cars/bmw-ix3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_G08_LCI_iX3_M_Sport_Mineral_White_Metallic_(4).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 21,
+      "vehicle": "Mercedes EQA 250+",
+      "path": "/images/cars/mercedes-eqa.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_EQA_250_(H243)_front.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 22,
+      "vehicle": "Mercedes EQB 350 4MATIC",
+      "path": "/images/cars/mercedes-eqb.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Mercedes_EQB_350_AMG_Line_Premium_4Matic.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 23,
+      "vehicle": "Mercedes EQC 400 4MATIC",
+      "path": "/images/cars/mercedes-eqc.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_EQC_400,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1262).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 24,
+      "vehicle": "Mercedes EQE 350+",
+      "path": "/images/cars/mercedes-eqe.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_V295_350%2B_1X7A0313.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 25,
+      "vehicle": "Mercedes EQE SUV 350+",
+      "path": "/images/cars/mercedes-eqe-suv.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X294_EQE_350_4MATIC_SUV_Polar_White_(2).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 26,
+      "vehicle": "Volkswagen ID.5 GTX",
+      "path": "/images/cars/vw-id5.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.5_GTX_1X7A0422.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 27,
+      "vehicle": "Volkswagen ID. Buzz",
+      "path": "/images/cars/vw-id-buzz.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_press_conference,_IAA_2017,_Frankfurt_(1Y7A2075).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 28,
+      "vehicle": "Volkswagen ID.7",
+      "path": "/images/cars/vw-id7.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.7_Tourer_IMG_4193.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 29,
+      "vehicle": "Audi Q4 e-tron",
+      "path": "/images/cars/audi-q4-etron.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_e-tron,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1006).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 30,
+      "vehicle": "Audi Q8 e-tron",
+      "path": "/images/cars/audi-q8-e-tron.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi,_Paris_Motor_Show_2018,_Paris_(1Y7A1756).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 32,
+      "vehicle": "CUPRA Born",
+      "path": "/images/cars/cupra-born.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cupra_Born_1X7A6953.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 33,
+      "vehicle": "Porsche Macan Electric",
+      "path": "/images/cars/porsche-macan-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porsche_Macan_(XAB)_IMG_2425.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 34,
+      "vehicle": "BYD Atto 3",
+      "path": "/images/cars/byd-atto-3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Atto_3_1X7A6495.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 35,
+      "vehicle": "BYD Seal",
+      "path": "/images/cars/byd-seal.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_BYD_Seal.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 36,
+      "vehicle": "BYD Dolphin",
+      "path": "/images/cars/byd-dolphin.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Dolphin_IAA_2023_1X7A0637.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 37,
+      "vehicle": "MG MG4",
+      "path": "/images/cars/mg-4.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MG4_EV_Automesse_Ludwigsburg_2022_1X7A5871.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 38,
+      "vehicle": "MG ZS EV",
+      "path": "/images/cars/mg-zs-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MG_ZS_EV_Facelift_1X7A5867.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 39,
+      "vehicle": "MG Marvel R",
+      "path": "/images/cars/mg-marvel-r.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roewe_Marvel_X_04.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 40,
+      "vehicle": "Renault Megane E-Tech",
+      "path": "/images/cars/renault-megane-e-tech.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Renault_Megane_E-Tech_Techno_EV_Front.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 41,
+      "vehicle": "Renault Zoe",
+      "path": "/images/cars/renault-zoe.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_Zoe_Mondial_de_l%27Auto_2010.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 42,
+      "vehicle": "Peugeot e-208",
+      "path": "/images/cars/peugeot-e208.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-208_Allure_Genf_2019_1Y7A5132.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 43,
+      "vehicle": "Peugeot e-2008",
+      "path": "/images/cars/peugeot-e2008.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-2008_Facelift_Autofr%C3%BChling_Ulm_IMG_9300.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 44,
+      "vehicle": "Smart #1",
+      "path": "/images/cars/smart-1.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_1_Brabus_IMG_9045.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 45,
+      "vehicle": "Smart #3",
+      "path": "/images/cars/smart-3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smart_3_2023052001_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 48,
+      "vehicle": "Dacia Spring",
+      "path": "/images/cars/dacia-spring.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dacia_Spring_IAA_2021_1X7A0215.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 49,
+      "vehicle": "Toyota bZ4X",
+      "path": "/images/cars/toyota-bz4x.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_bZ4X_001.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 50,
+      "vehicle": "Lexus RZ 450e",
+      "path": "/images/cars/lexus-rz.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lexus_RZ_450e_(XEBM15)_1X7A0836.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 51,
+      "vehicle": "Honda e:Ny1",
+      "path": "/images/cars/honda-e-ny1.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Honda_HR-V_LX_AWD,_front_right,_11-13-2022.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 52,
+      "vehicle": "Genesis GV60",
+      "path": "/images/cars/genesis-gv60.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesis_GV60_Classic-Gala_2022_1X7A0245.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 53,
+      "vehicle": "Genesis Electrified G80",
+      "path": "/images/cars/genesis-electrified-g80.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_G80_Auto_Zuerich_2023_1X7A1133.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 54,
+      "vehicle": "Subaru Solterra",
+      "path": "/images/cars/subaru-solterra.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2022_(191)_-_Subaru_SOLTERRA_STI_CONCEPT.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 55,
+      "vehicle": "Volvo EX30",
+      "path": "/images/cars/volvo-ex30.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volvo_EX30_1X7A2476.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 56,
+      "vehicle": "Volvo EX90",
+      "path": "/images/cars/volvo-ex90.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volvo_EX90_IAA_2025_DSC_1520_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 57,
+      "vehicle": "Volvo C40 Recharge",
+      "path": "/images/cars/volvo-c40.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volvo_C40_Recharge_2022092202.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 58,
+      "vehicle": "Volvo XC40 Recharge",
+      "path": "/images/cars/volvo-xc40.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volvo_XC40_Recharge_Facelift_Leonberg_2022_1X7A0435.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 59,
+      "vehicle": "Polestar Polestar 2",
+      "path": "/images/cars/polestar-2.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polestar_2,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0552).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 60,
+      "vehicle": "Polestar Polestar 3",
+      "path": "/images/cars/polestar-3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polestar_3_IAA_2023_1X7A0703.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 61,
+      "vehicle": "Polestar Polestar 4",
+      "path": "/images/cars/polestar-4.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polestar_Precept_IAA_2021_1X7A0147.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 62,
+      "vehicle": "Jaguar I-PACE",
+      "path": "/images/cars/jaguar-ipace.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaguar_I-Pace_eTrophy_IMG_0841.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 63,
+      "vehicle": "Fisker Ocean",
+      "path": "/images/cars/fisker-ocean.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fisker_Ocean_Motorworld_Munich_1X7A0079.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 64,
+      "vehicle": "Lucid Air",
+      "path": "/images/cars/lucid-air.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucid_Air_DSC_6026.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 65,
+      "vehicle": "Opel Corsa Electric",
+      "path": "/images/cars/opel-corsa-e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Opel_Corsa-e_IAA_2023_1X7A0385.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 66,
+      "vehicle": "Opel Mokka Electric",
+      "path": "/images/cars/opel-mokka-e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Opel_Mokka-e.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 67,
+      "vehicle": "Opel Astra Electric",
+      "path": "/images/cars/opel-astra-e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opel_Astra_L_Electric_Automesse_Ludwigsburg_2023_1X7A0049.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 68,
+      "vehicle": "Peugeot e-308",
+      "path": "/images/cars/peugeot-e308.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_308_2013.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": 69,
+      "vehicle": "Peugeot e-3008",
+      "path": "/images/cars/peugeot-e3008.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Auto_Zuerich_2023_1X7A1012.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 71,
+      "vehicle": "Fiat 500e",
+      "path": "/images/cars/fiat-500e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiat_500e_in_M%C3%BCnchen.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 72,
+      "vehicle": "Mazda MX-30",
+      "path": "/images/cars/mazda-mx30.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mazda_MX-30_EV_1X7A0376.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 73,
+      "vehicle": "Rolls-Royce Spectre",
+      "path": "/images/cars/rolls-royce-spectre.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Rolls-Royce_Spectre_EV_-_102kWh_(585PS)_Electric_-_Wittering_Blue_-_06-2024,_Front_Quarter.jpg",
+      "license": "CC0"
+    },
+    {
+      "id": 74,
+      "vehicle": "MINI Cooper SE",
+      "path": "/images/cars/mini-cooper-se.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Mini_Hatch_(F56)_Electric_IMG_6080.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 75,
+      "vehicle": "MINI Aceman",
+      "path": "/images/cars/mini-aceman.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_MINI_Aceman_at_Gamescom_2022_(52340913107).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": 76,
+      "vehicle": "Hyundai IONIQ 5 N",
+      "path": "/images/cars/hyundai-ioniq5-n.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_N_IMG_9406.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 77,
+      "vehicle": "Kia EV6 GT",
+      "path": "/images/cars/kia-ev6-gt.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_EV6_GT-Line_1X7A0317.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 78,
+      "vehicle": "Kia EV9",
+      "path": "/images/cars/kia-ev9.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_EV9_GT-Line_IMG_2595.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 79,
+      "vehicle": "Lotus Eletre",
+      "path": "/images/cars/lotus-eletre.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lotus_Eletre_IAA_2023_1X7A0638.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 80,
+      "vehicle": "Lotus Emeya",
+      "path": "/images/cars/lotus-emeya.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lotus_Emeya_In_Guangzhou_20231120_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 81,
+      "vehicle": "Lucid Gravity",
+      "path": "/images/cars/lucid-gravity.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucid_Gravity_European_Premiere,_Munich_(20250909-P1050533).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 82,
+      "vehicle": "Cadillac LYRIQ",
+      "path": "/images/cars/cadillac-lyriq.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Lyriq_Luxury.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 83,
+      "vehicle": "Chevrolet Blazer EV",
+      "path": "/images/cars/chevrolet-blazer-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Blazer_EV_SS_(United_States)_rear_view.png",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": 84,
+      "vehicle": "Tesla Cybertruck",
+      "path": "/images/cars/tesla-cybertruck.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_Foundation_Series_IMG_0620.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 85,
+      "vehicle": "Rivian R1S",
+      "path": "/images/cars/rivian-r1s.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rivian_R1S_IMG_6516.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 86,
+      "vehicle": "Pininfarina Battista",
+      "path": "/images/cars/pininfarina-battista.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pininfarina_Battista,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1056).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 87,
+      "vehicle": "Rimac Nevera",
+      "path": "/images/cars/rimac-nevera.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rimac_Nevera.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 88,
+      "vehicle": "NIO ET5",
+      "path": "/images/cars/nio-et5.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIO_ET5_Touring_Motorworld_Munich_1X7A0033.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 89,
+      "vehicle": "ORA Funky Cat",
+      "path": "/images/cars/ora-funky-cat.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ORA_Funky_Cat_1X7A0814.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 90,
+      "vehicle": "Maxus EUNIQ 6",
+      "path": "/images/cars/maxus-euniq-6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maxus_D60_1.5T_Elite_2023.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 91,
+      "vehicle": "Mercedes EQV 300",
+      "path": "/images/cars/mercedes-eqv.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_EQV_300_IMG_4372.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 92,
+      "vehicle": "Hongqi E-HS9",
+      "path": "/images/cars/hongqi-e-hs9.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqi_E-HS9_IMG002.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 93,
+      "vehicle": "VinFast VF8",
+      "path": "/images/cars/vinfast-vf8.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:VinFast_VF_8_DSC_8470.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 94,
+      "vehicle": "Xpeng G9",
+      "path": "/images/cars/xpeng-g9.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:XPeng_G9_IAA_2023_1X7A0606.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 95,
+      "vehicle": "Xpeng P7",
+      "path": "/images/cars/xpeng-p7.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:XPeng_P7%2B_IAA_2025_DSC_2059.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 96,
+      "vehicle": "Zeekr 001",
+      "path": "/images/cars/zeekr-001.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeekr_001_003.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 97,
+      "vehicle": "Hyundai Kona Electric",
+      "path": "/images/cars/hyundai-kona-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:23_Hyundai_Kona_Electric_(SX2)_1.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 98,
+      "vehicle": "Nissan Ariya",
+      "path": "/images/cars/nissan-ariya.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_Ariya_ZAA-SNFE0,_front_perspective_view.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 99,
+      "vehicle": "Nissan Leaf",
+      "path": "/images/cars/nissan-leaf.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_Nissan_Leaf_SL_--_10-28-2011.jpg",
+      "license": "Public domain"
+    },
+    {
+      "id": 100,
+      "vehicle": "Renault 5 E-Tech",
+      "path": "/images/cars/renault-5-e-tech.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_5_E-Tech_Electric_DSC_7168.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 101,
+      "vehicle": "Renault 4 E-Tech",
+      "path": "/images/cars/renault-4-e-tech.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_4_E-Tech_Electric_IMG_3530.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 102,
+      "vehicle": "Audi Q6 e-tron",
+      "path": "/images/cars/audi-q6-etron.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_SQ6_e-tron_Automesse_Ludwigsburg_2024_IMG_1395.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 103,
+      "vehicle": "Audi A6 e-tron",
+      "path": "/images/cars/audi-a6-etron.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_A6_e-tron_IMG_3090_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 104,
+      "vehicle": "CUPRA Tavascan",
+      "path": "/images/cars/cupra-tavascan.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cupra_Tavascan_DSC_7785.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 105,
+      "vehicle": "Ford Explorer Electric",
+      "path": "/images/cars/ford-explorer-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ford_Explorer_EV_Auto_Zuerich_2024_DSC_6360.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 106,
+      "vehicle": "Ford Capri Electric",
+      "path": "/images/cars/ford-capri-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lightnings_And_Ford_Capris_(9702047654).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 107,
+      "vehicle": "Jeep Avenger",
+      "path": "/images/cars/jeep-avenger-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Jeep_Avenger_EV_front_view.png",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": 108,
+      "vehicle": "Alfa Romeo Junior",
+      "path": "/images/cars/alfa-romeo-junior-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfa_Mito_-_Flickr_-_foshie.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 109,
+      "vehicle": "Kia EV3",
+      "path": "/images/cars/kia-ev3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_EV3_Earth_%E2%80%93_f_21042025.jpg",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "id": 110,
+      "vehicle": "Citroen e-C3",
+      "path": "/images/cars/citroen-ec3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_(4th_generation)_DSC_7101.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 111,
+      "vehicle": "Skoda Elroq",
+      "path": "/images/cars/skoda-elroq.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Elroq_IMG_5643.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 112,
+      "vehicle": "Peugeot e-5008",
+      "path": "/images/cars/peugeot-e5008.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_5008_facelift_003.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 113,
+      "vehicle": "Genesis GV70 Electrified",
+      "path": "/images/cars/genesis-gv70-electrified.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_GV70_1X7A5742.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 114,
+      "vehicle": "Rivian R1T",
+      "path": "/images/cars/rivian-r1t.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rivian_R1T_on_Sunset_Blvd.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": 115,
+      "vehicle": "NIO ET7",
+      "path": "/images/cars/nio-et7.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIO_ET7_1X7A6679.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 116,
+      "vehicle": "BYD Sea Lion 7",
+      "path": "/images/cars/byd-sea-lion-7.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Sea_Lion_07_EV_003.jpg",
+      "license": "CC0"
+    },
+    {
+      "id": 117,
+      "vehicle": "BYD Han",
+      "path": "/images/cars/byd-han.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Han_EV_009.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 118,
+      "vehicle": "Zeekr X",
+      "path": "/images/cars/zeekr-x.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeekr_X_012.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 119,
+      "vehicle": "Smart #5",
+      "path": "/images/cars/smart-5.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_5_IMG_6009.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 120,
+      "vehicle": "Kia Niro EV",
+      "path": "/images/cars/kia-niro-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_Niro_(SG2)_PHEV_1X7A6014.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 121,
+      "vehicle": "Kia Soul EV",
+      "path": "/images/cars/kia-soul-ev.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Kia_Soul_GT-Line_Limited_in_Snow_White_Pearl,_Front_Right,_09-05-2022.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 122,
+      "vehicle": "Honda e",
+      "path": "/images/cars/honda-e.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honda_e.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": 123,
+      "vehicle": "BMW i3",
+      "path": "/images/cars/bmw-i3.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_BMW_i3_facelift_(1).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 124,
+      "vehicle": "Mercedes EQS SUV 450+",
+      "path": "/images/cars/mercedes-eqs-suv.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_EQS_450_4MATIC_SUV_(X296)_front.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 125,
+      "vehicle": "Audi RS e-tron GT",
+      "path": "/images/cars/audi-rs-etron-gt.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_RS_e-tron_GT_IAA_2021_1X7A0128.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 126,
+      "vehicle": "Ford F-150 Lightning",
+      "path": "/images/cars/ford-f150-lightning.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Lightning_CRI_05_2023_3639.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 127,
+      "vehicle": "Renault Scenic E-Tech",
+      "path": "/images/cars/renault-scenic-e-tech.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_Sc%C3%A9nic_E-Tech_Electric_220_Long_Range_Techno_%E2%80%93_f_30062024.jpg",
+      "license": "CC BY-SA 3.0 de"
+    },
+    {
+      "id": 128,
+      "vehicle": "Opel Frontera Electric",
+      "path": "/images/cars/opel-frontera-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opel_Frontera_C_Electric_Auto_Zuerich_2024_DSC_6234.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 129,
+      "vehicle": "Opel Grandland Electric",
+      "path": "/images/cars/opel-grandland-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opel_Grandland_B_Electric_DSC_6030.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 130,
+      "vehicle": "Fiat Grande Panda Electric",
+      "path": "/images/cars/fiat-grande-panda-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiat_Grande_Panda_electric.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 131,
+      "vehicle": "DS 3 E-Tense",
+      "path": "/images/cars/ds3-e-tense.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DS_E-Tense_-_FAI_2017_(3-3).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 132,
+      "vehicle": "Lancia Ypsilon Electric",
+      "path": "/images/cars/lancia-ypsilon-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blaupunkt_Lancia_843_CD-Ypsilon_-_CD_player_-motor_FF030PK10180_LD260726-7964.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 133,
+      "vehicle": "Leapmotor C10",
+      "path": "/images/cars/leapmotor-c10.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leapmotor_C10_IAA_2023_1X7A0247.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 134,
+      "vehicle": "MG Cyberster",
+      "path": "/images/cars/mg-cyberster.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MG_Cyberster_IAA_2023_1X7A0183.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 135,
+      "vehicle": "BYD Tang",
+      "path": "/images/cars/byd-tang.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Tang_EV_CRI_03_2021_7557.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 136,
+      "vehicle": "BYD Seal U",
+      "path": "/images/cars/byd-seal-u.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Seal_U_DM-i_GIMS_2024_1X7A2192.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 137,
+      "vehicle": "BYD Atto 2",
+      "path": "/images/cars/byd-atto-2.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Dolphin_IAA_2023_1X7A0637.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 138,
+      "vehicle": "NIO ES6",
+      "path": "/images/cars/nio-es6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nio_ES6_II_IMG01.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 139,
+      "vehicle": "NIO EL6",
+      "path": "/images/cars/nio-el6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nio_ES6_II_IMG01.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 140,
+      "vehicle": "Zeekr 007",
+      "path": "/images/cars/zeekr-007.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,_Zeekr_007_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D0%B5%D0%B2%D0%B0.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 141,
+      "vehicle": "Hyundai IONIQ 9",
+      "path": "/images/cars/hyundai-ioniq9.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_9_IMG_5950.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 142,
+      "vehicle": "Hyundai Casper Electric",
+      "path": "/images/cars/hyundai-casper-electric.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_Inster_Auto_Zuerich_2024_DSC_6286.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 143,
+      "vehicle": "Honda Prologue",
+      "path": "/images/cars/honda-prologue.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honda_Prologue_Washington_DC_Metro_Area,_USA.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 144,
+      "vehicle": "Xpeng G6",
+      "path": "/images/cars/xpeng-g6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:XPeng_G6_(2025)_IAA_2025_DSC_1710.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 145,
+      "vehicle": "Skoda Enyaq Coupe iV",
+      "path": "/images/cars/skoda-enyaq-coupe.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skoda_Enyaq_Coupe_iV_RS_-_rear.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 146,
+      "vehicle": "Volkswagen ID.2",
+      "path": "/images/cars/volkswagen-id2.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._2all_IAA_2023_1X7A0649.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 147,
+      "vehicle": "Porsche Taycan Sport Turismo",
+      "path": "/images/cars/porsche-taycan-sport-turismo.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Sport_Turismo_GTS_1X7A0416.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": 148,
+      "vehicle": "Mazda EZ-6",
+      "path": "/images/cars/mazda-ez6.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mazda_EZ-60_001.jpg",
+      "license": "CC0"
+    },
+    {
+      "id": 149,
+      "vehicle": "Renault Kangoo E-Tech",
+      "path": "/images/cars/renault-kangoo-e-tech.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_III_1X7A6972.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "skippedExisting": [],
+  "missing": [
+    {
+      "id": 31,
+      "vehicle": "Å koda Enyaq iV RS",
+      "reason": "No suitable Wikimedia Commons exterior image found"
+    },
+    {
+      "id": 46,
+      "vehicle": "CitroÃ«n Ã«-C4",
+      "reason": "No suitable Wikimedia Commons exterior image found"
+    },
+    {
+      "id": 47,
+      "vehicle": "CitroÃ«n Ã«-C4 X",
+      "reason": "No suitable Wikimedia Commons exterior image found"
+    },
+    {
+      "id": 70,
+      "vehicle": "CitroÃ«n Ã«-Berlingo",
+      "reason": "No suitable Wikimedia Commons exterior image found"
+    }
+  ],
+  "removedLegacyImages": 8,
+  "totalImportedImages": 145,
+  "totalImageBytes": 6390846,
+  "totalImageMegabytes": 6.09
+}

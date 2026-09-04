@@ -1,0 +1,45 @@
+{
+    "id": 134,
+    "specifications": {
+        "Performance": {
+            "Acceleration 0-100 km/h": "3.2 seconds",
+            "Top Speed": "200 km/h",
+            "Maximum Power": "375 kW (510 hp)",
+            "Maximum Torque": "725 Nm"
+        },
+        "Battery & Charging": {
+            "Battery Type": "Lithium Ion",
+            "Battery Capacity": "77 kWh",
+            "Usable Battery Capacity": "74 kWh",
+            "Maximum DC Charging Power": "140 kW",
+            "Charging Time (AC 11kW)": "7.5 hours",
+            "Charging Time (DC 140kW, 10-80%)": "35 minutes"
+        },
+        "Dimensions": {
+            "Length": "4535 mm",
+            "Width": "1913 mm",
+            "Height": "1329 mm",
+            "Wheelbase": "2690 mm",
+            "Ground Clearance": "120 mm",
+            "Trunk Capacity": "249 L",
+            "Frunk Capacity": "0 L",
+            "Curb Weight": "1985 kg"
+        },
+        "Efficiency": {
+            "WLTP Range": "536 km",
+            "EPA Range": "333 miles",
+            "Energy Consumption": "16.1 kWh/100 km",
+            "CO2 Emissions": "0 g/km"
+        },
+        "Features": {
+            "Drive Type": "Dual Motor AWD",
+            "Drive Modes": "Normal, Sport, Eco",
+            "Retractable Door Handles": "Yes",
+            "Display Size": "12.8-inch touchscreen",
+            "Sound System": "7-speaker premium",
+            "Adaptive Cruise Control": "Available",
+            "Over-the-air Updates": "Yes",
+            "Body Style": "2-door Roadster"
+        }
+    }
+}

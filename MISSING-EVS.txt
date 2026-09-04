@@ -1,0 +1,143 @@
+================================================================================
+  EONDRIVE — EV DATABASE GAP ANALYSIS (as of March 2026)
+  Current database: 75 vehicles
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ SECTION 1: CARS WITH SPEC FILES ALREADY IN THE PROJECT (not yet in database)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+These cars have spec JSON files + images ready — easy to add.
+
+  Cadillac LYRIQ (2022+)           — 340 km WLTP, $58,590, US/Canada focus
+  Chevrolet Blazer EV (2024)       — 449 km WLTP, $44,995
+  Hongqi E-HS9 (2021+)             — 465 km WLTP, luxury Chinese brand
+  Hyundai IONIQ 5 N (2024)         — 448 km WLTP, performance variant of IONIQ 5
+  Kia EV6 GT (2022+)               — 424 km WLTP, performance flagship
+  Kia EV9 (2024)                   — 563 km WLTP, 3-row family SUV
+  Lotus Eletre (2023)              — 599 km WLTP, hypercar SUV
+  Lotus Emeya (2024)               — 610 km WLTP, electric GT sedan
+  Lucid Gravity (2025)             — 708 km WLTP, luxury 7-seat SUV
+  Maxus EUNIQ 6 (2023)             — 380 km, commercial/passenger van
+  Mercedes EQV (2023+)             — 363 km, premium electric van
+  NIO ET5 (2023)                   — 580 km CLTC (battery swap capable)
+  ORA Funky Cat / ORA 03 (2023)    — 385 km WLTP, affordable quirky hatchback
+  Pininfarina Battista (2022)      — 476 km WLTP, 1900 hp ultra-hypercar
+  Rimac Nevera (2023)              — 490 km WLTP, 1914 hp Croatian hypercar
+  Rivian R1S (2022+)               — 516 km EPA, American adventure EV SUV
+  Tesla Cybertruck (2023+)         — 547 km EPA, stainless steel pickup
+  VinFast VF8 (2023)               — 400 km WLTP, Vietnamese EV brandName
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ SECTION 2: MAJOR MISSING EVs — HIGH PRIORITY (should definitely add)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ★★★ CRITICAL MISSING (very popular, mainstream market EVs)
+
+  Nissan Ariya (2023+)             — 533 km WLTP; one of the most searched EVs
+                                     globally. Shocking it's missing.
+  Nissan Leaf (3rd gen 2024)       — 385 km WLTP; the original mass-market EV,
+                                     iconic status. Absolutely should be here.
+  Renault 5 E-Tech (2024)          — 400 km WLTP, €25,000. One of the biggest
+                                     launches of 2024 Europe. Very popular.
+  Renault 4 E-Tech (2025)          — 400 km WLTP, €34,990. Just launched,
+                                     huge EU interest, classic nameplate.
+  Audi Q6 e-tron (2024)            — 641 km WLTP; brand-new platform (PPE),
+                                     Audi's 2024 flagship mid-size EV.
+  Audi A6 e-tron (2024)            — 756 km WLTP, world-record sedan range.
+                                     Launched mid-2024.
+  CUPRA Tavascan (2024)            — 549 km WLTP, €45,990. Popular sporty SUV
+                                     coupe, strong in Europe.
+  Ford Explorer Electric (2024)    — 602 km WLTP, €45,000. Ford's main EU EV.
+  Ford Capri Electric (2024)       — 627 km WLTP, €42,500. The hot EV coupe
+                                     of 2024 European market.
+  Jeep Avenger Electric (2023)     — 404 km WLTP, €35,900. Best-selling EV
+                                     in Italy 2023. Big deal in EU.
+  Alfa Romeo Junior Electric (2024)— 410 km WLTP, €36,900. The "Alfa Junior"
+                                     is a major 2024 Italian launch.
+  Kia EV3 (2024 Korea, EU 2025)    — 600 km WLTP. The affordable Kia EV
+                                     everyone is waiting for.
+  Citroën ë-C3 (2024)              — 320 km WLTP, €23,300. Cheapest new EU
+                                     EV from a mainstream brand.
+  Škoda Elroq (2024)               — 580 km WLTP, €33,900. VW Group's newest
+                                     affordable EV, great value.
+
+  ★★ IMPORTANT (niche but significant)
+
+  Genesis GV70 Electrified (2022+) — 470 km WLTP, €72,900. Popular premium EV.
+  Rivian R1T (2022+)               — 505 km EPA. The EV pickup that started it.
+  Nio ET7 (2023, Europe)           — 580 km WLTP in Europe, battery swap tech.
+  Nio ES6 (2023, Europe)           — 447 km WLTP.
+  Nio EL6 (2024, Europe)           — 426 km WLTP.
+  Zeekr 001 (2024, Europe)         — 620 km WLTP, €54,990. Volvo/Geely luxury.
+  Zeekr X (2024, Europe)           — 440 km WLTP, €34,900. Very competitive.
+  Xpeng G6 (2024, limited EU)      — 570 km WLTP.
+  Leapmotor C10 (2024, Europe)     — 420 km WLTP, €36,400 (via Stellantis).
+  BYD Sea Lion 7 (2024)            — 567 km WLTP, €44,990. BYD's hot SUV.
+  BYD Han (2023, Europe)           — 521 km WLTP, €49,990. BYD's premium sedan.
+  BYD Tang (2023, Europe)          — 530 km WLTP, €69,990. 7-seat SUV.
+  BYD Seal U (2024)                — 430 km WLTP. More affordable Seal variant.
+  Smart #5 (2025)                  — 460 km WLTP. Large Mercedes-backed SUV.
+  MG Cyberster (2024)              — 536 km WLTP, €52,990. Electric roadster.
+  Volvo EX40 (2024)                — 536 km WLTP. Successor to XC40,
+                                     updated platform, updated name.
+  Opel Frontera Electric (2024)    — 305 km WLTP, €28,990. Affordable SUV.
+  Fiat Grande Panda Electric (2024)— 320 km WLTP, €26,990. Affordable icon.
+  Peugeot e-5008 (2024)            — 660 km WLTP, €44,990. 7-seat EV. Big.
+
+  ★ WORTH ADDING (complete the collection)
+
+  BMW i3 (2013–2022, discontinued)  — 300 km WLTP. The pioneering BMW EV.
+                                      Add as discontinued for historical value.
+  Honda Prologue (2024, US)         — 476 km EPA, US market only currently.
+  Subaru Solterra (also Bz4X twin)  — Already in DB. Consider Toyota bZ3 (China).
+  Volkswagen ID.2all (2025)         — 450 km WLTP, €25,000. Budget VW EV.
+  DS 3 E-Tense (2024)               — 402 km WLTP. Citroën premium brand.
+  Hyundai IONIQ 7 (2025)            — 600 km WLTP. Big Hyundai 3-row EV.
+  Toyota bZ3 (2023, EU limited)     — 576 km WLTP.
+  Maxus MIFA 9 (2023)               — 436 km WLTP, luxury electric MPV.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ SECTION 3: MY RECOMMENDATION — PRIORITY ORDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1 — Add these immediately (spec files already exist in project):
+  Hyundai IONIQ 5 N, Kia EV6 GT, Kia EV9, Lotus Eletre, Lotus Emeya,
+  Tesla Cybertruck, Rivian R1S, Lucid Gravity, Cadillac LYRIQ,
+  Chevrolet Blazer EV, NIO ET5, Pininfarina Battista, Rimac Nevera
+
+Step 2 — Add next (very popular, need new spec files + images):
+  Nissan Ariya, Nissan Leaf, Renault 5 E-Tech, Renault 4 E-Tech,
+  Audi Q6 e-tron, Audi A6 e-tron, CUPRA Tavascan, Ford Explorer EV,
+  Ford Capri EV, Jeep Avenger EV, Alfa Romeo Junior, Kia EV3,
+  Peugeot e-5008, Škoda Elroq, Citroën ë-C3
+
+Step 3 — Chinese / premium niche brands:
+  BYD Sea Lion 7, BYD Han, BYD Tang, Zeekr 001, Zeekr X,
+  Nio ET7, Nio ES6, Xpeng G6, Leapmotor C10, Smart #5,
+  Genesis GV70 Electrified, MG Cyberster
+
+Step 4 — Historical / discontinued (for completeness):
+  Nissan Leaf (gen 1–2), BMW i3, Jaguar I-PACE update
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ WHAT TO SKIP (prototypes / not yet for sale as of March 2026)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  - Mercedes EQG (still in development / limited pre-production)
+  - Volkswagen ID.1 (concept only)
+  - Honda e:Architecture models (announced but not available)
+  - Apple Car (cancelled 2024)
+  - Renault Twingo Electric new gen (2026+ expected)
+  - Lamborghini Lanzador (concept)
+  - Ferrari Purosangue V12 (NOT an EV)
+  - All solid-state battery prototypes
+  - Hyundai IONIQ 9 (announced but not yet on sale as of March 2026)
+  - BMW Neue Klasse sedans (production starts 2025 but very limited)
+  - Rivian R2 (announced, delivery mid-2026)
+  - Tesla Robotaxi / Cybercab (launch uncertain as of March 2026)
+
+================================================================================
+  SUMMARY: ~35+ meaningful cars to add in priority order
+  The database covers ~45% of production EVs available in Europe/US.
+  Biggest gaps: Nissan (0 cars!), Renault new models, Audi new gen,
+  Ford EU lineup, Stellantis/Jeep budget EVs, Chinese brands.
+================================================================================
