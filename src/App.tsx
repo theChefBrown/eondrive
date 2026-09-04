@@ -17,10 +17,8 @@ import { useState } from 'react'
 
 function AppInner() {
   const { activeSection, modalCar, closeModal, modalSpecs } = useApp()
-  const { t, translateText: tx, language } = useLanguage()
+  const { t, translateText: tx } = useLanguage()
   const [showDocumentation, setShowDocumentation] = useState(false)
-  const locale = { ro: 'ro-RO', en: 'en-GB', de: 'de-DE', hu: 'hu-HU' }[language]
-  const updatedDate = new Intl.DateTimeFormat(locale, { dateStyle: 'long' }).format(new Date())
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-deep)' }}>
@@ -78,9 +76,6 @@ function AppInner() {
             © 2026 Eondrive. {t('planningEstimate')}
           </p>
           <div className="flex items-center gap-6">
-            <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-              {updatedDate}
-            </span>
             <button className="footer-documentation-link" onClick={() => setShowDocumentation(true)}>
               <BookOpen size={15} /> {tx('Documentation')}
             </button>
