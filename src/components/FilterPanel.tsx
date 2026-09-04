@@ -80,7 +80,8 @@ export default function FilterPanel({ filters, onChange }: Props) {
             placeholder={tx('Search brand, model...')}
             value={filters.searchQuery}
             onChange={e => onChange({ ...filters, searchQuery: e.target.value })}
-            className="input-field pl-10"
+            className="input-field"
+            style={{ paddingLeft: '2.5rem' }}
           />
         </div>
 
