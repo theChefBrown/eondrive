@@ -67,7 +67,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
     fetch(`${import.meta.env.BASE_URL}cars.json`)
       .then(r => r.json())
       .then((data: { cars: Car[] }) => {
-        setCars(data.cars)
+        const cars = data.cars.map(car => ({
+          ...car,
+          image: car.image.startsWith('/')
+            ? `${import.meta.env.BASE_URL}${car.image.slice(1)}`
+            : car.image,
+        }))
+        setCars(cars)
         setLoading(false)
       })
       .catch(() => setLoading(false))
